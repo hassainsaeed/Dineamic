@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dineamic</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="facebook_app_id">975596402498900</string>
+    <string name="enter_seats">CHOOSE A TABLE</string>
+    <string name="other">Other:</string>
+    <string name="findTable">Find Table</string>
+    <string name="title_activity_no_available_tables">No Available Tables</string>
+    <string name="out_of_seats">Sorry, we are all out of seats for you at this establishment.\n\n If you would like, you could request to be added to our waitlist and we will send you an SMS once your table is ready</string>
+    <string name="add_to_waitlist">Add to Waitlist</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_add_to_wait_list">Add To WaitList</string>
+    <string name="reservationName">Reservation Under the Name Of:</string>
+    <string name="reservationNumber">Contact Number for the Reservation:</string>
+    <string name="title_activity_have_been_added_to_wait_list">Have Been Added To Wait List</string>
+    <string name="you_have_been_added">You have been added to the Waitlist for this establishment!</string>
+    <string name="you_will_be">You will be notified via SMS as soon as a table becomes available for your use. Please stay nearby the restaurant, as you will need to claim your table within 15 minutes of recieveing the message.</string>
+    <string name="you_can_remove">You can remove yourself from the Waitlist at anytime by going into Menu --> Settings --> Waitlists </string>
+    <string name="returnToMenu">Return to Menu</string>
+    <string name="title_activity_yes_available_tables">YesAvailableTables</string>
+    <string name="enter_info_to_be_added">"ENTER YOUR INFORMATION \n TO BE ADDED TO THE WAITLIST"</string>
+    <string name="added_to_waitlist_title">ADDED TO WAITLIST</string>
+    <string name="no_available_title">TABLE IS NOT AVAILABLE</string>
+    <string name="yes_available_title">TABLE IS AVAILABLE</string>
+    <string name="Menu">Menu</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="Parking">Parking</string>
+
+    <color name="lightblue">#B7DFE5</color>
+
+    <string name="title_activity_page_fragment">PageFragment</string>
+    <string name="title_activity_menu_pdf">Menu_pdf</string>
+    <string name="title_activity_parking_lot">Parking_lot</string>
+    <string name="available">available</string>
+    <string name="parking_tutorial_activity">parking_tutorial_activity</string>
+
+    <string-array name="toolbar_options">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Events</item>
+        <item>Share</item>
+        <item>Feedback</item>
+        <item>Offers</item>
+        <item>Supported Locations</item>
+        <item>Settings</item>
+        <item>Sign Out</item>
+    </string-array>
+    <string-array name="tutorial_options">
+        <item>How to get Menu</item>
+        <item>How to get Parking</item>
+        <item>How to use Application</item>
+    </string-array>
+
+    <array name="toolbar_icons">
+        <item>@drawable/ic_action_home</item>
+        <item>@drawable/ic_action_user</item>
+        <item>@drawable/ic_action_event</item>
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_star</item>
+        <item>@drawable/ic_action_labels</item>
+        <item>@drawable/ic_action_share</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_about</item>
+    </array>
+
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <string-array name="nav_options">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Events</item>
+        <item>Share</item>
+        <item>Feedback</item>
+        <item>Offers</item>
+        <item>Supported Locations</item>
+        <item>Settings</item>
+        <item>About us</item>
+    </string-array>
+
+    <array name="navigation_iconos">
+        <item>@drawable/ic_action_home</item>
+        <item>@drawable/ic_action_user</item>
+        <item>@drawable/ic_action_event</item>
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_star</item>
+        <item>@drawable/ic_action_labels</item>
+        <item>@drawable/ic_action_share</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_about</item>
+    </array>
+
+    <string name="title_activity_sign_up_menu">SignUpMenu</string>
+    <string name="title_activity_sign_in_menu">SignInMenu</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="title_activity_nfcdetails">NFCDetails</string>
+    
+    <string name="attachNFCToRead">Please tap the required NFC Tag!</string>
+	<string name="payment_activity">Payment</string>
+</resources>

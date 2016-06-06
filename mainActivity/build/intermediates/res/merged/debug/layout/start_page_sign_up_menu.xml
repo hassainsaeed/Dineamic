@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="loginSignupPage.SignUpMenuActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_centerHorizontal="true"
+
+
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnDefaultSignUp"
+            android:layout_width="244dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/my_border"
+            android:text="Sign Up via E-mail"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/TextViewOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:text="OR"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <!--    <Button
+              android:id="@+id/btnFbSignUp"
+              style="@style/DefaultButtonText"
+              android:layout_width="match_parent"
+              android:layout_height="300dp"
+              android:layout_margin="0dp"
+              android:background="@drawable/fbsignup_button" />-->
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button2"
+            android:layout_width="244dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+
+            />
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:text="We use Facebook to make the sign up process and friend discovery easier. We will never share anything to your friends without your permission. "
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentBottom="true"
+        android:ems="10"
+        android:gravity="center"
+        android:text="By continuing, you agree to our Terms of Service and Privacy Policy"
+        android:textSize="13dp"
+        android:textColor="#B8B8B8"
+
+        />
+
+
+
+</RelativeLayout>

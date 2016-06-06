@@ -1,0 +1,42 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="#ffffff"
+        />
+    
+
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/drawer_list"
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#2E2E2E"
+        android:dividerHeight="2dp"
+        android:background="#424242"
+        android:textColor="#424242"
+        />
+    
+  <!--    <ImageView
+		android:id="@+id/img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	   	android:layout_gravity="center_vertical"
+	   	android:padding="10px"
+		/>
+       <TextView android:id="@+id/title"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:textSize="16px"
+	         android:textStyle="bold"
+	         /> -->
+
+   
+</android.support.v4.widget.DrawerLayout>

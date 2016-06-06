@@ -1,0 +1,193 @@
+-injars 'C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\alysh\AppData\Local\Android\sdk\build-tools\22.0.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration 'C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class globalVariables.GlobalVariable {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class homePage.MyAlarmReceiver {
+    <init>();
+}
+
+-keep class loginSignupPage.SplashActivity {
+    <init>();
+}
+
+-keep class dynamicMenu.MenuSplashActivity {
+    <init>();
+}
+
+-keep class com.journeyapps.barcodescanner.CaptureActivity {
+    <init>();
+}
+
+-keep class loginSignupPage.MainActivity {
+    <init>();
+}
+
+-keep class loginSignupPage.SignUpActivity {
+    <init>();
+}
+
+-keep class loginSignupPage.LogInActivity {
+    <init>();
+}
+
+-keep class com.facebook.FacebookActivity {
+    <init>();
+}
+
+-keep class homePage.HomePageMainActivity {
+    <init>();
+}
+
+-keep class loginSignupPage.SignUpMenuActivity {
+    <init>();
+}
+
+-keep class loginSignupPage.LogInMenuActivity {
+    <init>();
+}
+
+-keep class bookingTable.AddToWaitlistService {
+    <init>();
+}
+
+-keep class bookingTable.BookingTableMainActivity {
+    <init>();
+}
+
+-keep class bookingTable.NoAvailableTables {
+    <init>();
+}
+
+-keep class bookingTable.AddToWaitList {
+    <init>();
+}
+
+-keep class bookingTable.HaveBeenAddedToWaitList {
+    <init>();
+}
+
+-keep class bookingTable.YesAvailableTables {
+    <init>();
+}
+
+-keep class menu.Menu_pdf {
+    <init>();
+}
+
+-keep class parking.Parking_lot {
+    <init>();
+}
+
+-keep class homePage.ParkingTutorialFragment {
+    <init>();
+}
+
+-keep class dynamicMenu.DynamicMenuFragmentActivity {
+    <init>();
+}
+
+-keep class nfc.NFCDetails {
+    <init>();
+}
+
+-keep class io.card.payment.CardIOActivity {
+    <init>();
+}
+
+-keep class io.card.payment.DataEntryActivity {
+    <init>();
+}
+
+-keep class payment.PaymentActivity {
+    <init>();
+}
+
+-keep class payment.PayBillActivity {
+    <init>();
+}
+
+-keep class payment.SplitItemsActivity {
+    <init>();
+}
+
+-keep class payment.InviteSomeoneActivity {
+    <init>();
+}
+
+-keep class payment.ReviewPageActivity {
+    <init>();
+}
+
+-keep class dynamicMenu.DishStatusActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PaymentActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PaymentMethodActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PaymentConfirmActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.LoginActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PayPalFuturePaymentActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.FuturePaymentConsentActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.FuturePaymentInfoActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PayPalProfileSharingActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.ProfileSharingConsentActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PayPalService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}
