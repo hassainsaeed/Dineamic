@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\facebook\\build\\intermediates\\res\\merged\\debug\\values-in\\values-in.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\facebook\\src\\main\\res\\values-in\\messenger_button_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1164,
+                        "endColumn": 58,
+                        "endOffset": 1220
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\facebook\\build\\intermediates\\res\\merged\\debug\\values-in\\values-in.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\facebook\\src\\main\\res\\values-in\\messenger_button_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1164,
+                        "endColumn": 58,
+                        "endOffset": 1220
+                    }
+                }
+            }
+        ]
+    }
+]
