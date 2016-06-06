@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\alysh\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.0_7b815086a5d9bad27dd08e91bb4b29b6cb0a4dbb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.0_3e5f47fb6e44a3a5440aba7b71fb6d5fa7818c0f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\exploded-aar\MainActivity\facebook\unspecified\jars\libs\bolts-android-1.1.4.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="fb0b0da1e2faefedb8d9c86b6476b5c476301733">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\8\bolts-android-1.1.4_5ae03855088612c9c4cc7f196b57241a01a4c793\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.0_5f9eba73ed5888284c9955385844945a0f4fb3e3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_88ec1e8ac3e98d52aad265511bdd476fb88a4a21\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="da47b5635353ca55aabc9e1ad6aaaa5626fedcb4">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.paypal.sdk-paypal-android-sdk-2.14.2_d2c942f874c92f697cf020d23a2829020aa39df3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_1483214275c23c76934a1a7fe0df34ed7d188d64\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="744a4b394a9a7db8a4c4680836d8544802a9cd64">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.journeyapps-zxing-android-embedded-3.0.2_a12fefd122eac02015f6d1c5f6153037866cb824\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_59005bc0eb68804be7fc6d0d3674dafd8e8f6857\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\exploded-aar\com.vinaygaba\creditcardview\1.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="91075c5950a4a22c5802a3c0b746d3b4515ba24b">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.vinaygaba-creditcardview-1.0.3_758f97e0b3bd0630ca07cc7943ccd18c3cdd23de\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="ecec369e9cdc65334d36a87addceda25c655bce0">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5db09c0ea85067c50beb61b7fea5197f7d9641d2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_42a98ab9003582bd06ce104af64de7f43d227917\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="9d098abfc9065910ccacea2a26c25ed39ce8e253">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_40530bf2622d9379b355321d728b989d1aa7e27d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_8eea612df5f761430145d25039d7751412b7b98f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="28bc7007cc5fb935b0737a42f05b8286936228b0">
+        <dex dex="C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\io.card-android-sdk-5.3.4_12a17edde32f3c9771fe5e1130a3b1f36ca3986c\classes.dex" />
+    </item>
+
+</items>

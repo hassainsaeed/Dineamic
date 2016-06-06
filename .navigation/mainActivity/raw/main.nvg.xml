@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "loginSignupPage.LogInActivity"/>
+      <point      
+        x = "76"      
+        y = "1612"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "loginSignupPage.SignUpMenuActivity"/>
+      <point      
+        x = "1800"      
+        y = "1424"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "loginSignupPage.MainActivity"/>
+      <point      
+        x = "1768"      
+        y = "2028"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "payment.InviteSomeoneActivity"/>
+      <point      
+        x = "1332"      
+        y = "1208"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "menu.Menu_pdf"/>
+      <point      
+        x = "1904"      
+        y = "1768"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "bookingTable.BookingTableMainActivity"/>
+      <point      
+        x = "500"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "bookingTable.BookingTableMainActivity"/>
+      <point      
+        x = "1768"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "parking.Parking_lot"/>
+      <point      
+        x = "1984"      
+        y = "1768"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "bookingTable.YesAvailableTables"/>
+      <point      
+        x = "-228"      
+        y = "1396"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "payment.ReviewPageActivity"/>
+      <point      
+        x = "1150"      
+        y = "2130"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "loginSignupPage.SplashActivity"/>
+      <point      
+        x = "1200"      
+        y = "2180"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "bookingTable.NoAvailableTables"/>
+      <point      
+        x = "1300"      
+        y = "2280"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "bookingTable.AddToWaitList"/>
+      <point      
+        x = "1350"      
+        y = "2330"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "homePage.ParkingTutorialFragment"/>
+      <point      
+        x = "1836"      
+        y = "1592"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "dynamicMenu.MenuSplashActivity"/>
+      <point      
+        x = "1720"      
+        y = "1780"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.facebook.FacebookActivity"/>
+      <point      
+        x = "1792"      
+        y = "1932"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "payment.PaymentActivity"/>
+      <point      
+        x = "1804"      
+        y = "1704"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "payment.SplitItemsActivity"/>
+      <point      
+        x = "1900"      
+        y = "1840"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "dynamicMenu.DynamicMenuFragmentActivity"/>
+      <point      
+        x = "532"      
+        y = "1700"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "loginSignupPage.LogInMenuActivity"/>
+      <point      
+        x = "1250"      
+        y = "2230"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "bookingTable.HaveBeenAddedToWaitList"/>
+      <point      
+        x = "1400"      
+        y = "2380"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "nfc.NFCDetails"/>
+      <point      
+        x = "1450"      
+        y = "2430"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "homePage.HomePageMainActivity"/>
+      <point      
+        x = "1500"      
+        y = "2480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "payment.PayBillActivity"/>
+      <point      
+        x = "1550"      
+        y = "2530"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "loginSignupPage.SignUpActivity"/>
+      <point      
+        x = "1600"      
+        y = "2580"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
