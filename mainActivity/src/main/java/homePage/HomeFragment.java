@@ -25,6 +25,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import bookingTable.BookingTableMainActivity;
+import dynamicMenu.DynamicMenuFragmentActivity;
+import menu.Menu_pdf;
+
 
 //Fragment for the home page
 public class HomeFragment extends Fragment {
@@ -65,7 +69,7 @@ public class HomeFragment extends Fragment {
                 //scan
                 Intent intent = new Intent(getActivity(), CaptureActivity.class);
                 intent.setAction("com.google.zxing.client.android.SCAN");
-                intent.putExtra("SAVE_HISTORY", false);
+                intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
                 startActivityForResult(intent, 0);
             }
 
@@ -104,6 +108,19 @@ public class HomeFragment extends Fragment {
                 String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
                 Toast toast = Toast.makeText(getActivity(), "FORMAT: " + format + " CONTENT: " + contents, Toast.LENGTH_SHORT);
                 toast.show();
+
+                if (contents.equals("BookingTableMainActivity")) {
+                    Intent bookingTableIntent = new Intent(getActivity(), BookingTableMainActivity.class);
+                    startActivity(bookingTableIntent);
+                } else if (contents.equals("Menu_pdf")) {
+                    Intent staticMenuIntent = new Intent(getActivity(), Menu_pdf.class);
+                    startActivity(staticMenuIntent);
+                } else if (contents.equals("DynamicMenuFragmentActivity")) {
+                    Intent dynamicMenuIntent = new Intent(getActivity(), DynamicMenuFragmentActivity.class);
+                    startActivity(dynamicMenuIntent);
+                }
+
+
 
                 //Compare the String contents and formats… if it matches with the expected contents and format then we launch the new Android activity for Book a Table or Interactive Menu or Send Order or etc in this section of code
                 Log.d("contents", "contents: " + contents);

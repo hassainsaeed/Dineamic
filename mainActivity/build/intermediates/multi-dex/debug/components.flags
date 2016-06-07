@@ -1,7 +1,7 @@
--injars 'C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
--outjars 'C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\intermediates\multi-dex\debug\componentClasses.jar'
 
--libraryjars 'C:\Users\alysh\AppData\Local\Android\sdk\build-tools\22.0.1\lib\shrinkedAndroid.jar'
+-libraryjars 'C:\Users\Hussain\AppData\Local\Android\Sdk\build-tools\23.0.1\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
 -dontwarn **
--printconfiguration 'C:\Users\alysh\StudioProjects\MainActivity\mainActivity\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class globalVariables.GlobalVariable {

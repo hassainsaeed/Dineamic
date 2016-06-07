@@ -3,6 +3,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 
 import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -24,6 +25,8 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -48,14 +51,30 @@ public class NFCDetails extends Activity {
  int []count_1,count_2,count_3,count_4 ;
  double []breakfast_price,lunchanddinner_price ,desserts_price,drinks_price;
  private TextView tV_ReadNFC;
+ private Button scanBttn;
  private NfcAdapter nfcAdapt;
-    String customerName;
+ String customerName;
+
  
  @Override
  protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(savedInstanceState);
   setContentView(R.layout.activity_nfcdetails);
-  ActionBar bar = getActionBar();
+  scanBttn = (Button) findViewById(R.id.scan_button2);
+    scanBttn.setOnClickListener(new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View view)
+        {
+            Intent intent = new Intent(getApplicationContext(), CaptureActivity.class);
+            intent.setAction("com.google.zxing.client.android.SCAN");
+            intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+            startActivityForResult(intent, 0);
+        }});
+
+     ActionBar bar = getActionBar();
+
+
 //for color
   bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 
@@ -81,7 +100,127 @@ public class NFCDetails extends Activity {
   }
   handleIntent(getIntent());
  }
-  
+
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+
+        if (requestCode == 0) {
+            if (resultCode == RESULT_OK) {
+                //handle succesful scan
+                String contents = intent.getStringExtra("SCAN_RESULT");
+                String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
+                if (contents.equals("SendOrderToKitchen")) {
+                    Bundle b = SummaryPageFragment.i.getExtras();
+                    int tableNumber= 0;  //TODO: FIX THIS
+                    customerName=b.getString("name");
+                    breakfast = b.getStringArray("breakfast");
+                    breakfast_price = b.getDoubleArray("breakfast_price");
+                    lunchanddinner = b.getStringArray("lunchanddinner");
+                    lunchanddinner_price = b.getDoubleArray("lunchanddinner_price");
+                    desserts = b.getStringArray("desserts");
+                    desserts_price = b.getDoubleArray("desserts_price");
+                    drinks = b.getStringArray("drinks");
+                    drinks_price = b.getDoubleArray("drinks_price");
+                    count_1 = b.getIntArray("count_1");
+                    count_2 = b.getIntArray("count_2");
+                    count_3 = b.getIntArray("count_3");
+                    count_4 = b.getIntArray("count_4");
+
+                    breakfast_comments= b.getStringArray("breakfast_comments");
+                    lunchanddinner_comments=b.getStringArray("lunchanddinner_comments");
+                    desserts_comments= b.getStringArray("desserts_comments");
+                    drinks_comments=  b.getStringArray("drinks_comments");
+
+
+
+                    if(breakfast!=null || lunchanddinner!=null ||drinks!=null || desserts!=null) {// tV_ReadNFC.setText("Your Order is sent !\nPlease enjoy your time until the waiter brings your order");
+                        AlertDialog.Builder alertbox = new AlertDialog.Builder(NFCDetails.this);
+                        alertbox.setMessage("Your Order is sent !\nPlease enjoy your time until the waiter brings your order");
+                        alertbox.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                                Intent i = new Intent(NFCDetails.this, DynamicMenuFragmentActivity.class);
+                                startActivity(i);
+                            }
+                        })
+
+                                .setIcon(android.R.drawable.ic_dialog_alert)
+                                .show();
+
+                        new dynamicMenu.sendMenuOrder(tableNumber, customerName, breakfast, breakfast_price, lunchanddinner, lunchanddinner_price, desserts,
+                                desserts_price, drinks, drinks_price, count_1, count_2, count_3, count_4, breakfast_comments, lunchanddinner_comments, desserts_comments, drinks_comments, NFCDetails.this).execute();}
+                    else {//tV_ReadNFC.setText("Please press the send button and then tap again");
+
+                        AlertDialog.Builder alertbox = new AlertDialog.Builder(NFCDetails.this);
+                        alertbox.setMessage("Please select food items from the Menu before sending");
+                        alertbox.show();
+                        alertbox.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                                Intent i = new Intent(NFCDetails.this, DynamicMenuFragmentActivity.class);
+                                startActivity(i);
+                            }
+                        })
+
+                                .setIcon(android.R.drawable.ic_dialog_alert)
+                                .show();
+                    }
+
+                    Log.d(TAG, "contents: " + contents);
+
+                } else if (contents.equals("CallWaiterToTable")) {
+                    //tV_ReadNFC.setText("Your waiter is called! You will be served shortly.");
+                    new CallWaiter(NFCDetails.this,"2").execute();  //TODO: FIX THIS
+                    AlertDialog.Builder alertbox = new AlertDialog.Builder(NFCDetails.this);
+                    alertbox.setMessage("Your waiter is called! You will be served shortly.");
+                    alertbox.show();
+                    alertbox.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                            Intent i = new Intent(NFCDetails.this, DynamicMenuFragmentActivity.class);
+                            startActivity(i);
+                        }
+                    })
+
+                            .setIcon(android.R.drawable.ic_dialog_alert)
+                            .show();
+
+                } else if (contents.equals("DishStatus")) {
+                    Intent i = new Intent(NFCDetails.this, DishStatusActivity.class);
+                    startActivity(i);
+                } else if (contents.equals("DynamicMenuFragmentActivity")) {
+                    int tableNumber=0; //TODO: FIX
+                    if (GlobalVariable.getCustomerUserName().equals("")){
+                        new AlertDialog.Builder(NFCDetails.this)
+                                .setTitle("Login Required")
+                                .setMessage("Please login to your account")
+                                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        dialog.dismiss();
+                                    }
+                                })
+
+                                .setIcon(android.R.drawable.ic_dialog_alert)
+                                .show();
+                    } else {
+                        Intent i = new Intent(NFCDetails.this, MenuSplashActivity.class);
+                        GlobalVariable.setTableNumber(tableNumber);
+                        i.putExtra("tableNumber",tableNumber);
+                        startActivity(i);}
+                } else {
+                    Toast toast = Toast.makeText(getApplicationContext(), "Could not read barcode. Please scan a Dineamic QR Code", Toast.LENGTH_SHORT);
+                    toast.show();
+                }
+
+            } else if (resultCode == RESULT_CANCELED) {
+                //handle cancel
+                Toast toast = Toast.makeText(getApplicationContext(), "No scan data received!", Toast.LENGTH_SHORT);
+                toast.show();
+                Log.d(TAG, "RESULT_CANCELED");
+            }
+        }
+    }
+
+
  @Override
  protected void onResume() {
   super.onResume();
@@ -245,7 +384,10 @@ public class NFCDetails extends Activity {
    // Get the Text
    return new String(payload, languageCodeLength + 1, payload.length - languageCodeLength - 1, textEncoding);
   }
-   
+
+
+
+
   @Override
   protected void onPostExecute(String result) {
    if (result.substring(1,result.length()).equals("Send Order")) {
@@ -272,7 +414,7 @@ public class NFCDetails extends Activity {
 
 
 
-	   if(breakfast!=null || lunchanddinner!=null ||drinks!=null || desserts!=null){
+	   if(breakfast!=null || lunchanddinner!=null ||drinks!=null || desserts!=null) {
    // tV_ReadNFC.setText("Your Order is sent !\nPlease enjoy your time until the waiter brings your order");
 
         AlertDialog.Builder alertbox = new AlertDialog.Builder(NFCDetails.this);

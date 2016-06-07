@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\menu\\booking_table_yes_available_tables.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\menu\\booking_table_yes_available_tables.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\menu\\booking_table_yes_available_tables.xml"
-    },
-    {
         "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\menu\\booking_table_add_to_wait_list.xml",
         "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\menu\\booking_table_add_to_wait_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\menu\\booking_table_yes_available_tables.xml",
+        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\menu\\booking_table_yes_available_tables.xml"
     },
     {
         "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\menu\\start_page_splash.xml",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\menu\\menu_main_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\menu\\start_page_log_in_menu.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\menu\\start_page_log_in_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\menu\\start_page_main_activity.xml",
         "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\menu\\start_page_main_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\menu\\start_page_log_in_menu.xml",
+        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\menu\\start_page_log_in_menu.xml"
     },
     {
         "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main_activity.xml",

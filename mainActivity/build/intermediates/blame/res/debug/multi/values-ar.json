@@ -714,13 +714,13 @@
                     "endOffset": 3582
                 },
                 "from": {
-                    "file": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.2.0\\res\\values-ar\\values-ar.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 195,
+                        "startOffset": 55,
                         "endColumn": 61,
-                        "endOffset": 252
+                        "endOffset": 112
                     }
                 }
             },
@@ -733,13 +733,13 @@
                     "endOffset": 3632
                 },
                 "from": {
-                    "file": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.2.0\\res\\values-ar\\values-ar.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 257,
+                        "startOffset": 117,
                         "endColumn": 49,
-                        "endOffset": 302
+                        "endOffset": 162
                     }
                 }
             },
@@ -752,13 +752,13 @@
                     "endOffset": 3765
                 },
                 "from": {
-                    "file": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.2.0\\res\\values-ar\\values-ar.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 307,
+                        "startOffset": 167,
                         "endColumn": 132,
-                        "endOffset": 435
+                        "endOffset": 295
                     }
                 }
             },
@@ -771,13 +771,13 @@
                     "endOffset": 3875
                 },
                 "from": {
-                    "file": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.2.0\\res\\values-ar\\values-ar.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 440,
+                        "startOffset": 300,
                         "endColumn": 109,
-                        "endOffset": 545
+                        "endOffset": 405
                     }
                 }
             }
