@@ -16,6 +16,7 @@ import android.content.IntentFilter;
 import android.content.IntentFilter.MalformedMimeTypeException;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.media.Image;
 import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
@@ -25,8 +26,11 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -51,7 +55,7 @@ public class NFCDetails extends Activity {
  int []count_1,count_2,count_3,count_4 ;
  double []breakfast_price,lunchanddinner_price ,desserts_price,drinks_price;
  private TextView tV_ReadNFC;
- private Button scanBttn;
+ private ImageView scanBttn;
  private NfcAdapter nfcAdapt;
  String customerName;
 
@@ -60,7 +64,7 @@ public class NFCDetails extends Activity {
  protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(savedInstanceState);
   setContentView(R.layout.activity_nfcdetails);
-  scanBttn = (Button) findViewById(R.id.scan_button2);
+  scanBttn = (ImageView) findViewById(R.id.scan_button2);
     scanBttn.setOnClickListener(new View.OnClickListener()
     {
         @Override
@@ -101,16 +105,41 @@ public class NFCDetails extends Activity {
   handleIntent(getIntent());
  }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.action_bar_qr_button, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        //handle presses on the action bar items
+        switch (item.getItemId()) {
+
+            case R.id.qr_scanner:
+                Intent intent = new Intent(NFCDetails.this, CaptureActivity.class);
+                intent.setAction("com.google.zxing.client.android.SCAN");
+                intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+                startActivityForResult(intent, 0);
+                return true;
+
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
 
         if (requestCode == 0) {
             if (resultCode == RESULT_OK) {
                 //handle succesful scan
-                String contents = intent.getStringExtra("SCAN_RESULT");
+                String[] contents = intent.getStringExtra("SCAN_RESULT").split("_");
                 String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
-                if (contents.equals("SendOrderToKitchen")) {
+                if (contents[0].equals("SendOrderToKitchen")) {
                     Bundle b = SummaryPageFragment.i.getExtras();
-                    int tableNumber= 0;  //TODO: FIX THIS
+                    int tableNumber= Integer.parseInt(contents[2]);
                     customerName=b.getString("name");
                     breakfast = b.getStringArray("breakfast");
                     breakfast_price = b.getDoubleArray("breakfast_price");
@@ -151,7 +180,7 @@ public class NFCDetails extends Activity {
                     else {//tV_ReadNFC.setText("Please press the send button and then tap again");
 
                         AlertDialog.Builder alertbox = new AlertDialog.Builder(NFCDetails.this);
-                        alertbox.setMessage("Please select food items from the Menu before sending");
+                        alertbox.setMessage("Please select at least one food items from the Menu before sending");
                         alertbox.show();
                         alertbox.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
@@ -167,9 +196,9 @@ public class NFCDetails extends Activity {
 
                     Log.d(TAG, "contents: " + contents);
 
-                } else if (contents.equals("CallWaiterToTable")) {
+                } else if (contents[0].equals("CallWaiterToTable")) {
                     //tV_ReadNFC.setText("Your waiter is called! You will be served shortly.");
-                    new CallWaiter(NFCDetails.this,"2").execute();  //TODO: FIX THIS
+                    new CallWaiter(NFCDetails.this,contents[2]).execute();
                     AlertDialog.Builder alertbox = new AlertDialog.Builder(NFCDetails.this);
                     alertbox.setMessage("Your waiter is called! You will be served shortly.");
                     alertbox.show();
@@ -184,11 +213,11 @@ public class NFCDetails extends Activity {
                             .setIcon(android.R.drawable.ic_dialog_alert)
                             .show();
 
-                } else if (contents.equals("DishStatus")) {
+                } else if (contents[0].equals("DishStatus")) {
                     Intent i = new Intent(NFCDetails.this, DishStatusActivity.class);
                     startActivity(i);
-                } else if (contents.equals("DynamicMenuFragmentActivity")) {
-                    int tableNumber=0; //TODO: FIX
+                } else if (contents[0].equals("DynamicMenuFragmentActivity")) {
+                    int tableNumber= Integer.parseInt(contents[2]);
                     if (GlobalVariable.getCustomerUserName().equals("")){
                         new AlertDialog.Builder(NFCDetails.this)
                                 .setTitle("Login Required")

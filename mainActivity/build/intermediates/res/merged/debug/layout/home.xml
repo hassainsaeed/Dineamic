@@ -21,10 +21,8 @@
             android:textSize="@android:dimen/app_icon_size"
             android:typeface="normal"
             android:layout_gravity="center"
-
             android:gravity="center_vertical|center_horizontal"
             android:background="#ffffffff"
-            android:foreground="#bf6c87f1"
             android:textColor="#fb1d91db" />
     </LinearLayout>
 
@@ -43,7 +41,7 @@
             android:src="@drawable/tutorial_item_2"
             android:layout_weight="1"
             android:background="#ffffffff"
-            android:foreground="#bf6c87f1" />
+             />
 
         <ImageView
                 android:id="@+id/tutorial_item_4"
@@ -52,7 +50,7 @@
             android:layout_weight="1"
                 android:src="@drawable/tutorial_item_4"
             android:background="#ffffffff"
-            android:foreground="#bf6c87f1"
+
             android:backgroundTint="#ffffff" />
 
         <ImageView
@@ -63,7 +61,6 @@
             android:layout_weight="1"
             android:src="@drawable/tutorial_item_3"
             android:background="#ffffffff"
-            android:foreground="#bf6c87f1"
             android:backgroundTint="#ffffff" />
     </LinearLayout>
 
@@ -81,7 +78,6 @@
         android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#ffffffff"
-            android:foreground="#bf6c87f1"
             android:src="@drawable/qr_scanner" />
 
     </LinearLayout>

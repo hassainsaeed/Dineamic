@@ -342,7 +342,7 @@
     <string name="add_to_waitlist">Add to Waitlist</string>
     <string name="added_to_waitlist_title">ADDED TO WAITLIST</string>
     <string name="app_name">Dineamic</string>
-    <string name="attachNFCToRead">Please tap the required NFC Tag, or click button below and scan the QR code</string>
+    <string name="attachNFCToRead">Please tap the required NFC Tag, or click the button below to scan the required QR Code</string>
     <string name="available">available</string>
     <string name="brand_logo">Brand Logo</string>
     <string name="cancel">Cancel</string>

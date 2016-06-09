@@ -1,22 +1,32 @@
 package bookingTable;
 
 import android.app.ActionBar;
+import android.app.Activity;
+import android.app.FragmentTransaction;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import dynamicMenu.DynamicMenuFragmentActivity;
 import globalVariables.GlobalVariable;
+import menu.Menu_pdf;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -31,22 +41,25 @@ import java.net.URL;
 
 
 import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
 
-public class BookingTableMainActivity extends ActionBarActivity {
+public class BookingTableMainActivity extends FragmentActivity  {
 	public final static String EXTRA_MESSAGE = "com.example.bookatable.MESSAGE";
+
 	int numSeats;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.booking_table_main_activity);
-
+		ActionBar bar = getActionBar();
+		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.booking_table_main_activity, menu);
+		getMenuInflater().inflate(R.menu.action_bar_qr_button, menu);
 		return true;
 	}
 
@@ -55,13 +68,20 @@ public class BookingTableMainActivity extends ActionBarActivity {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
+		//handle presses on the action bar items
+		switch (item.getItemId()) {
+
+			case R.id.qr_scanner:
+				Intent intent = new Intent(BookingTableMainActivity.this, CaptureActivity.class);
+				intent.setAction("com.google.zxing.client.android.SCAN");
+				intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+				startActivityForResult(intent, 0);
+				return true;
+
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	
+
 	//This function is to convert the InputStream from the HTMLURLConnection into a string
 	private String readStream(InputStream is) {
 		    try {
@@ -114,6 +134,7 @@ public class BookingTableMainActivity extends ActionBarActivity {
 		numSeats = numSeats1;
 		new findTableSpaceFromDatabase().execute();
 	}
+
 	
 	private class findTableSpaceFromDatabase extends AsyncTask<Void, Void, Void>{
 		//HTTP Post

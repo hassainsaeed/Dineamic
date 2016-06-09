@@ -1,6 +1,7 @@
 package bookingTable;
 
 import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -23,7 +24,9 @@ public class YesAvailableTables extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.booking_table_yes_available_tables);
-
+		ActionBar bar = getActionBar();
+//for color
+		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 		Intent intent = getIntent();
 		String message = intent.getStringExtra(BookingTableMainActivity.EXTRA_MESSAGE);
 		
@@ -33,18 +36,31 @@ public class YesAvailableTables extends Activity {
 
 	}
 
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.action_bar_qr_button, menu);
+		return true;
+	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
+		//handle presses on the action bar items
+		switch (item.getItemId()) {
+
+			case R.id.qr_scanner:
+				Intent intent = new Intent(YesAvailableTables.this, CaptureActivity.class);
+				intent.setAction("com.google.zxing.client.android.SCAN");
+				intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+				startActivityForResult(intent, 0);
+				return true;
+
 		}
 		return super.onOptionsItemSelected(item);
 	}
+
+
 	
 	public static class PlaceholderFragment extends Fragment {
 		public PlaceholderFragment() { }

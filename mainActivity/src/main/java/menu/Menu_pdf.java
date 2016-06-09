@@ -1,16 +1,20 @@
 package menu;
 import android.app.ActionBar;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.ActionBarActivity;
 
 import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.graphics.PointF;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
@@ -53,7 +57,29 @@ public class Menu_pdf extends Activity implements OnTouchListener {
        finalWidth = view.getMeasuredWidth();
 	   
 	}
-	
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.action_bar_qr_button, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here.
+		//handle presses on the action bar items
+		switch (item.getItemId()) {
+
+			case R.id.qr_scanner:
+				Intent intent = new Intent(Menu_pdf.this, CaptureActivity.class);
+				intent.setAction("com.google.zxing.client.android.SCAN");
+				intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+				startActivityForResult(intent, 0);
+				return true;
+
+		}
+		return super.onOptionsItemSelected(item);
+	}
 
 	public boolean onTouch(View v, MotionEvent event) {
 	   ImageView view = (ImageView) v;

@@ -4,7 +4,7 @@
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="586013696903006" >
+    timestamp="682747443062309" >
 
     <task
         name="javac"
@@ -23,7 +23,7 @@
         location="C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\outputs\apk\mainActivity-debug.apk"
         type="MAIN" />
 
-    <build timestamp="586013696903006" >
+    <build timestamp="682747443062309" >
         <artifact
             location="C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\outputs\apk\mainActivity-debug.apk"
             type="MAIN" />

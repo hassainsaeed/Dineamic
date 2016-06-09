@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="dda7e6f1266caf7bd22c48dd9136c62affa44013">
+        <dex dex="C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2a82888568642d5abe2c2ea36f9dfe1e5cb25cce\classes.dex" />
+    </item>
+
+</items>

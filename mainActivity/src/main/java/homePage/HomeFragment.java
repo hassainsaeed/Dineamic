@@ -104,23 +104,24 @@ public class HomeFragment extends Fragment {
         if (requestCode == 0) {
             if (resultCode == Activity.RESULT_OK) {
                 //handle succesful scan
-                String contents = intent.getStringExtra("SCAN_RESULT");
+                String[] contents = intent.getStringExtra("SCAN_RESULT").split("_");
                 String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
                 Toast toast = Toast.makeText(getActivity(), "FORMAT: " + format + " CONTENT: " + contents, Toast.LENGTH_SHORT);
                 toast.show();
 
-                if (contents.equals("BookingTableMainActivity")) {
+                if (contents[0].equals("BookingTableMainActivity")) {
                     Intent bookingTableIntent = new Intent(getActivity(), BookingTableMainActivity.class);
                     startActivity(bookingTableIntent);
-                } else if (contents.equals("Menu_pdf")) {
+                } else if (contents[0].equals("Menu")) {
                     Intent staticMenuIntent = new Intent(getActivity(), Menu_pdf.class);
                     startActivity(staticMenuIntent);
-                } else if (contents.equals("DynamicMenuFragmentActivity")) {
+                } else if (contents[0].equals("DynamicMenuFragmentActivity")) {
                     Intent dynamicMenuIntent = new Intent(getActivity(), DynamicMenuFragmentActivity.class);
                     startActivity(dynamicMenuIntent);
+                }  else {
+                    toast = Toast.makeText(getActivity(), "Could not read barcode. Please scan a Dineamic QR Code", Toast.LENGTH_SHORT);
+                    toast.show();
                 }
-
-
 
                 //Compare the String contents and formats… if it matches with the expected contents and format then we launch the new Android activity for Book a Table or Interactive Menu or Send Order or etc in this section of code
                 Log.d("contents", "contents: " + contents);
