@@ -1,39 +1,26 @@
 package bookingTable;
 
 import android.app.ActionBar;
-import android.app.Activity;
-import android.app.FragmentTransaction;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v4.app.FragmentActivity;
-import android.support.v7.app.ActionBarActivity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup.LayoutParams;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import dynamicMenu.DynamicMenuFragmentActivity;
 import globalVariables.GlobalVariable;
-import menu.Menu_pdf;
+import qrScanner.scanQRCode;
 
 import java.io.BufferedInputStream;
-import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -56,6 +43,7 @@ public class BookingTableMainActivity extends FragmentActivity  {
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 	}
 
+	//Code for the QR Scanner in the Action Bar
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -66,8 +54,6 @@ public class BookingTableMainActivity extends FragmentActivity  {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
 		//handle presses on the action bar items
 		switch (item.getItemId()) {
 
@@ -81,6 +67,12 @@ public class BookingTableMainActivity extends FragmentActivity  {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+
+	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+		new scanQRCode(requestCode,resultCode,intent,BookingTableMainActivity.this).execute();
+	}
+	//End Code for the QR Scanner in the Action Bar
+
 
 	//This function is to convert the InputStream from the HTMLURLConnection into a string
 	private String readStream(InputStream is) {

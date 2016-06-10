@@ -18,6 +18,8 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import qrScanner.scanQRCode;
+
 public class YesAvailableTables extends Activity {
 
 	@Override
@@ -59,6 +61,11 @@ public class YesAvailableTables extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+
+	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+		new scanQRCode(requestCode,resultCode,intent,YesAvailableTables.this).execute();
+	}
+	//End Code for the QR Scanner in the Action Bar
 
 
 	

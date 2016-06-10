@@ -46,6 +46,7 @@ import java.util.Set;
 import dynamicMenu.DynamicMenuFragmentActivity.DummySectionFragment;
 import globalVariables.GlobalVariable;
 import loginSignupPage.JSONParser;
+import qrScanner.scanQRCode;
 
 public class SplitItemsActivity extends FragmentActivity {
     JSONParser jsonParser = new JSONParser();
@@ -79,6 +80,7 @@ public class SplitItemsActivity extends FragmentActivity {
         return true;
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here.
@@ -94,6 +96,10 @@ public class SplitItemsActivity extends FragmentActivity {
 
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        new scanQRCode(requestCode,resultCode,intent,SplitItemsActivity.this).execute();
     }
 
     public class splitItems extends AsyncTask<String, String, String> {

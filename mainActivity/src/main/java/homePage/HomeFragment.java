@@ -1,33 +1,22 @@
 package homePage;
 
-import java.util.LinkedHashMap;
-
 import com.hmkcode.android.sign.R;
 import com.journeyapps.barcodescanner.CaptureActivity;
 
-import android.app.Activity;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.ViewPager;
 import android.content.Intent;
-import android.content.res.TypedArray;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.ListAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import bookingTable.BookingTableMainActivity;
-import dynamicMenu.DynamicMenuFragmentActivity;
-import menu.Menu_pdf;
+import qrScanner.scanQRCode;
 
 
 //Fragment for the home page
@@ -40,7 +29,6 @@ public class HomeFragment extends Fragment {
 	public HomeFragment() {
 
 	}
-
 
 	@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -99,39 +87,10 @@ public class HomeFragment extends Fragment {
 
         return rootView;
     }
+
+
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
-
-        if (requestCode == 0) {
-            if (resultCode == Activity.RESULT_OK) {
-                //handle succesful scan
-                String[] contents = intent.getStringExtra("SCAN_RESULT").split("_");
-                String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
-                Toast toast = Toast.makeText(getActivity(), "FORMAT: " + format + " CONTENT: " + contents, Toast.LENGTH_SHORT);
-                toast.show();
-
-                if (contents[0].equals("BookingTableMainActivity")) {
-                    Intent bookingTableIntent = new Intent(getActivity(), BookingTableMainActivity.class);
-                    startActivity(bookingTableIntent);
-                } else if (contents[0].equals("Menu")) {
-                    Intent staticMenuIntent = new Intent(getActivity(), Menu_pdf.class);
-                    startActivity(staticMenuIntent);
-                } else if (contents[0].equals("DynamicMenuFragmentActivity")) {
-                    Intent dynamicMenuIntent = new Intent(getActivity(), DynamicMenuFragmentActivity.class);
-                    startActivity(dynamicMenuIntent);
-                }  else {
-                    toast = Toast.makeText(getActivity(), "Could not read barcode. Please scan a Dineamic QR Code", Toast.LENGTH_SHORT);
-                    toast.show();
-                }
-
-                //Compare the String contents and formats… if it matches with the expected contents and format then we launch the new Android activity for Book a Table or Interactive Menu or Send Order or etc in this section of code
-                Log.d("contents", "contents: " + contents);
-            } else if (resultCode == Activity.RESULT_CANCELED) {
-                //handle cancel
-                Toast toast = Toast.makeText(getActivity(), "No scan data received!", Toast.LENGTH_SHORT);
-                toast.show();
-                Log.d("contents", "RESULT_CANCELED");
-            }
-        }
+        new scanQRCode(requestCode,resultCode,intent,getActivity()).execute();
     }
 
 }

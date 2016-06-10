@@ -47,6 +47,7 @@ import java.util.Calendar;
 
 import globalVariables.GlobalVariable;
 import homePage.MyAlarmReceiver;
+import qrScanner.scanQRCode;
 
 
 public class DynamicMenuFragmentActivity extends FragmentActivity implements ActionBar.TabListener {
@@ -129,6 +130,10 @@ public class DynamicMenuFragmentActivity extends FragmentActivity implements Act
 
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        new scanQRCode(requestCode,resultCode,intent,DynamicMenuFragmentActivity.this).execute();
     }
 
     @Override

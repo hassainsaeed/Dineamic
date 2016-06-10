@@ -17,6 +17,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import qrScanner.scanQRCode;
+
 public class HaveBeenAddedToWaitList extends Activity {
 	public final static String EXTRA_MESSAGE = "com.example.bookatable.MESSAGE";
 	@Override
@@ -55,6 +57,11 @@ public class HaveBeenAddedToWaitList extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+
+	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+		new scanQRCode(requestCode,resultCode,intent,HaveBeenAddedToWaitList.this).execute();
+	}
+	//End Code for the QR Scanner in the Action Bar
 	
 	public static class PlaceholderFragment extends Fragment {
 		public PlaceholderFragment() { }

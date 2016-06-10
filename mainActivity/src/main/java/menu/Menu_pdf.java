@@ -22,6 +22,8 @@ import android.view.ViewTreeObserver;
 import android.widget.GridView;
 import android.widget.ImageView;
 
+import qrScanner.scanQRCode;
+
 public class Menu_pdf extends Activity implements OnTouchListener {
 	private static final String TAG = "Touch";
 	int finalHeight, finalWidth;
@@ -80,6 +82,11 @@ public class Menu_pdf extends Activity implements OnTouchListener {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+
+	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+		new scanQRCode(requestCode,resultCode,intent,Menu_pdf.this).execute();
+	}
+	//End Code for the QR Scanner in the Action Bar
 
 	public boolean onTouch(View v, MotionEvent event) {
 	   ImageView view = (ImageView) v;

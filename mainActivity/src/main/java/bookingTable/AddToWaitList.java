@@ -34,6 +34,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 import globalVariables.GlobalVariable;
+import qrScanner.scanQRCode;
 
 public class AddToWaitList extends Activity {
 	@Override
@@ -75,6 +76,10 @@ public class AddToWaitList extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+		new scanQRCode(requestCode,resultCode,intent,AddToWaitList.this).execute();
+	}
+	//End Code for the QR Scanner in the Action Bar
 
 	public static class PlaceholderFragment extends Fragment {
 		public PlaceholderFragment() { }

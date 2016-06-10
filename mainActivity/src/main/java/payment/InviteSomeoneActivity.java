@@ -60,6 +60,7 @@ import android.widget.TextView;
 
 import globalVariables.GlobalVariable;
 import loginSignupPage.JSONParser;
+import qrScanner.scanQRCode;
 
 import static java.lang.Thread.sleep;
 
@@ -125,6 +126,10 @@ public class InviteSomeoneActivity extends FragmentActivity  {
 
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        new scanQRCode(requestCode,resultCode,intent,InviteSomeoneActivity.this).execute();
     }
 
 

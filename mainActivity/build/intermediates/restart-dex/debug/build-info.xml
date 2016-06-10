@@ -4,29 +4,42 @@
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="682747443062309" >
+    timestamp="858177875485502" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="402" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="59" />
     <task
         name="verifier"
-        duration="0" />
+        duration="28" />
 
     <artifact
-        location="C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\outputs\apk\mainActivity-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+        type="DEX" />
 
-    <build timestamp="682747443062309" >
+    <build timestamp="856994355982692" >
         <artifact
             location="C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\outputs\apk\mainActivity-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="857445415188463" >
+        <artifact
+            location="C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="858177875485502" >
+        <artifact
+            location="C:\Users\Hussain\Documents\MainActivity-Paypal_temp\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

@@ -63,6 +63,7 @@ import android.widget.TextView;
 import dynamicMenu.DynamicMenuFragmentActivity;
 import globalVariables.GlobalVariable;
 import loginSignupPage.JSONParser;
+import qrScanner.scanQRCode;
 
 public class PaymentActivity extends FragmentActivity  {
 
@@ -107,6 +108,10 @@ public class PaymentActivity extends FragmentActivity  {
 
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        new scanQRCode(requestCode,resultCode,intent,PaymentActivity.this).execute();
     }
 
 
