@@ -1,686 +1,358 @@
 [
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_pay_bill_screen.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\payment_pay_bill_screen.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_sign_up_menu.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\start_page_sign_up_menu.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_offers.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\home_offers.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nfcdetails.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\activity_nfcdetails.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity-Paypal_temp\\facebook\\unspecified\\res\\layout\\com_facebook_login_fragment.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_splash.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\start_page_splash.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\parking_tutorial_page.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\parking_tutorial_page.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_large.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\layout\\zxing_capture.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_options.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\payment_options.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_offers.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\home_offers.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\facebook\\unspecified\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\menu_pdf.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\menu_pdf.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_main_activity.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\home_main_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_header.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\home_header.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\menu_steps_page.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\menu_steps_page.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_round.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\menu_page_splash.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\menu_page_splash.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_invite_someone_screen.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\payment_invite_someone_screen.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_no_available_tables.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\booking_table_no_available_tables.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_addcomment_popup.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_addcomment_popup.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_app_applications.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\activity_my_app_applications.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_pay_bill_screen.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\payment_pay_bill_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_pop_up.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_pop_up.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_sign_up_menu.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\start_page_sign_up_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_main_activity.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\start_page_main_activity.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_main_activity.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\start_page_main_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity-Paypal_temp\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_small.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_round.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity\\facebook\\unspecified\\res\\layout\\com_facebook_tooltip_bubble.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_page_fragment.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\payment_page_fragment.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_yes_available_tables.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\booking_table_yes_available_tables.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity-Paypal_temp\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_small.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity\\facebook\\unspecified\\res\\layout\\com_facebook_activity_layout.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_sign_up_menu.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\start_page_sign_up_menu.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\paypal.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\paypal.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_pay_bill_screen.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\payment_pay_bill_screen.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_main_activity.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\booking_table_main_activity.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_euclid.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\userProfileLibrary\\unspecified\\res\\layout\\activity_euclid.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\parking_main_activity.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\parking_main_activity.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\creditcardview.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.vinaygaba\\creditcardview\\1.0.3\\res\\layout\\creditcardview.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\parking_steps_page.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\parking_steps_page.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_sign_up_screen.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\start_page_sign_up_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity-Paypal_temp\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_round.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_header.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\home_header.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_log_in_screen.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\start_page_log_in_screen.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\temporary_main_activity.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\temporary_main_activity.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\facebook\\unspecified\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_app_applications.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\activity_my_app_applications.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\temporary_main_activity.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\temporary_main_activity.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_options.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\payment_options.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\creditcardview.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.vinaygaba\\creditcardview\\1.0.3\\res\\layout\\creditcardview.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\temporary_main_activity.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\temporary_main_activity.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\parking_tutorial_page.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\parking_tutorial_page.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_sign_up_screen.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\start_page_sign_up_screen.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\menu_steps_page.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\menu_steps_page.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_list_view_row_layout.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\home_list_view_row_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_sign_up_screen.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\start_page_sign_up_screen.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\menu_pdf.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\menu_pdf.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\parking_steps_page.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\parking_steps_page.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\menu_pdf.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\menu_pdf.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\layout\\zxing_capture.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_main_activity.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\home_main_activity.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity-Paypal_temp\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_round.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_fragment_section_dummy.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_fragment_section_dummy.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_pop_up.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_pop_up.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\userProfileLibrary\\unspecified\\res\\layout\\list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\menu_page_splash.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\menu_page_splash.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_main_activity.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\home_main_activity.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\overlay_list_item.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\userProfileLibrary\\unspecified\\res\\layout\\overlay_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_log_in_menu.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\start_page_log_in_menu.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nfcdetails.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\activity_nfcdetails.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\facebook\\unspecified\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\layout\\zxing_barcode_scanner.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\layout\\zxing_barcode_scanner.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_tutorial.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\home_tutorial.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_tutorial.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\home_tutorial.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_round.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_small.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_pop_up.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_pop_up.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity-Paypal_temp\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_large.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_have_been_added_to_wait_list.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\booking_table_have_been_added_to_wait_list.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_add_to_wait_list.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\booking_table_add_to_wait_list.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_simple_dropdown_hint.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_no_available_tables.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\booking_table_no_available_tables.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_main_fragment.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_main_fragment.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_page_fragment.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\payment_page_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_fragment_section_dummy.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_fragment_section_dummy.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\button_round_msg.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\userProfileLibrary\\unspecified\\res\\layout\\button_round_msg.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity-Paypal_temp\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_large.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_log_in_menu.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\start_page_log_in_menu.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_main_activity.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\booking_table_main_activity.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\creditcardview.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.vinaygaba\\creditcardview\\1.0.3\\res\\layout\\creditcardview.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_summary_page_fragment.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_summary_page_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_summary_page_fragment.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_summary_page_fragment.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_addcomment_popup.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_addcomment_popup.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\home.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_large.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_main_fragment.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_main_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_small.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_add_to_wait_list.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\booking_table_add_to_wait_list.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_addcomment_popup.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_addcomment_popup.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity-Paypal_temp\\facebook\\unspecified\\res\\layout\\com_facebook_activity_layout.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_log_in_screen.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\start_page_log_in_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_splash.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\start_page_splash.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_no_available_tables.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\booking_table_no_available_tables.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_yes_available_tables.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\booking_table_yes_available_tables.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\paypal.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\paypal.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_header.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\home_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_list_view_row_layout.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\home_list_view_row_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\layout\\zxing_barcode_scanner.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_page_fragment.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\payment_page_fragment.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_main_activity.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\start_page_main_activity.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_small.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_splash.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\start_page_splash.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_have_been_added_to_wait_list.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\booking_table_have_been_added_to_wait_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_large.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\paypal.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\paypal.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_invite_someone_screen.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\payment_invite_someone_screen.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\menu_page_splash.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\menu_page_splash.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_options.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\payment_options.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_offers.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\home_offers.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_main_fragment.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_main_fragment.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\layout\\zxing_capture.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\parking_main_activity.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\parking_main_activity.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_add_to_wait_list.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\booking_table_add_to_wait_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_fragment_section_dummy.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_fragment_section_dummy.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_main_activity.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\booking_table_main_activity.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nfcdetails.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\activity_nfcdetails.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\parking_steps_page.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\parking_steps_page.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\menu_steps_page.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\menu_steps_page.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity-Paypal_temp\\facebook\\unspecified\\res\\layout\\com_facebook_tooltip_bubble.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dynamic_menu_summary_page_fragment.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\dynamic_menu_summary_page_fragment.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_app_applications.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\activity_my_app_applications.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\home.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\parking_tutorial_page.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\parking_tutorial_page.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_yes_available_tables.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\booking_table_yes_available_tables.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\booking_table_have_been_added_to_wait_list.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\booking_table_have_been_added_to_wait_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_list_view_row_layout.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\home_list_view_row_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_log_in_screen.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\start_page_log_in_screen.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\home.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_page_log_in_menu.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\src\\main\\res\\layout\\start_page_log_in_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\Hussain\\Documents\\MainActivity-Paypal_temp\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\parking_main_activity.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\parking_main_activity.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\exploded-aar\\MainActivity\\facebook\\unspecified\\res\\layout\\com_facebook_login_fragment.xml"
-    },
-    {
-        "merged": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_tutorial.xml",
-        "source": "C:\\Users\\alysh\\StudioProjects\\MainActivity\\mainActivity\\src\\main\\res\\layout\\home_tutorial.xml"
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\payment_invite_someone_screen.xml",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\payment_invite_someone_screen.xml"
     }
 ]

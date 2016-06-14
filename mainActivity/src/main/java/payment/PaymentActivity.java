@@ -258,6 +258,7 @@ public class PaymentActivity extends FragmentActivity  {
             itemTaxes2.setText("$" + val);
             itemTaxes2.setTextColor(Color.parseColor("#fb1d91db"));
             itemTaxes2.setTextSize(20);
+            GlobalVariable.setTotalDue(val);
             tr2.addView(itemTaxes2, cellLp);
             TableRow tr3 = new TableRow(PaymentActivity.this);
             TextView itemTotalDue = new TextView(PaymentActivity.this);

@@ -1,45 +1,31 @@
 package homePage;
 
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-
-import com.hmkcode.android.sign.R;
-
 import android.app.ActionBar;
-import android.app.Activity;
-import android.app.AlarmManager;
-import android.app.PendingIntent;
-import android.content.Context;
-import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.os.SystemClock;
+import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v4.widget.DrawerLayout.DrawerListener;
-import android.support.v7.app.ActionBarActivity;
-import android.content.res.Configuration;
-import android.content.res.TypedArray;
-import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.hmkcode.android.sign.R;
+
+import java.util.LinkedHashMap;
+
+import dynamicMenu.importMenu;
 
 public class HomePageMainActivity extends FragmentActivity {
 	 private String[] toolbar_options;
@@ -61,6 +47,8 @@ public class HomePageMainActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.home_main_activity);
+        importMenu menuTask= new importMenu();
+        menuTask.execute();
 		//get the drawerlayout and the drawerlist form activitymain.xml
 		//and make them functional
 		NavDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);

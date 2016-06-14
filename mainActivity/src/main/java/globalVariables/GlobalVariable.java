@@ -2,12 +2,16 @@ package globalVariables;
 
 import android.app.Application;
 
+import org.json.JSONArray;
+
+import java.util.ArrayList;
+
 public class GlobalVariable extends Application{
 	public static int numSeats;
 	public static String customerUserName="";
 	public static int tableNumber=0;
 	public static double totalDue=0;
-
+    public static ArrayList<JSONArray> menuList;
 	public static void setNumSeats(int nNumSeats) {
 		numSeats = nNumSeats;
 	}
@@ -32,5 +36,11 @@ public class GlobalVariable extends Application{
 	}
 	public static double getTotalDue() {
 		return totalDue;
+	}
+	public static void setMenuList(ArrayList<JSONArray> list) {
+		menuList=list;
+	}
+	public static ArrayList<JSONArray>  getMenuListz() {
+		return menuList;
 	}
 }

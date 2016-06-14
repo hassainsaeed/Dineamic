@@ -121,6 +121,8 @@
             android:name="homePage.HomePageMainActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity android:name="homePage.UserProfile" >
+        </activity>
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"

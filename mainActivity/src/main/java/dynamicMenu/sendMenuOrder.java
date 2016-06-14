@@ -1,18 +1,17 @@
 package dynamicMenu;
 
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
+		import android.content.Context;
+import android.os.AsyncTask;
+import android.util.Log;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONObject;
 
-import android.content.Context;
-import android.nfc.Tag;
-import android.os.AsyncTask;
-import android.util.Log;
-import globalVariables.GlobalVariable;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+
 import loginSignupPage.JSONParser;
 
 public  class sendMenuOrder extends AsyncTask<String, String, String> {
@@ -22,8 +21,8 @@ public  class sendMenuOrder extends AsyncTask<String, String, String> {
 	public static final String TAG = "NfcTut";
 
 	String []breakfast,lunchanddinner,desserts ,drinks ,breakfast_comments,lunchanddinner_comments,desserts_comments,drinks_comments;
-	 int []count_1,count_2,count_3,count_4 ;
-	 double []breakfast_price,lunchanddinner_price ,desserts_price,drinks_price;
+	int []count_1,count_2,count_3,count_4 ;
+	double []breakfast_price,lunchanddinner_price ,desserts_price,drinks_price;
 	private Context context;
 	public sendMenuOrder(int tableNumber, String customerName, String[] Breakfast, double[] Breakfast_price, String[] Lunchanddinner,
 						 double[] Lunchanddinner_price, String[] Desserts, double[] Desserts_price, String[] Drinks,
@@ -57,13 +56,13 @@ public  class sendMenuOrder extends AsyncTask<String, String, String> {
 
 		URL url = null;
 		List<NameValuePair> params = new ArrayList<NameValuePair>();
-		
+
 
 		// getting JSON Object
 		// Note that create product url accepts POST method
 		//JSONObject json = jsonParser.makeHttpRequest(url_signInUsers,
-			//	"GET", params);
-		
+		//	"GET", params);
+
 		String Url = "http://52.11.144.56/sentOrders.php";
 		Boolean sectionUsed = false;
 		int counter = 0;
@@ -82,16 +81,16 @@ public  class sendMenuOrder extends AsyncTask<String, String, String> {
 				params.add(new BasicNameValuePair("Order"+counter, breakfast[i]));
 				params.add(new BasicNameValuePair("Price"+counter, breakfast_price[i]+""));
 				params.add(new BasicNameValuePair("Comments"+counter, breakfast_comments[i]));
-			//	params.add(new BasicNameValuePair("Number_Of_Orders"+counter, count_1[i]+""));
-				
+				//	params.add(new BasicNameValuePair("Number_Of_Orders"+counter, count_1[i]+""));
+
 				//Url += "Order" + i + "=" + breakfast[i] + "&Price" + i + "=" + breakfast_price[i]
-					//	+ "&Number_Of_Orders" + i + "=" + count_1[i] + "&";
+				//	+ "&Number_Of_Orders" + i + "=" + count_1[i] + "&";
 				counter++;
 				counter1--;
 			}
 		}
 
-	
+
 		for (int i = 0; i < count_2.length; i++) {
 			int counter1=count_2[i];
 
@@ -110,7 +109,7 @@ public  class sendMenuOrder extends AsyncTask<String, String, String> {
 			}
 		}
 
-		
+
 		for (int i = 0; i < count_3.length; i++) {
 
 			int counter1=count_3[i];
@@ -123,7 +122,7 @@ public  class sendMenuOrder extends AsyncTask<String, String, String> {
 				params.add(new BasicNameValuePair("Price"+counter, desserts_price[i]+""));
 				params.add(new BasicNameValuePair("Comments"+counter, desserts_comments[i]));
 				//params.add(new BasicNameValuePair("Number_Of_Orders"+counter, count_3[i]+""));
-			//	Url += "Order" + tempI+ "=" + drinks[i] + "&Price" + tempI + "=" + drinks_price[i]
+				//	Url += "Order" + tempI+ "=" + drinks[i] + "&Price" + tempI + "=" + drinks_price[i]
 				//		+ "&Number_Of_Orders" + tempI + "=" + count_3[i] + "&";
 				counter++;
 				counter1--;
@@ -131,7 +130,7 @@ public  class sendMenuOrder extends AsyncTask<String, String, String> {
 		}
 
 		for (int i = 0; i < count_4.length; i++)
-			
+
 		{
 			int counter1=count_4[i];
 
@@ -142,10 +141,10 @@ public  class sendMenuOrder extends AsyncTask<String, String, String> {
 				params.add(new BasicNameValuePair("Order"+counter, drinks[i]));
 				params.add(new BasicNameValuePair("Price"+counter, drinks_price[i]+""));
 				params.add(new BasicNameValuePair("Comments"+counter, drinks_comments[i]));
-			//	params.add(new BasicNameValuePair("Number_Of_Orders"+counter, count_4[i]+""));
+				//	params.add(new BasicNameValuePair("Number_Of_Orders"+counter, count_4[i]+""));
 				//Url += "Order" + tempI + "=" + desserts[i] + "&Price" +tempI + "="
-					//	+ desserts_price[i] + "&Number_Of_Orders" + tempI+ "=" + count_4[i] + "&";
-			counter++;
+				//	+ desserts_price[i] + "&Number_Of_Orders" + tempI+ "=" + count_4[i] + "&";
+				counter++;
 				counter1--;
 			}
 		}

@@ -41,36 +41,43 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import dynamicMenu.DynamicMenuFragmentActivity.DummySectionFragment;
 import globalVariables.GlobalVariable;
-import homePage.HomePageMainActivity;
-import loginSignupPage.JSONParser;
-import loginSignupPage.LogInActivity;
-import loginSignupPage.SignUpActivity;
+
 import nfc.NFCDetails;
 import payment.PaymentActivity;
 
 public class SummaryPageFragment extends Fragment {
-	JSONParser jsonParser = new JSONParser();
-	String url_sentOrders = "http://52.11.144.56/sentOrders.php";
+	String []breakfast,lunchanddinner,desserts ,drinks ,breakfast_comments,lunchanddinner_comments,desserts_comments,drinks_comments;
+	int []count_1,count_2,count_3,count_4 ;
+	int numItems_breakfast, numItems_lunchanddinner, numItems_dessert, numItems_drinks;
+	double []breakfast_price,lunchanddinner_price ,desserts_price,drinks_price;
+public SummaryPageFragment(int numItems_breakfast, int numItems_lunchanddinner, int numItems_dessert,int  numItems_drinks, String[]breakfast,double [] breakfast_price,String[] lunchanddinner,double [] lunchanddinner_price,String[] desserts,
+						   double []desserts_price,String[] drinks,double [] drinks_price, int []count_1, int []count_2,int [] count_3,int [] count_4,String [] breakfast_comments,String [] lunchanddinner_comments,String [] desserts_comments,String [] drinks_comments){
+this.numItems_breakfast=numItems_breakfast;
+	this.numItems_lunchanddinner=numItems_lunchanddinner;
+	this.numItems_dessert=numItems_dessert;
+	this.numItems_drinks=numItems_drinks;
+	this.breakfast = breakfast;
+this.breakfast_price = breakfast_price;
+	 this.lunchanddinner = lunchanddinner;
+	this.lunchanddinner_price = lunchanddinner_price;
+	this.desserts = desserts;
+	this.desserts_price = desserts_price;
+	this.drinks = drinks;
+	this.drinks_price = drinks_price;
+	 this.count_1 = count_1;
+	this.count_2 = count_2;
+	this.count_3 = count_3;
+	this.count_4 = count_4;
+	this.breakfast_comments = breakfast_comments;
+	this.lunchanddinner_comments = lunchanddinner_comments;
+	 this.desserts_comments = desserts_comments;
+	this.drinks_comments= drinks_comments;
+}
 	public static Intent i;
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-		final String[] breakfast = DummySectionFragment.breakfast;
-		final double[] breakfast_price = DummySectionFragment.breakfast_price;
-		final String[] lunchanddinner = DummySectionFragment.lunchanddinner;
-		final double[] lunchanddinner_price = DummySectionFragment.lunchanddinner_price;
-		final String[] desserts = DummySectionFragment.desserts;
-		final double[] desserts_price = DummySectionFragment.desserts_price;
-		final String[] drinks = DummySectionFragment.drinks;
-		final double[] drinks_price = DummySectionFragment.drinks_price;
-		final int[] count_1 = DummySectionFragment.count_1;
-		final int[] count_2 = DummySectionFragment.count_2;
-		final int[] count_3 = DummySectionFragment.count_3;
-		final int[] count_4 = DummySectionFragment.count_4;
-		final String[] breakfast_comments = DummySectionFragment.breakfast_comments;
-		final String[] lunchanddinner_comments =DummySectionFragment.lunchanddinner_comments;
-		final String[] desserts_comments = DummySectionFragment.desserts_comments;
-		final String[] drinks_comments= DummySectionFragment.drinks_comments;
-		
+
+
 		View rootView = inflater.inflate(R.layout.dynamic_menu_summary_page_fragment, container, false);
 
 		TableLayout tl = (TableLayout) rootView.findViewById(R.id.summarytable);
@@ -83,41 +90,41 @@ public class SummaryPageFragment extends Fragment {
 		SummaryIntro.setId(4444);
 		Typeface face = Typeface.createFromAsset(this.getActivity().getAssets(),
 				"orange juice 2.0.ttf");
-        Log.e("NOOO", getArguments().getInt("tableNumber") + "");
+		Log.e("NOOO", getArguments().getInt("tableNumber") + "");
 		SummaryIntro.setText(
-				"Zak's Dinner \nCheck number 5555\nWaiter Adam\nTable " + getArguments().getInt("tableNumber") + "\n" + dateFormat.format(date) + "\n\n ");
+				"Zak's Diner \nCheck number 5555\nWaiter Adam\nTable " + getArguments().getInt("tableNumber") + "\n" + dateFormat.format(date) + "\n\n ");
 		SummaryIntro.setTextColor(Color.parseColor("#fb1d91db"));
 
 
 		SummaryIntro.setTextAlignment(3);
 		SummaryIntro.setTextSize(26);
-	//	SummaryIntro.setTypeface(face);
+		//	SummaryIntro.setTypeface(face);
 		row.addView(SummaryIntro);
 		tl.addView(row);
 		double subtotal = 0;
 		final double tax = 1.13;
 		TableRow rowDesc = new TableRow(getActivity());
 		TextView ItemName = new TextView(SummaryPageFragment.this.getActivity());
-	//	TextView Quantity = new TextView(SummaryPageFragment.this.getActivity());
+		//	TextView Quantity = new TextView(SummaryPageFragment.this.getActivity());
 		TextView Price = new TextView(SummaryPageFragment.this.getActivity());
 		ItemName.setText("Item Name");
-	//	Quantity.setText("Quantity");
+		//	Quantity.setText("Quantity");
 		Price.setText("Price");
 		ItemName.setTextColor(Color.parseColor("#fb1d91db"));
-	//	Quantity.setTextColor(Color.parseColor("#fb1d91db"));
+		//	Quantity.setTextColor(Color.parseColor("#fb1d91db"));
 		Price.setTextColor(Color.parseColor("#fb1d91db"));
 		ItemName.setTextSize(20);
-	//	Quantity.setTextSize(20);
+		//	Quantity.setTextSize(20);
 		Price.setTextSize(20);
-	//	ItemName.setTypeface(face);
-	//	Quantity.setTypeface(face);
-	//	Price.setTypeface(face);
+		//	ItemName.setTypeface(face);
+		//	Quantity.setTypeface(face);
+		//	Price.setTypeface(face);
 		rowDesc.addView(ItemName);
-	//	rowDesc.addView(Quantity);
+		//	rowDesc.addView(Quantity);
 		rowDesc.addView(Price);
 		tl.addView(rowDesc);
 		Log.d(getTag(), "Count is" +count_4[0]+ count_4[1]);
-		for (int i = 0; i < DummySectionFragment.numItems_breakfast; i++) {
+		for (int i = 0; i <numItems_breakfast; i++) {
 			int counter=count_1[i];
 			while (counter > 0) {
 				TableRow tr = new TableRow(getActivity());
@@ -130,9 +137,9 @@ public class SummaryPageFragment extends Fragment {
 				itemName.setTextColor(Color.parseColor("#fb1d91db"));
 				itemName.setTextAlignment(3);
 				itemName.setTextSize(20);
-			//	itemName.setTypeface(face);
-			//	itemQuantity.setTypeface(face);
-			//	itemPrice.setTypeface(face);
+				//	itemName.setTypeface(face);
+				//	itemQuantity.setTypeface(face);
+				//	itemPrice.setTypeface(face);
 
 				itemPrice.setText("$" + breakfast_price[i]);
 				itemPrice.setTextColor(Color.parseColor("#fb1d91db"));
@@ -146,7 +153,7 @@ public class SummaryPageFragment extends Fragment {
 				counter--;
 			}
 		}
-		for (int i = 0; i < DummySectionFragment.numItems_lunchanddinner; i++) {
+		for (int i = 0; i < numItems_lunchanddinner; i++) {
 			int counter=count_2[i];
 
 			while (counter > 0) {
@@ -178,7 +185,7 @@ public class SummaryPageFragment extends Fragment {
 				counter--;
 			}
 		}
-		for (int i = 0; i < DummySectionFragment.numItems_dessert; i++) {
+		for (int i = 0; i < numItems_dessert; i++) {
 			int counter=count_3[i];
 
 			while (counter > 0) {
@@ -210,11 +217,11 @@ public class SummaryPageFragment extends Fragment {
 				counter--;
 			}
 		}
-		for (int i = 0; i < DummySectionFragment.numItems_drinks; i++) {
+		for (int i = 0; i < numItems_drinks; i++) {
 			int counter=count_4[i];
 
-		while(counter > 0) {
-			TableRow tr = new TableRow(getActivity());
+			while(counter > 0) {
+				TableRow tr = new TableRow(getActivity());
 				//Log.d(getTag(), "There is a drink");
 				subtotal += (drinks_price[i]);
 				TextView itemName = new TextView(SummaryPageFragment.this.getActivity());
@@ -222,7 +229,7 @@ public class SummaryPageFragment extends Fragment {
 				TextView itemPrice = new TextView(SummaryPageFragment.this.getActivity());
 				//itemName.setTypeface(face);
 				//itemQuantity.setTypeface(face);
-			//	itemPrice.setTypeface(face);
+				//	itemPrice.setTypeface(face);
 				itemName.setText(drinks[i]);
 				itemName.setTextColor(Color.parseColor("#fb1d91db"));
 				itemName.setTextAlignment(3);
@@ -237,10 +244,10 @@ public class SummaryPageFragment extends Fragment {
 				itemPrice.setTextSize(20);
 
 				tr.addView(itemName);
-			//	tr.addView(itemQuantity);
+				//	tr.addView(itemQuantity);
 				tr.addView(itemPrice);
 				tl.addView(tr);
-			counter--;
+				counter--;
 			}
 		}
 		TableRow tr = new TableRow(getActivity());
@@ -316,14 +323,14 @@ public class SummaryPageFragment extends Fragment {
 				ViewGroup.LayoutParams.MATCH_PARENT, 0.5f);
 		params.setMargins(10,10,10,10);
 		Button sendOrder = new Button(getActivity());
-        sendOrder.setId(999);
+		sendOrder.setId(999);
 		sendOrder.setLayoutParams(params);
-        //sendOrder.setTypeface(face);
-        sendOrder.setText("Send Order");
+		//sendOrder.setTypeface(face);
+		sendOrder.setText("Send Order");
 		sendOrder.setBackgroundColor(Color.parseColor("#fb1d91db"));
 		sendOrder.setTextColor(Color.WHITE);
-        sendOrder.setOnClickListener(new OnClickListener() {
-            public void onClick(View arg0) {
+		sendOrder.setOnClickListener(new OnClickListener() {
+			public void onClick(View arg0) {
 			/*	new AlertDialog.Builder(getActivity())
 
 				.setMessage("Please tap the send order NFC Tag " )
@@ -332,40 +339,40 @@ public class SummaryPageFragment extends Fragment {
 								dialog.dismiss();
 						}
 			}).show();*/
-                i = new Intent(getActivity(), NFCDetails.class);
+				i = new Intent(getActivity(), NFCDetails.class);
 //                Log.e("OK ", GlobalVariable.getCustomerUserName());
-                i.putExtra("name", GlobalVariable.getCustomerUserName());
-                i.putExtra("breakfast", breakfast);
-                i.putExtra("breakfast_price", breakfast_price);
-                i.putExtra("lunchanddinner", lunchanddinner);
-                i.putExtra("lunchanddinner_price", lunchanddinner_price);
-                i.putExtra("desserts", desserts);
-                i.putExtra("desserts_price", desserts_price);
-                i.putExtra("drinks", drinks);
-                i.putExtra("drinks_price", drinks_price);
-                i.putExtra("count_1", count_1);
-                i.putExtra("count_2", count_2);
-                i.putExtra("count_3", count_3);
-                i.putExtra("count_4", count_4);
+				i.putExtra("name", GlobalVariable.getCustomerUserName());
+				i.putExtra("breakfast", breakfast);
+				i.putExtra("breakfast_price", breakfast_price);
+				i.putExtra("lunchanddinner", lunchanddinner);
+				i.putExtra("lunchanddinner_price", lunchanddinner_price);
+				i.putExtra("desserts", desserts);
+				i.putExtra("desserts_price", desserts_price);
+				i.putExtra("drinks", drinks);
+				i.putExtra("drinks_price", drinks_price);
+				i.putExtra("count_1", count_1);
+				i.putExtra("count_2", count_2);
+				i.putExtra("count_3", count_3);
+				i.putExtra("count_4", count_4);
 				i.putExtra("breakfast_comments", breakfast_comments);
 				i.putExtra("lunchanddinner_comments", lunchanddinner_comments);
 				i.putExtra("desserts_comments", desserts_comments);
 				i.putExtra("drinks_comments", drinks_comments);
-                startActivity(i);
-                //new sendMenuOrder(breakfast, breakfast_price, lunchanddinner, lunchanddinner_price, desserts,
-                //	desserts_price, drinks, drinks_price, count_1, count_2, count_3, count_4).execute();
-            }
-        });
-        Button paymentOptions = new Button(getActivity());
-        paymentOptions.setId(998);
-      //  paymentOptions.setTypeface(face);
-        paymentOptions.setText("Payment Options");
+				startActivity(i);
+				//new sendMenuOrder(breakfast, breakfast_price, lunchanddinner, lunchanddinner_price, desserts,
+				//	desserts_price, drinks, drinks_price, count_1, count_2, count_3, count_4).execute();
+			}
+		});
+		Button paymentOptions = new Button(getActivity());
+		paymentOptions.setId(998);
+		//  paymentOptions.setTypeface(face);
+		paymentOptions.setText("Payment Options");
 		paymentOptions.setBackgroundColor(Color.parseColor("#fb1d91db"));
 		paymentOptions.setLayoutParams(params);
 		paymentOptions.setTextColor(Color.WHITE);
-        paymentOptions.setPadding(10,0,0,0);
-        paymentOptions.setOnClickListener(new OnClickListener() {
-            public void onClick(View arg0) {
+		paymentOptions.setPadding(10,0,0,0);
+		paymentOptions.setOnClickListener(new OnClickListener() {
+			public void onClick(View arg0) {
 			/*	new AlertDialog.Builder(getActivity())
 
 				.setMessage("Please tap the send order NFC Tag " )
@@ -374,32 +381,32 @@ public class SummaryPageFragment extends Fragment {
 								dialog.dismiss();
 						}
 			}).show();*/
-                i = new Intent(getActivity(), PaymentActivity.class);
-                i.putExtra("name", GlobalVariable.getCustomerUserName());
-                i.putExtra("tableNumber", getArguments().getInt("tableNumber"));
-                i.putExtra("breakfast", breakfast);
-                i.putExtra("breakfast_price", breakfast_price);
-                i.putExtra("lunchanddinner", lunchanddinner);
-                i.putExtra("lunchanddinner_price", lunchanddinner_price);
-                i.putExtra("desserts", desserts);
-                i.putExtra("desserts_price", desserts_price);
-                i.putExtra("drinks", drinks);
-                i.putExtra("drinks_price", drinks_price);
-                i.putExtra("count_1", count_1);
-                i.putExtra("count_2", count_2);
-                i.putExtra("count_3", count_3);
-                i.putExtra("count_4", count_4);
-                startActivity(i);
-                //new sendMenuOrder(breakfast, breakfast_price, lunchanddinner, lunchanddinner_price, desserts,
-                //	desserts_price, drinks, drinks_price, count_1, count_2, count_3, count_4).execute();
-            }
-        });
+				i = new Intent(getActivity(), PaymentActivity.class);
+				i.putExtra("name", GlobalVariable.getCustomerUserName());
+				i.putExtra("tableNumber", getArguments().getInt("tableNumber"));
+				i.putExtra("breakfast", breakfast);
+				i.putExtra("breakfast_price", breakfast_price);
+				i.putExtra("lunchanddinner", lunchanddinner);
+				i.putExtra("lunchanddinner_price", lunchanddinner_price);
+				i.putExtra("desserts", desserts);
+				i.putExtra("desserts_price", desserts_price);
+				i.putExtra("drinks", drinks);
+				i.putExtra("drinks_price", drinks_price);
+				i.putExtra("count_1", count_1);
+				i.putExtra("count_2", count_2);
+				i.putExtra("count_3", count_3);
+				i.putExtra("count_4", count_4);
+				startActivity(i);
+				//new sendMenuOrder(breakfast, breakfast_price, lunchanddinner, lunchanddinner_price, desserts,
+				//	desserts_price, drinks, drinks_price, count_1, count_2, count_3, count_4).execute();
+			}
+		});
 		//row2.addView(sendOrder);
-        //row2.addView(paymentOptions);
+		//row2.addView(paymentOptions);
 		ll.addView(sendOrder);
 		ll.addView(paymentOptions);
 		return rootView;
 	}
 
-	
+
 }

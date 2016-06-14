@@ -1,2 +1,2 @@
-include ':facebook'
+include ':facebook', ':userProfileLibrary'
 include ':mainActivity'

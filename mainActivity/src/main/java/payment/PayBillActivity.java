@@ -1,29 +1,23 @@
 
 package payment;
 
-import com.hmkcode.android.sign.R;
-import com.paypal.android.sdk.payments.PayPalAuthorization;
-import com.paypal.android.sdk.payments.PayPalConfiguration;
-import com.paypal.android.sdk.payments.PayPalFuturePaymentActivity;
-import com.paypal.android.sdk.payments.PayPalItem;
-import com.paypal.android.sdk.payments.PayPalOAuthScopes;
-import com.paypal.android.sdk.payments.PayPalPayment;
-import com.paypal.android.sdk.payments.PayPalPaymentDetails;
-import com.paypal.android.sdk.payments.PayPalProfileSharingActivity;
-import com.paypal.android.sdk.payments.PayPalService;
-import com.paypal.android.sdk.payments.PaymentActivity;
-import com.paypal.android.sdk.payments.PaymentConfirmation;
-import com.paypal.android.sdk.payments.ShippingAddress;
-
-
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.paypal.android.sdk.payments.PayPalAuthorization;
+import com.paypal.android.sdk.payments.PayPalConfiguration;
+import com.paypal.android.sdk.payments.PayPalFuturePaymentActivity;
+import com.paypal.android.sdk.payments.PayPalOAuthScopes;
+import com.paypal.android.sdk.payments.PayPalPayment;
+import com.paypal.android.sdk.payments.PayPalProfileSharingActivity;
+import com.paypal.android.sdk.payments.PayPalService;
+import com.paypal.android.sdk.payments.PaymentActivity;
+import com.paypal.android.sdk.payments.PaymentConfirmation;
 
 import org.json.JSONException;
 
@@ -200,36 +194,36 @@ public class PayBillActivity extends Activity  {
 //		startActivityForResult(intent, REQUEST_CODE_PROFILE_SHARING);
 //	}
 //
-//	private PayPalOAuthScopes getOauthScopes() {
-//        /* create the set of required scopes
+	private PayPalOAuthScopes getOauthScopes() {
+       /* create the set of required scopes
 //         * Note: see https://developer.paypal.com/docs/integration/direct/identity/attributes/ for mapping between the
 //         * attributes you select for this app in the PayPal developer portal and the scopes required here.
 //         */
-//		Set<String> scopes = new HashSet<String>(
-//				Arrays.asList(PayPalOAuthScopes.PAYPAL_SCOPE_EMAIL, PayPalOAuthScopes.PAYPAL_SCOPE_ADDRESS) );
-//		return new PayPalOAuthScopes(scopes);
-//	}
+		Set<String> scopes = new HashSet<String>(
+				Arrays.asList(PayPalOAuthScopes.PAYPAL_SCOPE_EMAIL, PayPalOAuthScopes.PAYPAL_SCOPE_ADDRESS) );
+		return new PayPalOAuthScopes(scopes);
+	}
 //
-//	protected void displayResultText(String result) {
-//		((TextView)findViewById(R.id.txtResult)).setText("Result : " + result);
-//		Toast.makeText(
-//				getApplicationContext(),
-//				result, Toast.LENGTH_LONG)
-//				.show();
-//	}
+protected void displayResultText(String result) {
+
+		Toast.makeText(
+				getApplicationContext(),
+				result, Toast.LENGTH_LONG)
+				.show();
+	}
 //
-//	@Override
-//	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//		if (requestCode == REQUEST_CODE_PAYMENT) {
-//			if (resultCode == Activity.RESULT_OK) {
-//				PaymentConfirmation confirm =
-//						data.getParcelableExtra(PaymentActivity.EXTRA_RESULT_CONFIRMATION);
-//				if (confirm != null) {
-//					try {
-//						Log.i(TAG, confirm.toJSONObject().toString(4));
-//						Log.i(TAG, confirm.getPayment().toJSONObject().toString(4));
-//						/**
-//						 *  TODO: send 'confirm' (and possibly confirm.getPayment() to your server for verification
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		if (requestCode == REQUEST_CODE_PAYMENT) {
+			if (resultCode == Activity.RESULT_OK) {
+				PaymentConfirmation confirm =
+						data.getParcelableExtra(PaymentActivity.EXTRA_RESULT_CONFIRMATION);
+				if (confirm != null) {
+					try {
+						Log.i(TAG, confirm.toJSONObject().toString(4));
+						Log.i(TAG, confirm.getPayment().toJSONObject().toString(4));
+						/**
+					 *  TODO: send 'confirm' (and possibly confirm.getPayment() to your server for verification
 //						 * or consent completion.
 //						 * See https://developer.paypal.com/webapps/developer/docs/integration/mobile/verify-mobile-payment/
 //						 * for more details.
@@ -237,130 +231,133 @@ public class PayBillActivity extends Activity  {
 //						 * For sample mobile backend interactions, see
 //						 * https://github.com/paypal/rest-api-sdk-python/tree/master/samples/mobile_backend
 //						 */
-//						displayResultText("PaymentConfirmation info received from PayPal");
-//
-//
-//					} catch (JSONException e) {
-//						Log.e(TAG, "an extremely unlikely failure occurred: ", e);
-//					}
-//				}
-//			} else if (resultCode == Activity.RESULT_CANCELED) {
-//				Log.i(TAG, "The user canceled.");
-//			} else if (resultCode == PaymentActivity.RESULT_EXTRAS_INVALID) {
-//				Log.i(
-//						TAG,
-//						"An invalid Payment or PayPalConfiguration was submitted. Please see the docs.");
-//			}
-//		} else if (requestCode == REQUEST_CODE_FUTURE_PAYMENT) {
-//			if (resultCode == Activity.RESULT_OK) {
-//				PayPalAuthorization auth =
-//						data.getParcelableExtra(PayPalFuturePaymentActivity.EXTRA_RESULT_AUTHORIZATION);
-//				if (auth != null) {
-//					try {
-//						Log.i("FuturePaymentExample", auth.toJSONObject().toString(4));
-//
-//						String authorization_code = auth.getAuthorizationCode();
-//						Log.i("FuturePaymentExample", authorization_code);
-//
-//						sendAuthorizationToServer(auth);
-//						displayResultText("Future Payment code received from PayPal");
-//
-//					} catch (JSONException e) {
-//						Log.e("FuturePaymentExample", "an extremely unlikely failure occurred: ", e);
-//					}
-//				}
-//			} else if (resultCode == Activity.RESULT_CANCELED) {
-//				Log.i("FuturePaymentExample", "The user canceled.");
-//			} else if (resultCode == PayPalFuturePaymentActivity.RESULT_EXTRAS_INVALID) {
-//				Log.i(
-//						"FuturePaymentExample",
-//						"Probably the attempt to previously start the PayPalService had an invalid PayPalConfiguration. Please see the docs.");
-//			}
-//		} else if (requestCode == REQUEST_CODE_PROFILE_SHARING) {
-//			if (resultCode == Activity.RESULT_OK) {
-//				PayPalAuthorization auth =
-//						data.getParcelableExtra(PayPalProfileSharingActivity.EXTRA_RESULT_AUTHORIZATION);
-//				if (auth != null) {
-//					try {
-//						Log.i("ProfileSharingExample", auth.toJSONObject().toString(4));
-//
-//						String authorization_code = auth.getAuthorizationCode();
-//						Log.i("ProfileSharingExample", authorization_code);
-//
-//						sendAuthorizationToServer(auth);
-//						displayResultText("Profile Sharing code received from PayPal");
-//
-//					} catch (JSONException e) {
-//						Log.e("ProfileSharingExample", "an extremely unlikely failure occurred: ", e);
-//					}
-//				}
-//			} else if (resultCode == Activity.RESULT_CANCELED) {
-//				Log.i("ProfileSharingExample", "The user canceled.");
-//			} else if (resultCode == PayPalFuturePaymentActivity.RESULT_EXTRAS_INVALID) {
-//				Log.i(
-//						"ProfileSharingExample",
-//						"Probably the attempt to previously start the PayPalService had an invalid PayPalConfiguration. Please see the docs.");
-//			}
-//		}
-//		if (requestCode == MY_SCAN_REQUEST_CODE) {
-//			String resultDisplayStr;
-//			if (data != null && data.hasExtra(CardIOActivity.EXTRA_SCAN_RESULT)) {
-//				CreditCard scanResult = data.getParcelableExtra(CardIOActivity.EXTRA_SCAN_RESULT);
-//
-//				// Never log a raw card number. Avoid displaying it, but if necessary use getFormattedCardNumber()
-//				resultDisplayStr = "Card Number: " + scanResult.getRedactedCardNumber() + "\n";
-//
-//				// Do something with the raw number, e.g.:
-//				// myService.setCardNumber( scanResult.cardNumber );
-//
-//				if (scanResult.isExpiryValid()) {
-//					resultDisplayStr += "Expiration Date: " + scanResult.expiryMonth + "/" + scanResult.expiryYear + "\n";
-//				}
-//
-//				if (scanResult.cvv != null) {
-//					// Never log or display a CVV
-//					resultDisplayStr += "CVV has " + scanResult.cvv.length() + " digits.\n";
-//				}
-//
-//				if (scanResult.postalCode != null) {
-//					resultDisplayStr += "Postal Code: " + scanResult.postalCode + "\n";
-//				}
-//			}
-//			else {
-//				resultDisplayStr = "Scan was canceled.";
-//			}
-//			// do something with resultDisplayStr, maybe display it in a textView
-//			// resultTextView.setText(resultDisplayStr);
-//		}
-//	}
-//
-//	private void sendAuthorizationToServer(PayPalAuthorization authorization) {
-//
-//		/**
-//		 * TODO: Send the authorization response to your server, where it can
-//		 * exchange the authorization code for OAuth access and refresh tokens.
-//		 *
-//		 * Your server must then store these tokens, so that your server code
-//		 * can execute payments for this user in the future.
-//		 *
-//		 * A more complete example that includes the required app-server to
-//		 * PayPal-server integration is available from
-//		 * https://github.com/paypal/rest-api-sdk-python/tree/master/samples/mobile_backend
-//		 */
-//
-//	}
-//
-//	public void onFuturePaymentPurchasePressed(View pressed) {
-//		// Get the Client Metadata ID from the SDK
-//		String metadataId = PayPalConfiguration.getClientMetadataId(this);
-//
-//		Log.i("FuturePaymentExample", "Client Metadata ID: " + metadataId);
-//
-//		// TODO: Send metadataId and transaction details to your server for processing with
-//		// PayPal...
-//		displayResultText("Client Metadata Id received from SDK");
-//	}
-//
+					displayResultText("PaymentConfirmation info received from PayPal");
+						Intent intent = new Intent(PayBillActivity.this, ReviewPageActivity.class);
+						startActivity(intent);
+
+
+
+					} catch (JSONException e) {
+						Log.e(TAG, "an extremely unlikely failure occurred: ", e);
+					}
+				}
+			} else if (resultCode == Activity.RESULT_CANCELED) {
+				Log.i(TAG, "The user canceled.");
+			} else if (resultCode == PaymentActivity.RESULT_EXTRAS_INVALID) {
+				Log.i(
+						TAG,
+						"An invalid Payment or PayPalConfiguration was submitted. Please see the docs.");
+			}
+		} else if (requestCode == REQUEST_CODE_FUTURE_PAYMENT) {
+			if (resultCode == Activity.RESULT_OK) {
+				PayPalAuthorization auth =
+						data.getParcelableExtra(PayPalFuturePaymentActivity.EXTRA_RESULT_AUTHORIZATION);
+				if (auth != null) {
+					try {
+						Log.i("FuturePaymentExample", auth.toJSONObject().toString(4));
+
+						String authorization_code = auth.getAuthorizationCode();
+						Log.i("FuturePaymentExample", authorization_code);
+
+						sendAuthorizationToServer(auth);
+						displayResultText("Future Payment code received from PayPal");
+
+					} catch (JSONException e) {
+						Log.e("FuturePaymentExample", "an extremely unlikely failure occurred: ", e);
+					}
+				}
+			} else if (resultCode == Activity.RESULT_CANCELED) {
+				Log.i("FuturePaymentExample", "The user canceled.");
+			} else if (resultCode == PayPalFuturePaymentActivity.RESULT_EXTRAS_INVALID) {
+				Log.i(
+						"FuturePaymentExample",
+						"Probably the attempt to previously start the PayPalService had an invalid PayPalConfiguration. Please see the docs.");
+			}
+		} else if (requestCode == REQUEST_CODE_PROFILE_SHARING) {
+			if (resultCode == Activity.RESULT_OK) {
+				PayPalAuthorization auth =
+						data.getParcelableExtra(PayPalProfileSharingActivity.EXTRA_RESULT_AUTHORIZATION);
+				if (auth != null) {
+					try {
+						Log.i("ProfileSharingExample", auth.toJSONObject().toString(4));
+
+						String authorization_code = auth.getAuthorizationCode();
+						Log.i("ProfileSharingExample", authorization_code);
+
+						sendAuthorizationToServer(auth);
+						displayResultText("Profile Sharing code received from PayPal");
+
+					} catch (JSONException e) {
+						Log.e("ProfileSharingExample", "an extremely unlikely failure occurred: ", e);
+					}
+				}
+			} else if (resultCode == Activity.RESULT_CANCELED) {
+				Log.i("ProfileSharingExample", "The user canceled.");
+			} else if (resultCode == PayPalFuturePaymentActivity.RESULT_EXTRAS_INVALID) {
+				Log.i(
+						"ProfileSharingExample",
+						"Probably the attempt to previously start the PayPalService had an invalid PayPalConfiguration. Please see the docs.");
+			}
+		}
+		if (requestCode == MY_SCAN_REQUEST_CODE) {
+			String resultDisplayStr;
+			if (data != null && data.hasExtra(CardIOActivity.EXTRA_SCAN_RESULT)) {
+				CreditCard scanResult = data.getParcelableExtra(CardIOActivity.EXTRA_SCAN_RESULT);
+
+				// Never log a raw card number. Avoid displaying it, but if necessary use getFormattedCardNumber()
+				resultDisplayStr = "Card Number: " + scanResult.getRedactedCardNumber() + "\n";
+
+				// Do something with the raw number, e.g.:
+				// myService.setCardNumber( scanResult.cardNumber );
+
+				if (scanResult.isExpiryValid()) {
+					resultDisplayStr += "Expiration Date: " + scanResult.expiryMonth + "/" + scanResult.expiryYear + "\n";
+				}
+
+				if (scanResult.cvv != null) {
+					// Never log or display a CVV
+					resultDisplayStr += "CVV has " + scanResult.cvv.length() + " digits.\n";
+				}
+
+				if (scanResult.postalCode != null) {
+					resultDisplayStr += "Postal Code: " + scanResult.postalCode + "\n";
+				}
+			}
+			else {
+				resultDisplayStr = "Scan was canceled.";
+			}
+			// do something with resultDisplayStr, maybe display it in a textView
+			// resultTextView.setText(resultDisplayStr);
+		}
+	}
+
+	private void sendAuthorizationToServer(PayPalAuthorization authorization) {
+
+		/**
+		 * TODO: Send the authorization response to your server, where it can
+		 * exchange the authorization code for OAuth access and refresh tokens.
+		 *
+		 * Your server must then store these tokens, so that your server code
+		 * can execute payments for this user in the future.
+		 *
+		 * A more complete example that includes the required app-server to
+		 * PayPal-server integration is available from
+		 * https://github.com/paypal/rest-api-sdk-python/tree/master/samples/mobile_backend
+		 */
+
+	}
+
+	public void onFuturePaymentPurchasePressed(View pressed) {
+		// Get the Client Metadata ID from the SDK
+		String metadataId = PayPalConfiguration.getClientMetadataId(this);
+
+		Log.i("FuturePaymentExample", "Client Metadata ID: " + metadataId);
+
+		// TODO: Send metadataId and transaction details to your server for processing with
+		// PayPal...
+		displayResultText("Client Metadata Id received from SDK");
+	}
+
 	@Override
 	public void onDestroy() {
 		// Stop service when done
