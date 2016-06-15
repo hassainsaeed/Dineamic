@@ -4,6 +4,7 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -35,7 +36,8 @@ public  class importMenu extends AsyncTask<String, String, String> {
 		// Note that create product url accepts POST method
 		//JSONObject json = jsonParser.makeHttpRequest(url_signInUsers,
 			//	"GET", params);
-		
+		//Change the value of restuarantMenu to be a variable once selecting the restaturant fetaure is implemented
+		params.add(new BasicNameValuePair("restaurantMenu", "ZAKS_MENU"));
 		String Url = "http://52.11.144.56/importMenu.php";
 
 			JSONObject json = jsonParser.makeHttpRequest(Url,

@@ -22,6 +22,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
 
 import android.app.ActionBar;
 import android.app.ActionBar.LayoutParams;
@@ -44,6 +45,8 @@ import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -57,6 +60,7 @@ import android.widget.TextView;
 
 import globalVariables.GlobalVariable;
 import loginSignupPage.JSONParser;
+import qrScanner.scanQRCode;
 
 import static java.lang.Thread.sleep;
 
@@ -100,6 +104,35 @@ public class InviteSomeoneActivity extends FragmentActivity  {
 
 
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.action_bar_qr_button, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here.
+        //handle presses on the action bar items
+        switch (item.getItemId()) {
+
+            case R.id.qr_scanner:
+                Intent intent = new Intent(InviteSomeoneActivity.this, CaptureActivity.class);
+                intent.setAction("com.google.zxing.client.android.SCAN");
+                intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+                startActivityForResult(intent, 0);
+                return true;
+
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        new scanQRCode(requestCode,resultCode,intent,InviteSomeoneActivity.this).execute();
+    }
+
+
     public class inviteSomeone extends AsyncTask <String, String, String> {
         private final ProgressDialog dialog = new ProgressDialog(InviteSomeoneActivity.this);
         private boolean post=false;

@@ -1,21 +1,20 @@
 package homePage;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentTransaction;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.hmkcode.android.sign.R;
 import com.journeyapps.barcodescanner.CaptureActivity;
+
+import qrScanner.scanQRCode;
 
 
 //Fragment for the home page
@@ -114,25 +113,9 @@ public class HomeFragment extends Fragment {
 
         return rootView;
     }
+
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
-
-        if (requestCode == 0) {
-            if (resultCode == Activity.RESULT_OK) {
-                //handle succesful scan
-                String contents = intent.getStringExtra("SCAN_RESULT");
-                String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
-                Toast toast = Toast.makeText(getActivity(), "FORMAT: " + format + " CONTENT: " + contents, Toast.LENGTH_SHORT);
-                toast.show();
-
-                //Compare the String contents and formats… if it matches with the expected contents and format then we launch the new Android activity for Book a Table or Interactive Menu or Send Order or etc in this section of code
-                Log.d("contents", "contents: " + contents);
-            } else if (resultCode == Activity.RESULT_CANCELED) {
-                //handle cancel
-                Toast toast = Toast.makeText(getActivity(), "No scan data received!", Toast.LENGTH_SHORT);
-                toast.show();
-                Log.d("contents", "RESULT_CANCELED");
-            }
-        }
+        new scanQRCode(requestCode,resultCode,intent,getActivity()).execute();
     }
 
 }

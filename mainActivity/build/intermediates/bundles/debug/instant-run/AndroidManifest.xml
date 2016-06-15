@@ -146,8 +146,7 @@
             android:name="bookingTable.BookingTableMainActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppBaseTheme" >
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
@@ -164,8 +163,7 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_no_available_tables"
             android:parentActivityName="bookingTable.BookingTableMainActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppBaseTheme" >
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="bookingTable.BookingTableMainActivity" />
@@ -174,16 +172,14 @@
             android:name="bookingTable.AddToWaitList"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_add_to_wait_list"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppBaseTheme" >
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="bookingTable.HaveBeenAddedToWaitList"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_have_been_added_to_wait_list"
             android:parentActivityName="bookingTable.AddToWaitList"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppBaseTheme" >
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="bookingTable.AddToWaitList" />
@@ -193,8 +189,7 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_yes_available_tables"
             android:parentActivityName="bookingTable.BookingTableMainActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppBaseTheme" >
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="bookingTable.BookingTableMainActivity" />

@@ -1,20 +1,30 @@
 
 package payment;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import android.app.ActionBar;
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.TableLayout;
+import android.widget.TableRow;
+import android.widget.TextView;
+
+import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -22,44 +32,14 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.hmkcode.android.sign.R;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
-import android.app.ActionBar;
-import android.app.ActionBar.LayoutParams;
-import android.app.ActionBar.Tab;
-import android.app.FragmentTransaction;
-import android.app.ProgressDialog;
-import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.Typeface;
-import android.graphics.drawable.ColorDrawable;
-import android.nfc.Tag;
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.util.Log;
-import android.view.Gravity;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.PopupWindow;
-import android.widget.RadioButton;
-import android.widget.TableLayout;
-import android.widget.TableRow;
-import android.widget.TextView;
-
-import dynamicMenu.DynamicMenuFragmentActivity;
 import globalVariables.GlobalVariable;
 import loginSignupPage.JSONParser;
+import qrScanner.scanQRCode;
 
 public class PaymentActivity extends FragmentActivity  {
 
@@ -82,6 +62,33 @@ public class PaymentActivity extends FragmentActivity  {
 //for color
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.action_bar_qr_button, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here.
+        //handle presses on the action bar items
+        switch (item.getItemId()) {
+
+            case R.id.qr_scanner:
+                Intent intent = new Intent(PaymentActivity.this, CaptureActivity.class);
+                intent.setAction("com.google.zxing.client.android.SCAN");
+                intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+                startActivityForResult(intent, 0);
+                return true;
+
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        new scanQRCode(requestCode,resultCode,intent,PaymentActivity.this).execute();
+    }
+
 
     @Override
     public void onResume() {

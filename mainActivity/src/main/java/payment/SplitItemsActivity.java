@@ -4,6 +4,7 @@ import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
@@ -12,6 +13,8 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -25,6 +28,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -42,6 +46,7 @@ import java.util.Set;
 import dynamicMenu.DynamicMenuFragmentActivity.DummySectionFragment;
 import globalVariables.GlobalVariable;
 import loginSignupPage.JSONParser;
+import qrScanner.scanQRCode;
 
 public class SplitItemsActivity extends FragmentActivity {
     JSONParser jsonParser = new JSONParser();
@@ -66,6 +71,35 @@ public class SplitItemsActivity extends FragmentActivity {
         ActionBar bar = getActionBar();
         //for color
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.action_bar_qr_button, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here.
+        //handle presses on the action bar items
+        switch (item.getItemId()) {
+
+            case R.id.qr_scanner:
+                Intent intent = new Intent(SplitItemsActivity.this, CaptureActivity.class);
+                intent.setAction("com.google.zxing.client.android.SCAN");
+                intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+                startActivityForResult(intent, 0);
+                return true;
+
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        new scanQRCode(requestCode,resultCode,intent,SplitItemsActivity.this).execute();
     }
 
     public class splitItems extends AsyncTask<String, String, String> {
@@ -203,7 +237,7 @@ public class SplitItemsActivity extends FragmentActivity {
                 final double tax = 1.13;
 
                 TableLayout tl = (TableLayout) findViewById(R.id.summarytable);
-               // LinearLayout ll= (LinearLayout) findViewById(R.id.split);
+                // LinearLayout ll= (LinearLayout) findViewById(R.id.split);
 
                 TableRow row = new TableRow(SplitItemsActivity.this);
                 SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");

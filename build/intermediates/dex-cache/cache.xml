@@ -1,3 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\alysh\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_8eea612df5f761430145d25039d7751412b7b98f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e96aeb516c10c7408453d54bcf17bd408fe41aee">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fb06770cb421a493e3315daca31ff6ae0f422930\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.0\7ff0e000d1e27e356567f56c92af3b8ab912636f\picasso-2.5.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.0_2caf5f78bf60e7958156a9384b38e1a81bec34a6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\com.vinaygaba\creditcardview\1.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="91075c5950a4a22c5802a3c0b746d3b4515ba24b">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.vinaygaba-creditcardview-1.0.3_cbdc637f4199ee2ee500835790f947c49fdb2b06\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_f284776384a16c56de87fa65e0f5ec09f0c7b4b6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\.gradle\caches\modules-2\files-2.1\com.google.zxing\android-integration\3.2.1\87a3d7da33a6c633fb1ff30023dbf0d05e8ea74c\android-integration-3.2.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="87a3d7da33a6c633fb1ff30023dbf0d05e8ea74c">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\android-integration-3.2.1_0295f104df76b47210010bd89e3222d8adc947c8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_aaeb6f4de54123544d47d052435769fdc08be700\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="da47b5635353ca55aabc9e1ad6aaaa5626fedcb4">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.paypal.sdk-paypal-android-sdk-2.14.2_616859401ec5d8c394f94a0a70864b0fc49c018b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_820521e43456a99787f72dfe0623b8f31ba32a31\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\com.github.ozodrukh\CircularReveal\1.0.5\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="990aaea33c54b40347e1f6243dbf4ae8f1d71d3f">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.ozodrukh-CircularReveal-1.0.5_fed6d805a36b304ce2ad696c96b6eab1c67e5e02\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_1483214275c23c76934a1a7fe0df34ed7d188d64\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_4d27bde74e34597dd450abbb88c19426a7fe8c55\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d4ce6303165f20650850673bd5891fbcca80caae">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.journeyapps-zxing-android-embedded-3.2.0_c23a332a1bfe91eea4b19c609cc594de26a5ced7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_c08c814a2b589b94bbe5fda478b0114c3a364c08\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a6638bd209aca037231fd3b435960fc860e77179">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5b85cd069a9612b1b51c6c09d0a74b05b3dc6940\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_a607c60bb402c8278fcbf245c91d5994d9439224\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\Dineamic\facebook\unspecified\jars\libs\bolts-android-1.1.4.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0cc08b3eede8669b5c209210afda5f6b04a654c0">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\8\bolts-android-1.1.4_33aa167ff96927756502aa1115defc4eb80ff9ef\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="28bc7007cc5fb935b0737a42f05b8286936228b0">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\io.card-android-sdk-5.3.4_40616d043e1d7cca3e31feaf332901e7509a4df8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\com.nhaarman.listviewanimations\lib-core\3.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="acf66033b1418ccf9e15c8e77750981e4809c4ea">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\com.nhaarman.listviewanimations-lib-core-3.1.0_98441df86b1a03eb63a8bf375e8f4c2db7aef86a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_2774fcd8b1a78c209f717e34ac8d0c1b48c370c9\classes.dex" />
+    </item>
+
+</items>

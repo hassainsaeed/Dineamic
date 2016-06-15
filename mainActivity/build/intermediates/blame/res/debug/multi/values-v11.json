@@ -380,14 +380,14 @@
                     "endOffset": 11889
                 },
                 "from": {
-                    "file": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-v11\\values.xml",
+                    "file": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.2.0\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 190,
-                        "endLine": 5,
+                        "startOffset": 55,
+                        "endLine": 3,
                         "endColumn": 10,
-                        "endOffset": 285
+                        "endOffset": 150
                     }
                 }
             }

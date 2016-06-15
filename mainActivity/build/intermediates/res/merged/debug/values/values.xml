@@ -198,6 +198,7 @@
     <declare-styleable name="com_facebook_like_view"><attr format="color" name="com_facebook_foreground_color"/><attr format="string" name="com_facebook_object_id"/><attr name="com_facebook_object_type"><enum name="unknown" value="0"/><enum name="open_graph" value="1"/><enum name="page" value="2"/></attr><attr name="com_facebook_style"><enum name="standard" value="0"/><enum name="button" value="1"/><enum name="box_count" value="2"/></attr><attr name="com_facebook_auxiliary_view_position"><enum name="bottom" value="0"/><enum name="inline" value="1"/><enum name="top" value="2"/></attr><attr name="com_facebook_horizontal_alignment"><enum name="center" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/></attr></declare-styleable>
     <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="com_facebook_confirm_logout"/><attr format="string" name="com_facebook_login_text"/><attr format="string" name="com_facebook_logout_text"/><attr name="com_facebook_tooltip_mode"><enum name="automatic" value="0"/><enum name="display_always" value="1"/><enum name="never_display" value="2"/></attr></declare-styleable>
     <declare-styleable name="com_facebook_profile_picture_view"><attr name="com_facebook_preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="com_facebook_is_cropped"/></declare-styleable>
+    <declare-styleable name="zxing_camera_preview"><attr format="dimension" name="zxing_framing_rect_width"/><attr format="dimension" name="zxing_framing_rect_height"/><attr format="boolean" name="zxing_use_texture_view"/><attr format="enum" name="zxing_preview_scaling_strategy"><enum name="centerCrop" value="1"/><enum name="fitCenter" value="2"/><enum name="fitXY" value="3"/></attr></declare-styleable>
     <declare-styleable name="zxing_finder"><attr format="color" name="zxing_possible_result_points"/><attr format="color" name="zxing_result_view"/><attr format="color" name="zxing_viewfinder_laser"/><attr format="color" name="zxing_viewfinder_mask"/></declare-styleable>
     <declare-styleable name="zxing_view"><attr format="reference" name="zxing_scanner_layout"/></declare-styleable>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
@@ -411,6 +412,7 @@
     <string name="reservationName">Reservation Under the Name Of:</string>
     <string name="reservationNumber">Contact Number for the Reservation:</string>
     <string name="returnToMenu">Return to Menu</string>
+    <string name="scan">Scan QR Code</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_add_to_wait_list">Add To WaitList</string>
     <string name="title_activity_have_been_added_to_wait_list">Have Been Added To Wait List</string>

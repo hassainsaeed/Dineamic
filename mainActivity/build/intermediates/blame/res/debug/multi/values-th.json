@@ -714,13 +714,13 @@
                     "endOffset": 3573
                 },
                 "from": {
-                    "file": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-th\\values.xml",
+                    "file": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.2.0\\res\\values-th\\values-th.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 195,
+                        "startOffset": 55,
                         "endColumn": 58,
-                        "endOffset": 249
+                        "endOffset": 109
                     }
                 }
             },
@@ -733,13 +733,13 @@
                     "endOffset": 3622
                 },
                 "from": {
-                    "file": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-th\\values.xml",
+                    "file": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.2.0\\res\\values-th\\values-th.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 254,
+                        "startOffset": 114,
                         "endColumn": 48,
-                        "endOffset": 298
+                        "endOffset": 158
                     }
                 }
             },
@@ -752,13 +752,13 @@
                     "endOffset": 3740
                 },
                 "from": {
-                    "file": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-th\\values.xml",
+                    "file": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.2.0\\res\\values-th\\values-th.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 303,
+                        "startOffset": 163,
                         "endColumn": 117,
-                        "endOffset": 416
+                        "endOffset": 276
                     }
                 }
             },
@@ -771,13 +771,13 @@
                     "endOffset": 3848
                 },
                 "from": {
-                    "file": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.0.2\\res\\values-th\\values.xml",
+                    "file": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.2.0\\res\\values-th\\values-th.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 421,
+                        "startOffset": 281,
                         "endColumn": 107,
-                        "endOffset": 524
+                        "endOffset": 384
                     }
                 }
             }

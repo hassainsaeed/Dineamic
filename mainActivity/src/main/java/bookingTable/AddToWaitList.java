@@ -12,6 +12,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 
 import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -33,6 +34,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 import globalVariables.GlobalVariable;
+import qrScanner.scanQRCode;
 
 public class AddToWaitList extends Activity {
 	@Override
@@ -40,57 +42,77 @@ public class AddToWaitList extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.booking_table_add_to_wait_list);
 
+		ActionBar bar = getActionBar();
+//for color
+		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
+
 		TelephonyManager tMgr =(TelephonyManager)this.getSystemService(Context.TELEPHONY_SERVICE);
-	    String mPhoneNumber = tMgr.getLine1Number();
-	    
-	    EditText editText = (EditText) findViewById(R.id.editPhoneNum);
-	    editText.setText(mPhoneNumber, EditText.BufferType.EDITABLE);
+		String mPhoneNumber = tMgr.getLine1Number();
+
+		EditText editText = (EditText) findViewById(R.id.editPhoneNum);
+		editText.setText(mPhoneNumber, EditText.BufferType.EDITABLE);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.action_bar_qr_button, menu);
+		return true;
 	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
+		//handle presses on the action bar items
+		switch (item.getItemId()) {
+
+			case R.id.qr_scanner:
+				Intent intent = new Intent(AddToWaitList.this, CaptureActivity.class);
+				intent.setAction("com.google.zxing.client.android.SCAN");
+				intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+				startActivityForResult(intent, 0);
+				return true;
+
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	
+	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+		new scanQRCode(requestCode,resultCode,intent,AddToWaitList.this).execute();
+	}
+	//End Code for the QR Scanner in the Action Bar
+
 	public static class PlaceholderFragment extends Fragment {
 		public PlaceholderFragment() { }
-		
+
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 			View rootView = inflater.inflate(R.layout.booking_table_add_to_wait_list, container,false);
 			return rootView;
 		}
-	
+
 	}
-	
+
 
 	//This function is to convert the InputStream from the HTMLURLConnection into a string
 	private String readStream(InputStream is) {
-		    try {
-		      ByteArrayOutputStream bo = new ByteArrayOutputStream();
-		      int i = is.read();
-		      while(i != -1) {
-		        bo.write(i);
-		        i = is.read();
-		      }
-		      return bo.toString();
-		    } catch (IOException e) {
-		      return "";
-		    }
+		try {
+			ByteArrayOutputStream bo = new ByteArrayOutputStream();
+			int i = is.read();
+			while(i != -1) {
+				bo.write(i);
+				i = is.read();
+			}
+			return bo.toString();
+		} catch (IOException e) {
+			return "";
+		}
 	}
-	
+
 	public void addToWaitList (View view) {
 		new addCustomerToWaitListDB().execute();
 	}
-	
-	
+
+
 	private class addCustomerToWaitListDB extends AsyncTask <Void,Void, Void> {
 		URL url = null;
 		String output = null;
@@ -99,9 +121,9 @@ public class AddToWaitList extends Activity {
 		EditText editTextNumber = (EditText) findViewById(R.id.editPhoneNum);
 		String customerNumber = editTextNumber.getText().toString();
 		String customerEmail = customerName.replace(" ", "_") + "@gmail.com";
-		final GlobalVariable globalNumSeats = (GlobalVariable)getApplicationContext(); 
+		final GlobalVariable globalNumSeats = (GlobalVariable)getApplicationContext();
 		final int numSeats = globalNumSeats.getNumSeats();
-		
+
 		@Override
 		protected Void doInBackground(Void... params) {
 			try {
@@ -119,8 +141,8 @@ public class AddToWaitList extends Activity {
 				e.printStackTrace();
 			}
 			return null;
-		}	
-		
+		}
+
 		@Override
 		protected void onPostExecute(Void result) {
 			if (output.equals("New record created successfully.")) {
@@ -128,19 +150,19 @@ public class AddToWaitList extends Activity {
 				startActivity(intent);
 			} else {
 				new AlertDialog.Builder(AddToWaitList.this)
-					.setTitle("Something Went Wrong")
-					.setMessage("Sorry, but for some reason we could not add you to the Waitlist. Please try adding yourself to the waitlist again. If the error persists, please contact Eatomatic's admins at:... \n\n Error: " + output)
-					.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+						.setTitle("Something Went Wrong")
+						.setMessage("Sorry, but for some reason we could not add you to the Waitlist. Please try adding yourself to the waitlist again. If the error persists, please contact Eatomatic's admins at:... \n\n Error: " + output)
+						.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int which) {
-									finish();
+								finish();
 							}
-				}).show();
+						}).show();
 			}
 			super.onPostExecute(result);
 		}
 	}
-	
-	
-	
-	
+
+
+
+
 }

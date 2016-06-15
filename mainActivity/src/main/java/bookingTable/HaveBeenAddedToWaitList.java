@@ -2,6 +2,7 @@ package bookingTable;
 
 
 import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -16,6 +17,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import qrScanner.scanQRCode;
+
 public class HaveBeenAddedToWaitList extends Activity {
 	public final static String EXTRA_MESSAGE = "com.example.bookatable.MESSAGE";
 	@Override
@@ -25,31 +28,52 @@ public class HaveBeenAddedToWaitList extends Activity {
 
 		Intent serviceIntent = new Intent(this,AddToWaitlistService.class);
 		this.startService(serviceIntent);
+		ActionBar bar = getActionBar();
+//for color
+		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
+
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.action_bar_qr_button, menu);
+		return true;
 	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
+		//handle presses on the action bar items
+		switch (item.getItemId()) {
+
+			case R.id.qr_scanner:
+				Intent intent = new Intent(HaveBeenAddedToWaitList.this, CaptureActivity.class);
+				intent.setAction("com.google.zxing.client.android.SCAN");
+				intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+				startActivityForResult(intent, 0);
+				return true;
+
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	
+
+	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+		new scanQRCode(requestCode,resultCode,intent,HaveBeenAddedToWaitList.this).execute();
+	}
+	//End Code for the QR Scanner in the Action Bar
+
 	public static class PlaceholderFragment extends Fragment {
 		public PlaceholderFragment() { }
-		
+
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 			View rootView = inflater.inflate(R.layout.booking_table_have_been_added_to_wait_list, container,false);
 			return rootView;
 		}
-		
+
 	}
-	
+
 	public void goBack(View view) {
 		Intent intent = new Intent(getApplicationContext(), BookingTableMainActivity.class);
 		startActivity(intent);

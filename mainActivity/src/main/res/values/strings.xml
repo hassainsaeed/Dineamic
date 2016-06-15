@@ -123,5 +123,6 @@
     <string name="title_activity_nfcdetails">NFCDetails</string>
     
     <string name="attachNFCToRead">Please tap the required NFC Tag!</string>
+    <string name="scan">Scan QR Code</string>
 	<string name="payment_activity">Payment</string>
 </resources>

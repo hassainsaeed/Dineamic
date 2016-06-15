@@ -4,12 +4,10 @@ package dynamicMenu;
 import android.app.ActionBar;
 import android.app.ActionBar.LayoutParams;
 import android.app.FragmentTransaction;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -20,6 +18,8 @@ import android.text.Html;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -33,15 +33,16 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 
-import java.io.InputStream;
 import java.util.ArrayList;
 
 import globalVariables.GlobalVariable;
+import qrScanner.scanQRCode;
 
 
 public class DynamicMenuFragmentActivity extends FragmentActivity implements ActionBar.TabListener {
@@ -143,7 +144,34 @@ public class DynamicMenuFragmentActivity extends FragmentActivity implements Act
 
         }
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.action_bar_qr_button, menu);
+        return true;
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        //handle presses on the action bar items
+        switch (item.getItemId()) {
+
+            case R.id.qr_scanner:
+                Intent intent = new Intent(DynamicMenuFragmentActivity.this, CaptureActivity.class);
+                intent.setAction("com.google.zxing.client.android.SCAN");
+                intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+                startActivityForResult(intent, 0);
+                return true;
+
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        new scanQRCode(requestCode,resultCode,intent,DynamicMenuFragmentActivity.this).execute();
+    }
     @Override
     public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
 

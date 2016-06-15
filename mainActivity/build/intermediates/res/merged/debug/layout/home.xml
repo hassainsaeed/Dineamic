@@ -24,11 +24,6 @@
             android:gravity="center_vertical|center_horizontal"
             android:background="#ffffffff"
             android:textColor="#fb1d91db" />
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"></LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -85,15 +80,6 @@
             android:background="#ffffffff"
             android:src="@drawable/qr_scanner" />
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginBottom="10dp"
-        android:layout_weight="1">
-
         <ImageView
             android:id="@+id/userProfile"
             android:layout_width="wrap_content"
@@ -101,6 +87,7 @@
             android:layout_weight="1"
             android:background="#ffffffff"
             android:src="@drawable/user_profile" />
+
     </LinearLayout>
 
 
