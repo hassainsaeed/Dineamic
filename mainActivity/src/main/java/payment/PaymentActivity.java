@@ -208,16 +208,19 @@ public class PaymentActivity extends FragmentActivity  {
                 TextView itemPrice = new TextView(PaymentActivity.this);
                 itemName.setText(item);
                 itemName.setTextColor(Color.parseColor("#000000"));
-                itemName.setTextSize(20);
+                itemName.setTextSize(17);
+                itemName.setPadding(20,0,0,0);
                 itemPrice.setText("$" + item_price);
                 itemPrice.setTextColor(Color.parseColor("#000000"));
-                itemPrice.setTextSize(20);
+                itemPrice.setTextSize(17);
+                itemPrice.setPadding(0,0,0,15);
+                tr.setBackgroundResource(R.drawable.border);
 
-                if (i%2==0){
+          /*      if (i%2==0){
                     tr.setBackgroundColor(Color.parseColor("#d3d3d3"));
 
                 }
-                else { tr.setBackgroundColor(Color.parseColor("#a8a8a8"));}
+                else { tr.setBackgroundColor(Color.parseColor("#a8a8a8"));}*/
                 tr.addView(itemName, cellLp);
                 tr.addView(itemPrice, cellLp);
                 tl.addView(tr, rowLp);
@@ -311,6 +314,7 @@ public class PaymentActivity extends FragmentActivity  {
                 public void onClick(View v) {
                     Intent i = new Intent(PaymentActivity.this, PayBillActivity.class);
                     startActivity(i);
+                    refresh=0;
                 }
             });
 

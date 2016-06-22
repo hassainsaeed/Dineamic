@@ -480,7 +480,7 @@ public final class R {
 		public static final int button_round_msg = 0x7f040021;
 		public static final int list_item = 0x7f040031;
 		public static final int overlay_list_item = 0x7f040043;
-		public static final int support_simple_spinner_dropdown_item = 0x7f040056;
+		public static final int support_simple_spinner_dropdown_item = 0x7f040055;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f070000;

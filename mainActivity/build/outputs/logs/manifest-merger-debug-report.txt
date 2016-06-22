@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:2:1-273:12
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:2:1-246:12
 	package
 		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml
@@ -103,7 +103,7 @@ MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\alysh\Dineam
 	android:name
 		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:22:19-63
 application
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:23:5-271:19
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:23:5-244:19
 MERGED from [Dineamic:facebook:unspecified] C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\Dineamic\facebook\unspecified\AndroidManifest.xml:27:5-20
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [Dineamic:userProfileLibrary:unspecified] C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\Dineamic\userProfileLibrary\unspecified\AndroidManifest.xml:11:5-47
@@ -263,7 +263,7 @@ ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:121
 	android:name
 		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:121:18-66
 activity#bookingTable.BookingTableMainActivity
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:123:9-139:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:123:9-130:20
 	android:screenOrientation
 		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:127:13-49
 	android:label
@@ -272,152 +272,148 @@ ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:123
 		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:125:13-63
 	android:name
 		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:124:13-65
-intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:129:13-138:29
-action#android.nfc.action.NDEF_DISCOVERED
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:130:17-77
-	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:130:25-74
-data
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:134:17-137:45
-	android:host
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:135:21-48
-	android:scheme
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:137:21-42
-	android:pathPrefix
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:136:21-57
 activity#bookingTable.NoAvailableTables
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:140:9-150:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:131:9-141:20
 	android:screenOrientation
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:145:13-49
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:136:13-49
 	android:label
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:143:13-71
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:134:13-71
 	android:parentActivityName
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:144:13-79
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:135:13-79
 	android:configChanges
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:142:13-63
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:133:13-63
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:141:13-58
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:132:13-58
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:147:13-149:73
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:138:13-140:73
 	android:value
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:149:17-70
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:140:17-70
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:148:17-63
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:139:17-63
 activity#bookingTable.AddToWaitList
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:151:9-157:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:142:9-148:20
 	android:screenOrientation
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:155:13-49
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:146:13-49
 	android:label
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:154:13-68
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:145:13-68
 	android:configChanges
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:153:13-63
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:144:13-63
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:152:13-54
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:143:13-54
 activity#bookingTable.HaveBeenAddedToWaitList
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:158:9-168:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:149:9-159:20
 	android:screenOrientation
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:163:13-49
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:154:13-49
 	android:label
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:161:13-80
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:152:13-80
 	android:parentActivityName
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:162:13-68
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:153:13-68
 	android:configChanges
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:160:13-63
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:151:13-63
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:159:13-64
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:150:13-64
 activity#bookingTable.YesAvailableTables
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:169:9-179:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:160:9-170:20
 	android:screenOrientation
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:174:13-49
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:165:13-49
 	android:label
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:172:13-72
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:163:13-72
 	android:parentActivityName
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:173:13-79
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:164:13-79
 	android:configChanges
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:171:13-63
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:162:13-63
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:170:13-59
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:161:13-59
 activity#menu.Menu_pdf
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:180:9-193:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:171:9-175:20
 	android:label
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:182:13-60
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:173:13-60
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:181:13-41
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:172:13-41
 activity#parking.Parking_lot
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:194:9-208:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:176:9-181:20
 	android:label
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:196:13-63
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:178:13-63
 	android:theme
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:197:13-48
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:179:13-48
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:195:13-47
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:177:13-47
 activity#homePage.ParkingTutorialFragment
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:209:9-212:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:182:9-185:20
 	android:label
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:211:13-62
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:184:13-62
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:210:13-60
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:183:13-60
 activity#dynamicMenu.DynamicMenuFragmentActivity
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:213:9-219:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:186:9-192:20
 	android:screenOrientation
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:216:13-49
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:189:13-49
 	android:label
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:215:13-45
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:188:13-45
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:214:13-67
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:187:13-67
 activity#nfc.NFCDetails
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:221:9-234:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:194:9-207:20
 	android:label
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:223:13-45
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:196:13-45
 	android:parentActivityName
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:224:13-81
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:197:13-81
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:222:13-42
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:195:13-42
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:200:13-206:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:201:17-77
+	android:name
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:201:25-74
+data
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:205:17-55
+	android:mimeType
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:205:23-52
 activity#io.card.payment.CardIOActivity
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:235:9-118
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:208:9-118
 MERGED from [io.card:android-sdk:5.3.4] C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:22:9-24:66
 MERGED from [io.card:android-sdk:5.3.4] C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:22:9-24:66
 	android:configChanges
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:235:65-115
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:208:65-115
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:235:19-64
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:208:19-64
 activity#io.card.payment.DataEntryActivity
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:236:9-70
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:209:9-70
 MERGED from [io.card:android-sdk:5.3.4] C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:25:9-70
 MERGED from [io.card:android-sdk:5.3.4] C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:25:9-70
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:236:19-67
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:209:19-67
 activity#payment.PaymentActivity
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:237:9-242:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:210:9-215:20
 	android:label
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:239:13-53
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:212:13-53
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:238:13-51
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:211:13-51
 activity#payment.PayBillActivity
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:243:9-247:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:216:9-220:20
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:244:13-51
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:217:13-51
 activity#payment.SplitItemsActivity
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:248:9-252:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:221:9-225:20
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:249:13-54
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:222:13-54
 activity#payment.InviteSomeoneActivity
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:254:9-258:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:227:9-231:20
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:255:13-57
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:228:13-57
 activity#payment.ReviewPageActivity
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:259:9-263:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:232:9-236:20
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:260:13-54
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:233:13-54
 activity#dynamicMenu.DishStatusActivity
-ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:264:9-268:20
+ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:237:9-241:20
 	android:name
-		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:265:13-58
+		ADDED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:238:13-58
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:2:1-273:12 reason: com.facebook has a targetSdkVersion < 4
+IMPLIED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:2:1-246:12 reason: com.facebook has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:2:1-273:12 reason: com.facebook requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\alysh\Dineamic\mainActivity\src\main\AndroidManifest.xml:2:1-246:12 reason: com.facebook requested WRITE_EXTERNAL_STORAGE
 uses-feature#android.hardware.camera.front
 ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\alysh\Dineamic\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:27:5-29:36
 	android:required

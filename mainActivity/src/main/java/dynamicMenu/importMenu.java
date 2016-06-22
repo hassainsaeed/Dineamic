@@ -62,6 +62,32 @@ public  class importMenu extends AsyncTask<String, String, String> {
 			e.printStackTrace();
 		}
 		GlobalVariable.setMenuList(list);
+		int [] numOfMenuItems= new int [4];
+		for (int i = 0; i < list.size(); i++) {
+			try {
+				if(list.get(i).getString(2).equals("breakfast")) {
+
+
+
+                        numOfMenuItems[0]++;
+
+                }
+				else if(list.get(i).getString(2).equals("lunchanddinner")) {
+					numOfMenuItems[1]++;
+				}
+				if(list.get(i).getString(2).equals("desserts")) {
+					numOfMenuItems[2]++;
+				}
+				if(list.get(i).getString(2).equals("drinks")) {
+					numOfMenuItems[3]++;
+				}
+			} catch (JSONException e) {
+				e.printStackTrace();
+			}
+
+
+		}
+GlobalVariable.setMenuNumberOfItems(numOfMenuItems);
 		return null;
 	}
 

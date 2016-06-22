@@ -42,6 +42,7 @@ import org.json.JSONException;
 import java.util.ArrayList;
 
 import globalVariables.GlobalVariable;
+import homePage.HomePageMainActivity;
 import qrScanner.scanQRCode;
 
 
@@ -52,10 +53,10 @@ public class DynamicMenuFragmentActivity extends FragmentActivity implements Act
     static ViewPager mViewPager;
     static int tableNumber;
     static boolean found=false;
-    static  int numItems_breakfast = 5;
-    static  int numItems_lunchanddinner = 7;
-    static  int numItems_dessert = 3;
-    static  int numItems_drinks = 5;
+    static  int numItems_breakfast = GlobalVariable.getMenuNumberOfItems()[0];
+    static  int numItems_lunchanddinner = GlobalVariable.getMenuNumberOfItems()[1];
+    static  int numItems_dessert =  GlobalVariable.getMenuNumberOfItems()[2];
+    static  int numItems_drinks =  GlobalVariable.getMenuNumberOfItems()[3];
 
     //need a count for each fragment
     static  int[] count_1 = new int[numItems_breakfast];
@@ -145,6 +146,14 @@ public class DynamicMenuFragmentActivity extends FragmentActivity implements Act
         }
     }
     @Override
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        startActivity(new Intent(DynamicMenuFragmentActivity.this, HomePageMainActivity.class));
+        finish();
+
+    }
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.action_bar_qr_button, menu);
         return true;
@@ -229,7 +238,10 @@ public class DynamicMenuFragmentActivity extends FragmentActivity implements Act
                     args4.putInt("tableNumber", tableNumber);
                     fragment4.setArguments(args4);
                     return fragment4;
-                case 4:
+
+
+
+                default:
 
                     Fragment fragment5 = new SummaryPageFragment(numItems_breakfast, numItems_lunchanddinner, numItems_dessert, numItems_drinks,breakfast, breakfast_price, lunchanddinner, lunchanddinner_price, desserts,
                             desserts_price, drinks, drinks_price, count_1, count_2, count_3, count_4,breakfast_comments,lunchanddinner_comments,desserts_comments,drinks_comments);
@@ -240,14 +252,6 @@ public class DynamicMenuFragmentActivity extends FragmentActivity implements Act
                     fragment5.setArguments(args5);
                     return fragment5;
 
-                default:
-
-                    Fragment fragment6 = new DummySectionFragment();
-                    Bundle args6 = new Bundle();
-                    args6.putInt(DummySectionFragment.ARG_SECTION_NUMBER, i + 1);
-                    args6.putInt("tableNumber", tableNumber);
-                    fragment6.setArguments(args6);
-                    return fragment6;
 
             }
         }
@@ -276,12 +280,9 @@ public class DynamicMenuFragmentActivity extends FragmentActivity implements Act
                 case 3:
 
                     return "DRINKS";
-                case 4:
-
-                    return "SUMMARY PAGE";
                 default:
 
-                    return "LUNCH & DINNER";
+                    return "SUMMARY PAGE";
             }
         }
     }
@@ -831,6 +832,7 @@ index ++;
                 });
                 TableRow tr = new TableRow(getActivity());
                 tr.setId(1000 + 21);
+                tr.setGravity(Gravity.CENTER);
                 tr.addView(summary);
                 tl.addView(tr);
             }
@@ -1042,13 +1044,14 @@ index ++;
                     });
                     tr2.setPadding(0,0,500,50);
                     tr2.addView(addComment);
+                    tr.setGravity(Gravity.CENTER);
                     tl.addView(tr);
                     tl.addView(tr2);
 
                 }
                 Button summary = new Button(getActivity());
                 summary.setId(5002);
-                summary.setText("Proceed to Checkout");
+                summary.setText("Proceed to Summary Page ");
                 // Typeface face = Typeface.createFromAsset(this.getActivity().getAssets(),
                 //       "Lobster_1.3.otf");
                 summary.setBackgroundColor(Color.parseColor("#fb1d91db"));
@@ -1061,6 +1064,7 @@ index ++;
                 });
                 TableRow tr = new TableRow(getActivity());
                 tr.setId(1000 + 22);
+                tr.setGravity(Gravity.CENTER);
                 tr.addView(summary);
                 tl.addView(tr);
             }
@@ -1069,7 +1073,7 @@ index ++;
             //if drinks fragment
             if (temp == 4) {
                 // Get the TableLayout
-                final TableLayout tl = (TableLayout) rootView.findViewById(R.id.maintable);
+                 TableLayout tl = (TableLayout) rootView.findViewById(R.id.maintable);
                 ScrollView ll = (ScrollView) rootView.findViewById(R.id.scrollview1);
                 tl.setBackgroundColor(Color.WHITE);
                 ll.setBackgroundColor(Color.WHITE);
@@ -1270,25 +1274,28 @@ index ++;
                     //STOPPEDHERE
                     tr2.setPadding(0,0,500,50); //LTRB
                     tr2.addView(addComment);
+                    tr.setGravity(Gravity.CENTER);
                     tl.addView(tr);
                     tl.addView(tr2);
                 }
                 Button summary = new Button(getActivity());
-                summary.setId(5003);
-                summary.setText("Proceed to Checkout");
+                summary.setId(5005);
+                summary.setText("Proceed to Summary Page");
                 summary.setBackgroundColor(Color.parseColor("#fb1d91db"));
                 summary.setTextColor(Color.WHITE);
                 //   summary.setTypeface(face);
                 summary.setOnClickListener(new OnClickListener() {
                     public void onClick(View arg0) {
-
-
                         mViewPager.setCurrentItem(4);
+
+                    //    Log.e("NumberDrinks", numItems_drinks + "");
+
                     }
                 });
                 TableRow tr = new TableRow(getActivity());
-                tr.setId(1000 + 23);
+                tr.setId(1000 + 25);
                 tr.addView(summary);
+                tr.setGravity(Gravity.CENTER);
                 tl.addView(tr);
             }
 

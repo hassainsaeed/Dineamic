@@ -284,6 +284,10 @@
         "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_action_user.png"
     },
     {
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qr_scanner_small.jpg",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\drawable-hdpi\\qr_scanner_small.jpg"
+    },
+    {
         "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qr_scanner.jpg",
         "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\drawable-hdpi\\qr_scanner.jpg"
     },
@@ -688,12 +692,12 @@
         "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\drawable-hdpi\\tapnfc.jpg"
     },
     {
-        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
-        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
-    },
-    {
         "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\userpic.jpg",
         "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\drawable-hdpi\\userpic.jpg"
+    },
+    {
+        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
+        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
     },
     {
         "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",

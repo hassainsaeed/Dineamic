@@ -12,7 +12,9 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RatingBar;
@@ -170,6 +172,14 @@ public class ReviewPageActivity extends FragmentActivity {
             final int[] count_3 = DynamicMenuFragmentActivity.DummySectionFragment.count_3;
             final int[] count_4 = DynamicMenuFragmentActivity.DummySectionFragment.count_4;*/
 				TableLayout tl = (TableLayout) findViewById(R.id.summarytable);
+				TableLayout.LayoutParams rowLp = new TableLayout.LayoutParams(
+						ViewGroup.LayoutParams.MATCH_PARENT,
+						ViewGroup.LayoutParams.MATCH_PARENT,
+						1.0f);
+				TableRow.LayoutParams cellLp = new TableRow.LayoutParams(
+						ViewGroup.LayoutParams.MATCH_PARENT,
+						ViewGroup.LayoutParams.MATCH_PARENT,
+						1.0f);
 				//tl.setBackground(getResources().getDrawable(R.drawable.summary_page_white_paper));
 				TableRow row = new TableRow(ReviewPageActivity.this);
 				SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
@@ -184,11 +194,13 @@ public class ReviewPageActivity extends FragmentActivity {
 				SummaryIntro.setTextColor(Color.parseColor("#fb1d91db"));
 				SummaryIntro.setTextAlignment(3);
 				SummaryIntro.setTextSize(26);
-				row.addView(SummaryIntro);
-				tl.addView(row);
+				row.addView(SummaryIntro, cellLp);
+				tl.addView(row, rowLp);
+
 				double subtotal = 0;
 				final double tax = 1.13;
 				TableRow rowDesc = new TableRow(ReviewPageActivity.this);
+				rowDesc.setGravity(17);
 				TextView ItemName = new TextView(ReviewPageActivity.this);
 				//TextView Quantity = new TextView(ReviewPageActivity.this);
 				TextView Price = new TextView(ReviewPageActivity.this);
@@ -204,9 +216,8 @@ public class ReviewPageActivity extends FragmentActivity {
 				ItemName.setTextSize(20);
 				//Quantity.setTextSize(20);
 				Price.setTextSize(20);
-				rowDesc.addView(ItemName);
-				//rowDesc.addView(Quantity);
-				rowDesc.addView(Price);
+				rowDesc.addView(ItemName, cellLp);
+				rowDesc.addView(Price, cellLp);
 				tl.addView(rowDesc);
 				int Id = 100000;
 				//Log.d(, "Count is" + count_4[0] + count_4[1]);
@@ -232,7 +243,7 @@ public class ReviewPageActivity extends FragmentActivity {
 					RatingBar rating = new RatingBar(ReviewPageActivity.this);
 					rating.setId(Id);
 					itemName.setText(item);
-					itemName.setTextColor(Color.parseColor("#fb1d91db"));
+					itemName.setTextColor(Color.parseColor("#000000"));
 					itemName.setTextAlignment(3);
 					itemName.setTextSize(20);
 					//	itemName.setTypeface(face);
@@ -244,13 +255,16 @@ public class ReviewPageActivity extends FragmentActivity {
 				itemQuantity.setTextSize(20);
 				itemQuantity.setTypeface(face);*/
 					itemPrice.setText("$" + item_price);
-					itemPrice.setTextColor(Color.parseColor("#fb1d91db"));
+					itemPrice.setTextColor(Color.parseColor("#000000"));
 					itemPrice.setTextAlignment(3);
 					itemPrice.setTextSize(20);
 					//	itemPrice.setTypeface(face);
-
+					itemName.setPadding(20,0,0,0);
+					itemPrice.setPadding(0,0,0,15);
 					tr.addView(itemName);
 					//tr.addView(itemQuantity);
+					tr.setBackgroundResource(R.drawable.border);
+					tr2.setBackgroundResource(R.drawable.border);
 					tr.addView(itemPrice);
 					tr2.addView(rating);
 					tl.addView(tr);
@@ -277,8 +291,8 @@ public class ReviewPageActivity extends FragmentActivity {
 				itemSubtotal2.setTextColor(Color.parseColor("#fb1d91db"));
 				itemSubtotal2.setTextAlignment(3);
 				itemSubtotal2.setTextSize(20);
-				tr.addView(itemSubtotal);
-				tr.addView(itemSubtotal2);
+				tr.addView(itemSubtotal, cellLp);
+				tr.addView(itemSubtotal2,cellLp);
 				TableRow tr2 = new TableRow(ReviewPageActivity.this);
 				TextView itemTaxes = new TextView(ReviewPageActivity.this);
 				//itemTaxes.setTypeface(face);
@@ -286,7 +300,7 @@ public class ReviewPageActivity extends FragmentActivity {
 				itemTaxes.setTextColor(Color.parseColor("#fb1d91db"));
 				itemTaxes.setTextAlignment(3);
 				itemTaxes.setTextSize(20);
-				tr2.addView(itemTaxes);
+				tr2.addView(itemTaxes,cellLp);
 				TextView itemTaxes2 = new TextView(ReviewPageActivity.this);
 				itemTaxes2.setId(5556);
 				//	itemTaxes2.setTypeface(face);
@@ -299,7 +313,7 @@ public class ReviewPageActivity extends FragmentActivity {
 				itemTaxes2.setTextAlignment(3);
 				itemTaxes2.setTextSize(20);
 
-				tr2.addView(itemTaxes2);
+				tr2.addView(itemTaxes2, cellLp);
 				TableRow tr3 = new TableRow(ReviewPageActivity.this);
 				TextView itemTotalDue = new TextView(ReviewPageActivity.this);
 				itemTotalDue.setId(5557);
@@ -307,8 +321,7 @@ public class ReviewPageActivity extends FragmentActivity {
 				itemTotalDue.setTextColor(Color.parseColor("#fb1d91db"));
 				itemTotalDue.setTextAlignment(3);
 				itemTotalDue.setTextSize(20);
-				//	itemTotalDue.setTypeface(face);
-				tr3.addView(itemTotalDue);
+				tr3.addView(itemTotalDue, cellLp);
 				TextView itemTotalDue2 = new TextView(ReviewPageActivity.this);
 				itemTotalDue2.setId(5557);
 				val = subtotal * tax;
@@ -320,24 +333,33 @@ public class ReviewPageActivity extends FragmentActivity {
 				itemTotalDue2.setTextAlignment(3);
 				itemTotalDue2.setTextSize(20);
 				//	itemTotalDue2.setTypeface(face);
-				tr3.addView(itemTotalDue2);
-				tl.addView(tr);
-				tl.addView(tr2);
-				tl.addView(tr3);
+
+				tr3.addView(itemTotalDue2,cellLp);
+				tl.addView(tr,rowLp);
+				tl.addView(tr2, rowLp);
+				tl.addView(tr3, rowLp);
+				TableRow.LayoutParams params = new TableRow.LayoutParams(
+						ViewGroup.LayoutParams.MATCH_PARENT  ,
+						ViewGroup.LayoutParams.MATCH_PARENT, 0.5f);
+				params.setMargins(10,10,10,10);
+				params.gravity= Gravity.CENTER;
 				TextView reviewText = new TextView(ReviewPageActivity.this);
 				reviewText.setText("Additional Comments");
 				reviewText.setTextColor(Color.parseColor("#fb1d91db"));
 				reviewText.setTextAlignment(3);
 				reviewText.setTextSize(20);
+				//reviewText.setLayoutParams(params);
 				//	reviewText.setTypeface(face);
 				EditText reviewBox = new EditText(ReviewPageActivity.this);
 				reviewBox.setNestedScrollingEnabled(true);
 				reviewBox.setMaxWidth(20);
+				//reviewBox.setLayoutParams(params);
 				Button submitReviews = new Button(ReviewPageActivity.this);
 				//	submitReviews.setTypeface(face);
 				submitReviews.setText("Submit");
 				submitReviews.setBackgroundColor(Color.parseColor("#fb1d91db"));
 				submitReviews.setTextColor(Color.WHITE);
+				submitReviews.setLayoutParams(params);
 				submitReviews.setOnClickListener(new View.OnClickListener() {
 					RatingBar bar = (RatingBar) findViewById(200);
 

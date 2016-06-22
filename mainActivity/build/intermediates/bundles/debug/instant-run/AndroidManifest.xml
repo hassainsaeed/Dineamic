@@ -147,16 +147,6 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data
-                    android:host="52.11.144.56"
-                    android:pathPrefix="/booktable.html"
-                    android:scheme="http" />
-            </intent-filter>
         </activity>
         <activity
             android:name="bookingTable.NoAvailableTables"
@@ -197,31 +187,11 @@
         <activity
             android:name="menu.Menu_pdf"
             android:label="@string/title_activity_menu_pdf" >
-            <intent-filter>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data
-                    android:host="52.11.144.56"
-                    android:pathPrefix="/menu.html"
-                    android:scheme="http" />
-            </intent-filter>
         </activity>
         <activity
             android:name="parking.Parking_lot"
             android:label="@string/title_activity_parking_lot"
             android:theme="@style/AppBaseTheme" >
-            <intent-filter>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data
-                    android:host="52.11.144.56"
-                    android:pathPrefix="/parking.html"
-                    android:scheme="http" />
-            </intent-filter>
         </activity>
         <activity
             android:name="homePage.ParkingTutorialFragment"

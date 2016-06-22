@@ -4,26 +4,31 @@
     api-level="23"
     density="xxxhdpi"
     format="7"
-    timestamp="435173844683047" >
+    timestamp="145354992976912" >
 
     <task
         name="javac"
-        duration="20337" />
+        duration="5745" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="43680" />
+        duration="52" />
     <task
         name="verifier"
-        duration="6929" />
+        duration="3" />
 
     <artifact
-        location="C:\Users\alysh\Dineamic\mainActivity\build\outputs\apk\mainActivity-debug.apk"
-        type="MAIN" />
+        location="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+        type="DEX" />
 
-    <build timestamp="435173844683047" >
+    <build timestamp="145354992976912" >
+        <artifact
+            location="C:\Users\alysh\Dineamic\mainActivity\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="536860174803187" >
         <artifact
             location="C:\Users\alysh\Dineamic\mainActivity\build\outputs\apk\mainActivity-debug.apk"
             type="MAIN" />

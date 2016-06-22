@@ -450,9 +450,9 @@ public final class R {
 		public static final int chip = 0x7f02005e;
 		public static final int discover = 0x7f020073;
 		public static final int mastercard = 0x7f0200a3;
-		public static final int notification_template_icon_bg = 0x7f0200e8;
-		public static final int round_rect = 0x7f0200c6;
-		public static final int visa = 0x7f0200e5;
+		public static final int notification_template_icon_bg = 0x7f0200e9;
+		public static final int round_rect = 0x7f0200c7;
+		public static final int visa = 0x7f0200e6;
 	}
 	public static final class id {
 		public static final int action0 = 0x7f0e00ca;
@@ -606,10 +606,10 @@ public final class R {
 		public static final int notification_template_media = 0x7f040040;
 		public static final int notification_template_part_chronometer = 0x7f040041;
 		public static final int notification_template_part_time = 0x7f040042;
-		public static final int select_dialog_item_material = 0x7f04004d;
-		public static final int select_dialog_multichoice_material = 0x7f04004e;
-		public static final int select_dialog_singlechoice_material = 0x7f04004f;
-		public static final int support_simple_spinner_dropdown_item = 0x7f040056;
+		public static final int select_dialog_item_material = 0x7f04004c;
+		public static final int select_dialog_multichoice_material = 0x7f04004d;
+		public static final int select_dialog_singlechoice_material = 0x7f04004e;
+		public static final int support_simple_spinner_dropdown_item = 0x7f040055;
 	}
 	public static final class mipmap {
 		public static final int amex = 0x7f030000;

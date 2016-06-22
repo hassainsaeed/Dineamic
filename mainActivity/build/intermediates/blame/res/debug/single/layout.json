@@ -180,10 +180,6 @@
         "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\qr_scanner_title_bar.xml",
-        "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\qr_scanner_title_bar.xml"
-    },
-    {
         "merged": "C:\\Users\\alysh\\Dineamic\\mainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_list_view_row_layout.xml",
         "source": "C:\\Users\\alysh\\Dineamic\\mainActivity\\src\\main\\res\\layout\\home_list_view_row_layout.xml"
     },

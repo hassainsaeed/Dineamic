@@ -12,6 +12,7 @@ public class GlobalVariable extends Application{
 	public static int tableNumber=0;
 	public static double totalDue=0;
     public static ArrayList<JSONArray> menuList;
+	public static int [] numberOfMenuItems;
 	public static void setNumSeats(int nNumSeats) {
 		numSeats = nNumSeats;
 	}
@@ -42,5 +43,11 @@ public class GlobalVariable extends Application{
 	}
 	public static ArrayList<JSONArray>  getMenuListz() {
 		return menuList;
+	}
+	public static void setMenuNumberOfItems(int [] list) {
+		numberOfMenuItems=list;
+	}
+	public static int []  getMenuNumberOfItems() {
+		return numberOfMenuItems;
 	}
 }
