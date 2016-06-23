@@ -1,33 +1,29 @@
 package menu;
 import android.app.ActionBar;
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.support.v7.app.ActionBarActivity;
-
-import com.hmkcode.android.sign.R;
-import com.journeyapps.barcodescanner.CaptureActivity;
-
-import android.app.Activity;
-import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.graphics.PointF;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
-import android.view.ViewTreeObserver;
-import android.widget.GridView;
 import android.widget.ImageView;
+
+import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
+import com.squareup.picasso.Picasso;
 
 import qrScanner.scanQRCode;
 
 public class Menu_pdf extends Activity implements OnTouchListener {
 	private static final String TAG = "Touch";
 	int finalHeight, finalWidth;
-
+	private String restaurantName;
 	//moving and zooming the image
 	Matrix matrix = new Matrix();
 	Matrix savedMatrix = new Matrix();
@@ -52,7 +48,15 @@ public class Menu_pdf extends Activity implements OnTouchListener {
 		ActionBar bar = getActionBar();
 //for color
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
+
+		Intent intent = getIntent();
+		this.restaurantName = intent.getStringExtra("Restaurant Name");
+		String menuURL = "http://52.11.144.56/" + restaurantName + "_menu.jpg";
+
 		ImageView view = (ImageView) findViewById(R.id.image1);
+		Picasso.with(Menu_pdf.this)
+				.load(menuURL)
+				.into(view);
 		view.setScaleType(ImageView.ScaleType.FIT_CENTER);
 		view.setOnTouchListener(this);
 		finalHeight = view.getMeasuredHeight();

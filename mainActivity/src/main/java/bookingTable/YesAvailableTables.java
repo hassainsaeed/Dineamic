@@ -21,7 +21,7 @@ import android.widget.TextView;
 import qrScanner.scanQRCode;
 
 public class YesAvailableTables extends Activity {
-
+	private String restaurantName;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -30,11 +30,7 @@ public class YesAvailableTables extends Activity {
 //for color
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 		Intent intent = getIntent();
-		String message = intent.getStringExtra(BookingTableMainActivity.EXTRA_MESSAGE);
-
-		TextView textView = (TextView) findViewById(R.id.editText1);
-		textView.setTextSize(20);
-		textView.setText(message);
+		restaurantName = intent.getStringExtra("Restaurant Name");
 
 	}
 
@@ -58,6 +54,11 @@ public class YesAvailableTables extends Activity {
 				startActivityForResult(intent, 0);
 				return true;
 
+			case android.R.id.home:
+				intent = new Intent(getApplicationContext(), BookingTableMainActivity.class);
+				intent.putExtra("Restaurant Name", restaurantName);
+				startActivity(intent);
+				return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}
@@ -82,6 +83,7 @@ public class YesAvailableTables extends Activity {
 
 	public void goBack(View view) {
 		Intent intent = new Intent(getApplicationContext(), BookingTableMainActivity.class);
+		intent.putExtra("Restaurant Name", restaurantName);
 		startActivity(intent);
 	}
 }

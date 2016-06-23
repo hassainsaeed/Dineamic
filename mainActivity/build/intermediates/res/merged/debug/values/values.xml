@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="array_names">
-        <item>"Anastasia Druzhinina"</item>
-        <item>"Andriy Hristyan"</item>
-        <item>"Dmitriy Dovbnya"</item>
-        <item>"Dmitry Denisenko"</item>
-        <item>"Eduard Baev"</item>
-        <item>"Iliya Bershadskiy"</item>
-        <item>"Kirill Penzykov"</item>
-        <item>"Konstantin Rudenko"</item>
-        <item>"Oleksii Shliama"</item>
-        <item>"Pavel Apisov"</item>
-        <item>"Vadim Ooleynik"</item>
+        <item>"Chipotle"</item>
+        <item>"KFC"</item>
+        <item>"Burger King"</item>
+        <item>"Pizza Hut"</item>
+        <item>"Wendy's"</item>
+        <item>"Nando's"</item>
+        <item>"Taco Bell"</item>
+        <item>"In-N-Out Burger"</item>
+
     </string-array>
     <string-array name="nav_options">
         <item>Home</item>
@@ -399,10 +397,8 @@
     <string name="findTable">Find Table</string>
     <string name="font_path">fonts/halter.ttf</string>
     <string name="hello_world">Hello world!</string>
-    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
-    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </string>
+    <string name="lorem_ipsum_long">This is a more detailed description of the restaurant </string>
+    <string name="lorem_ipsum_short">This is a short description of the restaurant </string>
     <string name="messenger_send_button_text">Send</string>
     <string name="no_available_title">TABLE IS NOT AVAILABLE</string>
     <string name="other">Other:</string>
@@ -426,9 +422,9 @@
     <string name="title_activity_sign_up_menu">SignUpMenu</string>
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_yes_available_tables">YesAvailableTables</string>
-    <string name="title_following">Following</string>
-    <string name="toolbar_bio">Bio</string>
-    <string name="toolbar_details">Details</string>
+    <string name="title_following">Near By Restaurants</string>
+    <string name="toolbar_bio">Details</string>
+    <string name="toolbar_details">Contact</string>
     <string name="valid_till">VALID TILL</string>
     <string name="yes_available_title">TABLE IS AVAILABLE</string>
     <string name="you_can_remove">You can remove yourself from the Waitlist at anytime by going into Menu --> Settings --> Waitlists </string>

@@ -34,17 +34,15 @@ public class UserProfile extends EuclidActivity {
         List<Map<String, Object>> profilesList = new ArrayList<>();
 
         int[] avatars = {
-                R.drawable.anastasia,
-                R.drawable.andriy,
-                R.drawable.dmitriy,
-                R.drawable.dmitry_96,
-                R.drawable.ed,
-                R.drawable.illya,
-                R.drawable.kirill,
-                R.drawable.konstantin,
-                R.drawable.oleksii,
-                R.drawable.pavel,
-                R.drawable.vadim};
+                R.drawable.chipotle,
+                R.drawable.kfc,
+                R.drawable.burger_king,
+                R.drawable.pizza_hut,
+                R.drawable.wendys,
+                R.drawable.nandos,
+                R.drawable.taco_bell,
+                R.drawable.in_and_out,
+              };
         String[] names = getResources().getStringArray(R.array.array_names);
 
         for (int i = 0; i < avatars.length; i++) {

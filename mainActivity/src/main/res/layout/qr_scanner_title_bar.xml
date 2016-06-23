@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="40dp"
+    android:orientation="horizontal" android:paddingLeft="5dp">
+
+   <TextView
+       android:id="@+id/title"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Dineamic" />
+
+   <View
+       android:id="@+id/View01"
+       android:layout_width="1dp"
+       android:layout_height="500dip"
+       android:layout_toLeftOf="@+id/qrScannerBtn">
+   </View>
+
+   <!-- QR Scanner button -->
+   <ImageView android:src="@drawable/qr_scanner"
+       android:layout_width="28dp"
+       android:layout_height="28dp"
+       android:layout_alignParentRight="true"
+       android:id="@id/qrScannerBtn"
+       android:clickable="true" />
+
+
+</RelativeLayout>

@@ -1,21 +1,23 @@
 package bookingTable;
 
 import android.app.ActionBar;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.support.v4.app.FragmentActivity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.telephony.TelephonyManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
-import globalVariables.GlobalVariable;
-import qrScanner.scanQRCode;
+import com.hmkcode.android.sign.R;
+import com.journeyapps.barcodescanner.CaptureActivity;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
@@ -24,15 +26,14 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLEncoder;
 
-
-
-import com.hmkcode.android.sign.R;
-import com.journeyapps.barcodescanner.CaptureActivity;
+import globalVariables.GlobalVariable;
+import qrScanner.scanQRCode;
 
 public class BookingTableMainActivity extends FragmentActivity  {
-	public final static String EXTRA_MESSAGE = "com.example.bookatable.MESSAGE";
-
+	//public final static String EXTRA_MESSAGE = "com.example.bookatable.MESSAGE";
+	private String restaurantName;
 	int numSeats;
 
 	@Override
@@ -41,6 +42,10 @@ public class BookingTableMainActivity extends FragmentActivity  {
 		setContentView(R.layout.booking_table_main_activity);
 		ActionBar bar = getActionBar();
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
+
+		Intent intent = getIntent();
+		this.restaurantName = intent.getStringExtra("Restaurant Name");
+
 	}
 
 	//Code for the QR Scanner in the Action Bar
@@ -122,11 +127,77 @@ public class BookingTableMainActivity extends FragmentActivity  {
 			findTableForCustomer(otherSeats);
 		}
 	}
+
+	public void buttonClickCheckStatus(View view) {
+		new checkStatusOnWaitList().execute();
+	}
+
 	public void findTableForCustomer(int numSeats1) {
 		numSeats = numSeats1;
 		new findTableSpaceFromDatabase().execute();
 	}
 
+
+	private class checkStatusOnWaitList extends AsyncTask<Void, Void, Void> {
+		URL url = null;
+		String output;
+		TelephonyManager tMgr =(TelephonyManager)BookingTableMainActivity.this.getSystemService(Context.TELEPHONY_SERVICE);
+		String mPhoneNumber = tMgr.getLine1Number();
+
+		protected Void doInBackground (Void... params) {
+			try {
+				url = new URL("http://52.11.144.56/getStatusOfWaitlist.php?phoneNumber=" + URLEncoder.encode(mPhoneNumber));
+			} catch (MalformedURLException e) {
+				// Catch if the URL is incorrect for whatever reason (this should technically never happen)
+				e.printStackTrace();
+			}
+			try {
+				HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+				InputStream in = new BufferedInputStream(urlConnection.getInputStream());
+				output = readStream(in);
+			} catch (IOException e) {
+				// Catch if theres an IO exception with reading the website data
+				e.printStackTrace();
+			}
+
+			return null;
+		}
+
+		protected void onPostExecute (Void result) {
+			output = output.substring(1,output.length()-1);
+			if (output.split("_")[0].equals("InLine")) {
+				int timeStart = Integer.parseInt(output.split("_")[1])*10;
+				int timeEnd = Integer.parseInt(output.split("_")[1])*10 + 20;
+				new AlertDialog.Builder(BookingTableMainActivity.this)
+						.setTitle("Position #" + output.split("_")[1] + " on the waitlst")
+						.setMessage("You are currently in position #" + output.split("_")[1] + " of the waitlist, please wait " + timeStart
+								+ " to " + timeEnd + " minutes for your table to be ready. Thank you fr your patience.")
+						.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+							public void onClick(DialogInterface dialog, int which) {
+								// TODO Nothing
+							}
+						}).show();
+			} else if (output.equals("Ready")) {
+				new AlertDialog.Builder(BookingTableMainActivity.this)
+						.setTitle("Your Table is Ready!")
+						.setMessage("Your table is ready and currently awaiting your arrival. Please come to the restaurant within the next 10 minutes to save your table. Thank you.")
+						.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+							public void onClick(DialogInterface dialog, int which) {
+								// TODO Nothing
+							}
+						}).show();
+			} else {
+				new AlertDialog.Builder(BookingTableMainActivity.this)
+						.setTitle("Not on any Waitlists!")
+						.setMessage("Sorry, but your status could not be retrieved because you are not on any restaurant's waitlists. If there is an error with this, please speak to the restaurant staff.")
+						.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+							public void onClick(DialogInterface dialog, int which) {
+								// TODO Nothing
+							}
+						}).show();
+			}
+		}
+	}
 
 	private class findTableSpaceFromDatabase extends AsyncTask<Void, Void, Void>{
 		//HTTP Post
@@ -136,7 +207,7 @@ public class BookingTableMainActivity extends FragmentActivity  {
 		@Override
 		protected Void doInBackground(Void... params) {
 			try {
-				url = new URL("http://52.11.144.56/getAvailableTablesOfRestaurant.php?seatsrequested=" + numSeats);
+				url = new URL("http://52.11.144.56/getAvailableTablesOfRestaurant.php?seatsrequested=" + numSeats + "&Restaurant_Name=" + restaurantName);
 			} catch (MalformedURLException e) {
 				// Catch if the URL is incorrect for whatever reason (this should technically never happen)
 				e.printStackTrace();
@@ -160,12 +231,13 @@ public class BookingTableMainActivity extends FragmentActivity  {
 				int table_num = Character.getNumericValue(output.charAt(15));
 				String message = "Please enter the resturant and seat your self at Table #" + table_num + ". A waiter will be with you shortly.";
 				Intent intent = new Intent(BookingTableMainActivity.this,YesAvailableTables.class);
-				intent.putExtra(EXTRA_MESSAGE, message);
+				intent.putExtra("Restaurant Name", restaurantName);
 				startActivity(intent);
 			} else {
 				final GlobalVariable globalNumSeats = (GlobalVariable) getApplicationContext();
 				globalNumSeats.setNumSeats(numSeats);
 				Intent intent = new Intent(BookingTableMainActivity.this,NoAvailableTables.class);
+				intent.putExtra("Restaurant Name", restaurantName);
 				startActivity(intent);
 			}
 

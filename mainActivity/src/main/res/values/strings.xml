@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="array_names">
-        <item>"Anastasia Druzhinina"</item>
-        <item>"Andriy Hristyan"</item>
-        <item>"Dmitriy Dovbnya"</item>
-        <item>"Dmitry Denisenko"</item>
-        <item>"Eduard Baev"</item>
-        <item>"Iliya Bershadskiy"</item>
-        <item>"Kirill Penzykov"</item>
-        <item>"Konstantin Rudenko"</item>
-        <item>"Oleksii Shliama"</item>
-        <item>"Pavel Apisov"</item>
-        <item>"Vadim Ooleynik"</item>
+        <item>"Chipotle"</item>
+        <item>"KFC"</item>
+        <item>"Burger King"</item>
+        <item>"Pizza Hut"</item>
+        <item>"Wendy's"</item>
+        <item>"Nando's"</item>
+        <item>"Taco Bell"</item>
+        <item>"In-N-Out Burger"</item>
+
     </string-array>
     <string name="app_name">Dineamic</string>
     <string name="action_settings">Settings</string>

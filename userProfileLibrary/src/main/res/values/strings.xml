@@ -1,12 +1,10 @@
 <resources>
     <string name="app_name">Profile Interface</string>
 
-    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </string>
-    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+    <string name="lorem_ipsum_short">This is a short description of the restaurant </string>
+    <string name="lorem_ipsum_long">This is a more detailed description of the restaurant </string>
 
-    <string name="title_following">Following</string>
-    <string name="toolbar_bio">Bio</string>
-    <string name="toolbar_details">Details</string>
+    <string name="title_following">Near By Restaurants</string>
+    <string name="toolbar_bio">Details</string>
+    <string name="toolbar_details">Contact</string>
 </resources>

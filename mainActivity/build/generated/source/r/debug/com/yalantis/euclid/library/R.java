@@ -365,10 +365,10 @@ public final class R {
 		public static final int bg_black_oval = 0x7f02004c;
 		public static final int bg_orange_circle = 0x7f02004d;
 		public static final int bg_orange_oval = 0x7f02004e;
-		public static final int ic_arrow_left = 0x7f020091;
-		public static final int ic_text = 0x7f020094;
-		public static final int list_divider = 0x7f02009a;
-		public static final int nicolas_cage = 0x7f0200b5;
+		public static final int ic_arrow_left = 0x7f020094;
+		public static final int ic_text = 0x7f020097;
+		public static final int list_divider = 0x7f02009f;
+		public static final int nicolas_cage = 0x7f0200bb;
 	}
 	public static final class id {
 		public static final int action_bar = 0x7f0e0065;
@@ -402,8 +402,8 @@ public final class R {
 		public static final int icon = 0x7f0e004d;
 		public static final int ifRoom = 0x7f0e002d;
 		public static final int image = 0x7f0e004a;
-		public static final int image_view_avatar = 0x7f0e00c3;
-		public static final int image_view_reveal_avatar = 0x7f0e00d8;
+		public static final int image_view_avatar = 0x7f0e00c5;
+		public static final int image_view_reveal_avatar = 0x7f0e00da;
 		public static final int listMode = 0x7f0e0010;
 		public static final int list_item = 0x7f0e004c;
 		public static final int list_view = 0x7f0e0076;
@@ -431,8 +431,8 @@ public final class R {
 		public static final int split_action_bar = 0x7f0e0007;
 		public static final int submit_area = 0x7f0e0070;
 		public static final int tabMode = 0x7f0e0012;
-		public static final int text_view_description = 0x7f0e00c6;
-		public static final int text_view_name = 0x7f0e00c5;
+		public static final int text_view_description = 0x7f0e00c8;
+		public static final int text_view_name = 0x7f0e00c7;
 		public static final int text_view_profile_description = 0x7f0e007b;
 		public static final int text_view_profile_name = 0x7f0e007a;
 		public static final int title = 0x7f0e004e;
@@ -441,12 +441,12 @@ public final class R {
 		public static final int toolbar_profile_back = 0x7f0e0078;
 		public static final int up = 0x7f0e0008;
 		public static final int useLogo = 0x7f0e0019;
-		public static final int view_avatar_overlay = 0x7f0e00c4;
+		public static final int view_avatar_overlay = 0x7f0e00c6;
 		public static final int withText = 0x7f0e002f;
 		public static final int wrap_content = 0x7f0e0030;
 		public static final int wrapper = 0x7f0e0074;
-		public static final int wrapper_list_item = 0x7f0e00c2;
-		public static final int wrapper_list_item_reveal = 0x7f0e00d7;
+		public static final int wrapper_list_item = 0x7f0e00c4;
+		public static final int wrapper_list_item_reveal = 0x7f0e00d9;
 		public static final int wrapper_profile_details = 0x7f0e0079;
 	}
 	public static final class integer {
@@ -480,7 +480,7 @@ public final class R {
 		public static final int button_round_msg = 0x7f040021;
 		public static final int list_item = 0x7f040031;
 		public static final int overlay_list_item = 0x7f040043;
-		public static final int support_simple_spinner_dropdown_item = 0x7f040055;
+		public static final int support_simple_spinner_dropdown_item = 0x7f040056;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f070000;

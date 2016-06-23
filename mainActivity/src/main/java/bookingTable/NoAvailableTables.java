@@ -21,11 +21,15 @@ import android.widget.TextView;
 import qrScanner.scanQRCode;
 
 public class NoAvailableTables extends Activity {
+	private String restaurantName;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.booking_table_no_available_tables);
 		ActionBar bar = getActionBar();
+		Intent intent = getIntent();
+		restaurantName = intent.getStringExtra("Restaurant Name");
 //for color
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 
@@ -49,6 +53,12 @@ public class NoAvailableTables extends Activity {
 				intent.setAction("com.google.zxing.client.android.SCAN");
 				intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
 				startActivityForResult(intent, 0);
+				return true;
+
+			case android.R.id.home:
+				intent = new Intent(getApplicationContext(), BookingTableMainActivity.class);
+				intent.putExtra("Restaurant Name", restaurantName);
+				startActivity(intent);
 				return true;
 
 		}
@@ -77,6 +87,8 @@ public class NoAvailableTables extends Activity {
 	}
 
 	public void goBack (View view) {
-		finish();
+		Intent intent = new Intent(getApplicationContext(), BookingTableMainActivity.class);
+		intent.putExtra("Restaurant Name", restaurantName);
+		startActivity(intent);
 	}
 }

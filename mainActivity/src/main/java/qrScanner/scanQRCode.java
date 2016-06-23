@@ -3,6 +3,7 @@ package qrScanner;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
@@ -49,9 +50,11 @@ public class scanQRCode extends AsyncTask<String, String, String> {
 
                 if (contents[0].equals("BookingTableMainActivity")) {
                     Intent bookingTableIntent = new Intent(context, BookingTableMainActivity.class);
+                    bookingTableIntent.putExtra("Restaurant Name",contents[1]);
                     context.startActivity(bookingTableIntent);
                 } else if (contents[0].equals("Menu")) {
                     Intent staticMenuIntent = new Intent(context, Menu_pdf.class);
+                    staticMenuIntent.putExtra("Restaurant Name",contents[1]);
                     context.startActivity(staticMenuIntent);
                 } else if (contents[0].equals("DynamicMenuFragmentActivity")) {
                     Intent dynamicMenuIntent = new Intent(context, DynamicMenuFragmentActivity.class);
@@ -83,20 +86,35 @@ public class scanQRCode extends AsyncTask<String, String, String> {
         toast.show();
 
         if (isNotDineAmicQRCode == true) {
-            AlertDialog.Builder alertbox = new AlertDialog.Builder(context);
-            alertbox.setMessage("Could not read barcode. Please scan a Dineamic QR Code");
-            alertbox.show();
+            new AlertDialog.Builder(context)
+                    .setTitle("Error!")
+                    .setMessage("Sorry, but this app could not read that barcode. Please scan a Dineamic QR Code")
+                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            // TODO Nothing
+                        }
+                    }).show();
         } else if (isWaiterCalled == true) {
             //tV_ReadNFC.setText("Your waiter is called! You will be served shortly.");
-            new CallWaiter(context,contents[2]).execute();
-            AlertDialog.Builder alertbox = new AlertDialog.Builder(context);
-            alertbox.setMessage("Your waiter is called! You will be served shortly.");
-            alertbox.show();
+            new CallWaiter(context,contents[1],contents[2]).execute();
+            new AlertDialog.Builder(context)
+                    .setTitle("Waiter has been Called")
+                    .setMessage("Your waiter has been called to your table. You will be served shortly.")
+                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            // TODO Nothing
+                        }
+                    }).show();
 
         } else if (isSendOrderPressed == true) {
-            AlertDialog.Builder alertbox = new AlertDialog.Builder(context);
-            alertbox.setMessage("You can only send your order through the interactive menu");
-            alertbox.show();
+            new AlertDialog.Builder(context)
+                    .setTitle("Error!")
+                    .setMessage("Sorry, but you can only send your order to the kitchen through the 'Send Order' button of the interactive menu")
+                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            // TODO Nothing
+                        }
+                    }).show();
         }
 
         if (isResultCancelled == true) {

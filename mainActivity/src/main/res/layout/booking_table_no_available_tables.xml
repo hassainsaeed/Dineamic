@@ -45,7 +45,7 @@
         android:onClick="goBack"
         android:background="@drawable/my_border"
         android:textColor="#FFFFFF"
-        android:text="@string/cancel" />
+        android:text="@string/returnToMenu" />
 
     <TextView
         android:id="@+id/textView1"
@@ -57,13 +57,22 @@
         android:gravity="center"
         android:text="@string/out_of_seats" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_below="@+id/noAvailableTablesTitle"
-        android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/noseats" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/button1"
+        android:layout_below="@id/noAvailableTablesTitle" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/noseats"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="35dp"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
 
 </RelativeLayout>

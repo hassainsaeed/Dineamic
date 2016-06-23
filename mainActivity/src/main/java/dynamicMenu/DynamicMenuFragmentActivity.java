@@ -562,7 +562,7 @@ index ++;
                             popupWindow.showAtLocation(popupView, Gravity.CENTER, 10, 10);
                             popupWindow.setHeight(400);
                             popupWindow.setWidth(500);
-
+                            comment.setText(breakfast_comments[current_temp]);
                             Button btnSubmit = (Button) popupView.findViewById(R.id.submitComment);
                             Button btnDismiss = (Button) popupView.findViewById(R.id.dismissComment);
                             btnSubmit.setOnClickListener(new Button.OnClickListener() {
@@ -570,6 +570,7 @@ index ++;
                                 public void onClick(View v) {
                                     // TODO Auto-generated method stub
                                     breakfast_comments[current_temp] = comment.getText().toString();
+                                    popupWindow.dismiss();
                                 }
                             });
                             btnDismiss.setOnClickListener(new Button.OnClickListener() {
@@ -792,7 +793,7 @@ index ++;
                             popupWindow.showAtLocation(popupView, Gravity.CENTER, 10, 10);
                             popupWindow.setHeight(400);
                             popupWindow.setWidth(500);
-
+                            comment.setText(lunchanddinner_comments[current_temp]);
                             Button btnSubmit = (Button) popupView.findViewById(R.id.submitComment);
                             Button btnDismiss = (Button) popupView.findViewById(R.id.dismissComment);
                             btnSubmit.setOnClickListener(new Button.OnClickListener() {
@@ -800,6 +801,7 @@ index ++;
                                 public void onClick(View v) {
                                     // TODO Auto-generated method stub
                                     lunchanddinner_comments[current_temp] = comment.getText().toString();
+                                    popupWindow.dismiss();
                                 }
                             });
                             btnDismiss.setOnClickListener(new Button.OnClickListener() {
@@ -807,6 +809,7 @@ index ++;
                                 public void onClick(View v) {
                                     // TODO Auto-generated method stub
                                     popupWindow.dismiss();
+
                                 }
                             });
                         }
@@ -1023,7 +1026,7 @@ index ++;
                             popupWindow.showAtLocation(popupView, Gravity.CENTER, 10, 10);
                             popupWindow.setHeight(400);
                             popupWindow.setWidth(500);
-
+                            comment.setText(desserts_comments[current_temp]);
                             Button btnSubmit = (Button) popupView.findViewById(R.id.submitComment);
                             Button btnDismiss = (Button) popupView.findViewById(R.id.dismissComment);
                             btnSubmit.setOnClickListener(new Button.OnClickListener() {
@@ -1031,6 +1034,7 @@ index ++;
                                 public void onClick(View v) {
                                     // TODO Auto-generated method stub
                                     desserts_comments[current_temp] = comment.getText().toString();
+                                    popupWindow.dismiss();
                                 }
                             });
                             btnDismiss.setOnClickListener(new Button.OnClickListener() {
@@ -1252,7 +1256,7 @@ index ++;
                             popupWindow.showAtLocation(popupView, Gravity.CENTER, 10, 10);
                             popupWindow.setHeight(400);
                             popupWindow.setWidth(500);
-
+                            comment.setText(drinks_comments[current_temp]);
                             Button btnSubmit = (Button) popupView.findViewById(R.id.submitComment);
                             Button btnDismiss = (Button) popupView.findViewById(R.id.dismissComment);
                             btnSubmit.setOnClickListener(new Button.OnClickListener() {
@@ -1260,6 +1264,7 @@ index ++;
                                 public void onClick(View v) {
                                     // TODO Auto-generated method stub
                                     drinks_comments[current_temp] = comment.getText().toString();
+                                    popupWindow.dismiss();
                                 }
                             });
                             btnDismiss.setOnClickListener(new Button.OnClickListener() {
