@@ -1,0 +1,790 @@
+[
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_event.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_action_event.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tutorial_item_4.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tutorial_item_4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\anastasia.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\anastasia.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\coffee.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\coffee.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\crispy_chicken.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\crispy_chicken.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_left.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\userProfileLibrary\\unspecified\\res\\drawable-hdpi-v4\\ic_arrow_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\header.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\header.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\oatmeal.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\oatmeal.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\balloon_bg.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\balloon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\password.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\password.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orange_juice.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\orange_juice.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\my_border2.xml",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\my_border2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nandos.jpeg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\nandos.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zaks_menu.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\zaks_menu.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tapnfc.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tapnfc.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mastercard.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.vinaygaba\\creditcardview\\1.0.3\\res\\drawable-hdpi\\mastercard.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\restaurant_locater.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\restaurant_locater.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_close.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_close.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edittext_bottom_bg.xml",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\edittext_bottom_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ed.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ed.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_place.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_action_place.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fblogin_button.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\fblogin_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\userpic.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\userpic.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chilli_burger.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\chilli_burger.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tutorial_item_2.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tutorial_item_2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bienvenido.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\bienvenido.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading_background.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\loading_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dmitriy.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\dmitriy.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pavel.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\pavel.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\broffer.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\broffer.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\emaillogin_button2.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\emaillogin_button2.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tapnfc2.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tapnfc2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\space.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\space.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\kirill.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\kirill.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_icon.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\user_icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\border2.xml",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\border2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_settings.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tapnfc3.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tapnfc3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_text.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\userProfileLibrary\\unspecified\\res\\drawable-hdpi-v4\\ic_text.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pizzahut.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\pizzahut.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\table_for_5.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\table_for_5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bananasplits.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\bananasplits.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chipotle.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\chipotle.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fbsignup_button.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\fbsignup_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\parking_choice3.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\parking_choice3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\loading.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\emaillogin_button.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\emaillogin_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\profile.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\profile.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_about.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_action_about.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rsz_moreinfobutton.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\rsz_moreinfobutton.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_new.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\logo_new.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\profilez.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\profilez.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\kfc.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\kfc.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\visa.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.vinaygaba\\creditcardview\\1.0.3\\res\\drawable-hdpi\\visa.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cheeseomlette.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\cheeseomlette.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\in_and_out.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\in_and_out.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mint_chocolate.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\mint_chocolate.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_home.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_action_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\emailsignup_button2.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\emailsignup_button2.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tutorial_item_1.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tutorial_item_1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dmitry_96.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\dmitry_96.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\emailsignup_button.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\emailsignup_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\greybackground.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\greybackground.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\oleksii.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\oleksii.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icono.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\icono.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\discover.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.vinaygaba\\creditcardview\\1.0.3\\res\\drawable-hdpi\\discover.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rsz_blacksquare.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\rsz_blacksquare.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkmark.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\checkmark.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noseats.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\noseats.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_user.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_action_user.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\grilled_cheese.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\grilled_cheese.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_profile.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\user_profile.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading_menu.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\loading_menu.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edittext_top_bg.xml",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\edittext_top_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\table_for_2.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\table_for_2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nachos.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\nachos.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_share.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\linearlayout_bg.xml",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\linearlayout_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tutorial_item_3.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tutorial_item_3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tutorials_menu_step3.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tutorials_menu_step3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\waitlist.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\waitlist.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_star.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_action_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fondohome.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\fondohome.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\illya.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\illya.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\summary_page_white_paper.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\summary_page_white_paper.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_default_bg.xml",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\button_default_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qr_scanner_text.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\qr_scanner_text.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_white.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pizza_icon.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\pizza_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\amex.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.vinaygaba\\creditcardview\\1.0.3\\res\\drawable-hdpi\\amex.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\table_for_4.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\table_for_4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_button.PNG",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\login_button.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vadim.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\vadim.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\parking_choice2.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\parking_choice2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edittext_default_bg.xml",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\edittext_default_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menututorial2.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\menututorial2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tutorials_step2.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tutorials_step2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\splash_menu.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\splash_menu.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_background.PNG",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\logo_background.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tutorials_parking_step3.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tutorials_parking_step3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\menu.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tutorials_step1.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tutorials_step1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cheesecake.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\cheesecake.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\andriy.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\andriy.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\steak_and_eggs.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\steak_and_eggs.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\friedmars.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\friedmars.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menututorial11.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\menututorial11.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qr_scanner_small.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\qr_scanner_small.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signup_button.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\signup_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\table_for_8.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\table_for_8.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hot_chocolate.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\hot_chocolate.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\card_chip.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.vinaygaba\\creditcardview\\1.0.3\\res\\drawable-hdpi\\card_chip.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chicken_caesar.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\chicken_caesar.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\breakfast_burrito.jpeg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\breakfast_burrito.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tea.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\tea.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pulled_pork.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\pulled_pork.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qr_scanner.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\qr_scanner.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\blt.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\blt.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\findnfc.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\findnfc.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\taco_bell.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\taco_bell.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading_background_burned.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\loading_background_burned.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_labels.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\ic_action_labels.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menututorial1.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\menututorial1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pizza_hut.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\pizza_hut.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\email.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\email.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wendys.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\wendys.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\user.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\border.xml",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\konstantin.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\konstantin.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\my_border.xml",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\my_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_white.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\parking_choice1.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\parking_choice1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\burger_king.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\burger_king.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\table_for_3.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\table_for_3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pancakes.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\pancakes.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\exploded-aar\\Dineamic-Merged_fixing_bugs\\facebook\\unspecified\\res\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\summary_page_black_paper.jpg",
+        "source": "C:\\Users\\Hussain\\Documents\\Dineamic-Merged_fixing_bugs\\mainActivity\\src\\main\\res\\drawable-hdpi\\summary_page_black_paper.jpg"
+    }
+]

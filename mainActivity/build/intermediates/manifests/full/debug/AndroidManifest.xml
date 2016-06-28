@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hmkcode.android.sign"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="23" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="globalVariables.GlobalVariable"
+        android:allowBackup="true"
+        android:icon="@drawable/loading_background_burned"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <receiver android:name="homePage.MyAlarmReceiver" />
+
+        <activity android:name="loginSignupPage.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="dynamicMenu.MenuSplashActivity" >
+        </activity>
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="loginSignupPage.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="loginSignupPage.SignUpActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.SignUpActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="loginSignupPage.LogInActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.SignInActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        -->
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="homePage.HomePageMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="homePage.UserProfile" >
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="loginSignupPage.SignUpMenuActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="loginSignupPage.LogInMenuActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <service android:name="bookingTable.AddToWaitlistService" />
+
+        <activity
+            android:name="bookingTable.BookingTableMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="bookingTable.NoAvailableTables"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_no_available_tables"
+            android:parentActivityName="bookingTable.BookingTableMainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="bookingTable.BookingTableMainActivity" />
+        </activity>
+        <activity
+            android:name="bookingTable.AddToWaitList"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_add_to_wait_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="bookingTable.HaveBeenAddedToWaitList"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_have_been_added_to_wait_list"
+            android:parentActivityName="bookingTable.AddToWaitList"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="bookingTable.AddToWaitList" />
+        </activity>
+        <activity
+            android:name="bookingTable.YesAvailableTables"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_yes_available_tables"
+            android:parentActivityName="bookingTable.BookingTableMainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="bookingTable.BookingTableMainActivity" />
+        </activity>
+        <activity
+            android:name="menu.Menu_pdf"
+            android:label="@string/title_activity_menu_pdf" >
+        </activity>
+        <activity
+            android:name="parking.Parking_lot"
+            android:label="@string/title_activity_parking_lot"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="homePage.ParkingTutorialFragment"
+            android:label="@string/parking_tutorial_activity" >
+        </activity>
+        <activity
+            android:name="dynamicMenu.DynamicMenuFragmentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="nfc.NFCDetails"
+            android:label="@string/app_name"
+            android:parentActivityName="dynamicMenu.DynamicMenuFragmentActivity" >
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+        <activity
+            android:name="payment.PaymentActivity"
+            android:label="@string/payment_activity" >
+        </activity>
+        <activity android:name="payment.PayBillActivity" >
+        </activity>
+        <activity android:name="payment.SplitItemsActivity" >
+        </activity>
+        <activity android:name="payment.InviteSomeoneActivity" >
+        </activity>
+        <activity android:name="payment.ReviewPageActivity" >
+        </activity>
+        <activity android:name="dynamicMenu.DishStatusActivity" >
+        </activity>
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+xml version=1.0 encoding=utf-8
+
+ScrollView  xmlnsandroid=httpschemas.android.comapkresandroid
+    androidid=@+idscrollview2
+   androidtheme=@androidstyleTheme.Holo
+    androidlayout_width=match_parent
+    androidlayout_height=match_parent
+    androidpadding=10px
+    androidbackground=@androidcolorwhite
+ LinearLayout
+     androidid=@+idview3
+     androidorientation=vertical
+     androidlayout_width=match_parent
+     androidlayout_height=match_parent
+
+	TableLayout
+
+    androidbackground=@androidcolorwhite
+    androidlayout_width=match_parent
+    androidlayout_height=match_parent
+    androidorientation=vertical 
+    androidid=@+idsummarytable
+
+  	androidpadding=5dip
+  	androidshowDividers=middle
+    
+
+
+TableLayout
+ LinearLayout
+ScrollView

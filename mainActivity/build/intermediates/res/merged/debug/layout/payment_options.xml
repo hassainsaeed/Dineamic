@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+    <LinearLayout android:layout_weight="1" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <Button
+            android:id="@+id/diversepayoptions"
+            android:text="split item / pay for someone else "
+            android:textAllCaps="true"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:shadowColor="@color/blue"
+            />
+    </LinearLayout>
+
+    <LinearLayout android:layout_weight="1" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <Button
+            android:id="@+id/singlepayoption"
+            android:text="Pay my own bill only"
+            android:textAllCaps="true"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:shadowColor="@color/material_blue_grey_800"
+            />
+    </LinearLayout>
+
+</LinearLayout>

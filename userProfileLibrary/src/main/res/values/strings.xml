@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Profile Interface</string>
+
+    <string name="lorem_ipsum_short">This is a short description of the restaurant </string>
+    <string name="lorem_ipsum_long">This is a more detailed description of the restaurant </string>
+
+    <string name="title_following">Near By Restaurants</string>
+    <string name="toolbar_bio">Details</string>
+    <string name="toolbar_details">Contact</string>
+</resources>

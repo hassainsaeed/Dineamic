@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     	>
+ 
+        
+        <!--      <TextView
+                android:id="@+id/parking_steps"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:textSize="15sp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:background="#424242"
+                android:gravity="center"
+                android:paddingRight="40dp"
+                android:paddingTop="15dp"
+                android:textColor="#FAFAFA" /> -->
+           <ImageView
+            android:id="@+id/menu_steps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:layout_weight = "1"
+           />
+            
+        
+             
+    
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+     
+    
+	

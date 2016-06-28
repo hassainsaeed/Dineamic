@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="payment.PayBillActivity"
+    
+    android:background="#ffffff">
+
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        >
+     <!-- Use <com.example.vinay.library.CreditCardView/> if you are using v1.0.1 of the library-->
+
+<com.vinaygaba.creditcardview.CreditCardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card1"
+        android:layout_width="fill_parent"
+        android:layout_height="225dp"
+        android:background="@drawable/cardbackground_world"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        app:cardNumber="5559"
+        app:cardName="FirstName LastName"
+        app:cardNumberTextColor="#cccccc"
+        app:cardNumberFormat="masked_all_but_last_four"
+        app:cardNameTextColor="#cccccc"
+        app:type="auto"
+
+        app:putChip="true"
+        app:expiryDate = "mm/yy"
+        app:expiryDateTextColor="#cccccc"
+        app:isEditable="true"
+        app:validTillTextColor="#cccccc"
+        app:hintTextColor = "#cccccc"
+        />
+        <Button
+            android:id="@+id/confirmPaymentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:text="Confirm Payment"
+            android:background="@drawable/my_border"
+            android:textColor="#FFFFFF"
+            android:padding="5dp"
+
+            />
+        </LinearLayout>
+
+</RelativeLayout>

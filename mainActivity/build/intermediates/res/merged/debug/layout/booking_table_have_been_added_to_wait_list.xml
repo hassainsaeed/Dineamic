@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/addedToWaitlistTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_border"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/added_to_waitlist_title"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3">
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/waitlist" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:background="#ffffffff"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/you_have_been_added"
+                android:layout_gravity="center" />
+
+            />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:onClick="goBack"
+                android:background="@drawable/my_border"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/returnToMenu"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+    </LinearLayout>
+    </LinearLayout>

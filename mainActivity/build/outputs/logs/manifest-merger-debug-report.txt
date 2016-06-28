@@ -1,0 +1,481 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:2:1-246:12
+	package
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [Dineamic-Merged_fixing_bugs:facebook:unspecified] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\Dineamic-Merged_fixing_bugs\facebook\unspecified\AndroidManifest.xml:25:5-60
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [Dineamic-Merged_fixing_bugs:userProfileLibrary:unspecified] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\Dineamic-Merged_fixing_bugs\userProfileLibrary\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.github.ozodrukh:CircularReveal:1.0.5] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.github.ozodrukh\CircularReveal\1.0.5\AndroidManifest.xml:6:5-8:41
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.nhaarman.listviewanimations\lib-core\3.1.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.vinaygaba:creditcardview:1.0.3] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.vinaygaba\creditcardview\1.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:5:5-7:41
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:7:5-9:41
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [Dineamic-Merged_fixing_bugs:facebook:unspecified] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\Dineamic-Merged_fixing_bugs\facebook\unspecified\AndroidManifest.xml:25:15-57
+	android:targetSdkVersion
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml
+		MERGED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml
+uses-feature#android.hardware.nfc
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:11:5-13:35
+	android:required
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:13:9-32
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:12:9-44
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:15:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.NFC
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:16:5-62
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:16:22-59
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:17:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:19:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:21:5-65
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:11:5-65
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:19:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:20:5-85
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:24:5-26:36
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:14:5-16:36
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:20:58-82
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:20:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:21:5-95
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:32:5-34:36
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:17:5-19:36
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:21:68-92
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:21:19-67
+uses-feature#android.hardware.camera.flash
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:22:5-91
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:22:64-88
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:22:19-63
+application
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:23:5-244:19
+MERGED from [Dineamic-Merged_fixing_bugs:facebook:unspecified] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\Dineamic-Merged_fixing_bugs\facebook\unspecified\AndroidManifest.xml:27:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [Dineamic-Merged_fixing_bugs:userProfileLibrary:unspecified] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\Dineamic-Merged_fixing_bugs\userProfileLibrary\unspecified\AndroidManifest.xml:11:5-47
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.github.ozodrukh:CircularReveal:1.0.5] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.github.ozodrukh\CircularReveal\1.0.5\AndroidManifest.xml:10:5-20
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.nhaarman.listviewanimations\lib-core\3.1.0\AndroidManifest.xml:26:5-27:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.vinaygaba:creditcardview:1.0.3] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.vinaygaba\creditcardview\1.0.3\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:45:5-53:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:12:5-26:19
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:21:5-26:19
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:21:5-26:19
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:27:9-41
+	android:allowBackup
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:25:9-35
+	android:icon
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:26:9-59
+	android:theme
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:28:9-40
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:24:9-54
+receiver#homePage.MyAlarmReceiver
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:30:9-61
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:30:19-58
+activity#loginSignupPage.SplashActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:31:9-38:20
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:31:19-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:35:27-74
+activity#dynamicMenu.MenuSplashActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:39:9-42:20
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:39:19-64
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:43:9-57:20
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:45:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:48:13-60
+	android:configChanges
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:46:13-63
+	android:theme
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:47:13-54
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:44:13-74
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:49:13-52:29
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:51:17-75
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:51:27-73
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SCAN
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:53:13-56:29
+action#com.google.zxing.client.android.SCAN
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:54:17-78
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:54:25-76
+activity#loginSignupPage.MainActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:59:9-63:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:61:13-45
+	android:theme
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:62:13-77
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:60:13-56
+activity#loginSignupPage.SignUpActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:64:9-73:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:66:13-45
+	android:theme
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:67:13-77
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:65:13-58
+intent-filter#android.intent.action.SignUpActivity+android.intent.category.DEFAULT
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:68:13-72:29
+action#android.intent.action.SignUpActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:69:17-79
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:69:25-76
+activity#loginSignupPage.LogInActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:74:9-83:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:76:13-45
+	android:theme
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:77:13-77
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:75:13-57
+intent-filter#android.intent.action.SignInActivity+android.intent.category.DEFAULT
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:78:13-82:29
+action#android.intent.action.SignInActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:79:17-79
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:79:25-76
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:93:9-97:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:95:13-45
+	android:theme
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:96:13-72
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:94:13-57
+activity#homePage.HomePageMainActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:98:9-101:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:100:13-45
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:99:13-57
+activity#homePage.UserProfile
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:102:9-105:20
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:103:13-48
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:106:9-108:55
+	android:value
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:108:13-52
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:107:13-58
+activity#loginSignupPage.SignUpMenuActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:110:9-114:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:112:13-45
+	android:theme
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:113:13-77
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:111:13-62
+activity#loginSignupPage.LogInMenuActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:115:9-119:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:117:13-45
+	android:theme
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:118:13-77
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:116:13-61
+service#bookingTable.AddToWaitlistService
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:121:9-69
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:121:18-66
+activity#bookingTable.BookingTableMainActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:123:9-130:20
+	android:screenOrientation
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:127:13-49
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:126:13-45
+	android:configChanges
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:125:13-63
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:124:13-65
+activity#bookingTable.NoAvailableTables
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:131:9-141:20
+	android:screenOrientation
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:136:13-49
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:134:13-71
+	android:parentActivityName
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:135:13-79
+	android:configChanges
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:133:13-63
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:132:13-58
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:138:13-140:73
+	android:value
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:140:17-70
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:139:17-63
+activity#bookingTable.AddToWaitList
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:142:9-148:20
+	android:screenOrientation
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:146:13-49
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:145:13-68
+	android:configChanges
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:144:13-63
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:143:13-54
+activity#bookingTable.HaveBeenAddedToWaitList
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:149:9-159:20
+	android:screenOrientation
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:154:13-49
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:152:13-80
+	android:parentActivityName
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:153:13-68
+	android:configChanges
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:151:13-63
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:150:13-64
+activity#bookingTable.YesAvailableTables
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:160:9-170:20
+	android:screenOrientation
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:165:13-49
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:163:13-72
+	android:parentActivityName
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:164:13-79
+	android:configChanges
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:162:13-63
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:161:13-59
+activity#menu.Menu_pdf
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:171:9-175:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:173:13-60
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:172:13-41
+activity#parking.Parking_lot
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:176:9-181:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:178:13-63
+	android:theme
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:179:13-48
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:177:13-47
+activity#homePage.ParkingTutorialFragment
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:182:9-185:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:184:13-62
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:183:13-60
+activity#dynamicMenu.DynamicMenuFragmentActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:186:9-192:20
+	android:screenOrientation
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:189:13-49
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:188:13-45
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:187:13-67
+activity#nfc.NFCDetails
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:194:9-207:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:196:13-45
+	android:parentActivityName
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:197:13-81
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:195:13-42
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:200:13-206:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:201:17-77
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:201:25-74
+data
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:205:17-55
+	android:mimeType
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:205:23-52
+activity#io.card.payment.CardIOActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:208:9-118
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:22:9-24:66
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:22:9-24:66
+	android:configChanges
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:208:65-115
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:208:19-64
+activity#io.card.payment.DataEntryActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:209:9-70
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:25:9-70
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:25:9-70
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:209:19-67
+activity#payment.PaymentActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:210:9-215:20
+	android:label
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:212:13-53
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:211:13-51
+activity#payment.PayBillActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:216:9-220:20
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:217:13-51
+activity#payment.SplitItemsActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:221:9-225:20
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:222:13-54
+activity#payment.InviteSomeoneActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:227:9-231:20
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:228:13-57
+activity#payment.ReviewPageActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:232:9-236:20
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:233:13-54
+activity#dynamicMenu.DishStatusActivity
+ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:237:9-241:20
+	android:name
+		ADDED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:238:13-58
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:2:1-246:12 reason: com.facebook has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\src\main\AndroidManifest.xml:2:1-246:12 reason: com.facebook requested WRITE_EXTERNAL_STORAGE
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\AndroidManifest.xml:42:9-45
+activity#com.paypal.android.sdk.payments.PaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:13:9-84
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:13:19-81
+activity#com.paypal.android.sdk.payments.PaymentMethodActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:14:9-90
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:14:19-87
+activity#com.paypal.android.sdk.payments.PaymentConfirmActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:15:9-91
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:15:19-88
+activity#com.paypal.android.sdk.payments.LoginActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:16:9-82
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:16:19-79
+activity#com.paypal.android.sdk.payments.PayPalFuturePaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:17:9-96
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:17:19-93
+activity#com.paypal.android.sdk.payments.FuturePaymentConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:18:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:18:19-94
+activity#com.paypal.android.sdk.payments.FuturePaymentInfoActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:19:9-94
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:19:19-91
+activity#com.paypal.android.sdk.payments.PayPalProfileSharingActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:20:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:20:19-94
+activity#com.paypal.android.sdk.payments.ProfileSharingConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:21:9-98
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:21:19-95
+service#com.paypal.android.sdk.payments.PayPalService
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\AndroidManifest.xml:24:13-73
+uses-permission#android.permission.VIBRATE
+ADDED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:12:5-66
+MERGED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from [io.card:android-sdk:5.3.4] C:\Users\Hussain\Documents\Dineamic-Merged_fixing_bugs\mainActivity\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\AndroidManifest.xml:12:22-63

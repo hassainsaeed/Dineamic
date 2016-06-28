@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="creditcardview-1.0.3">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/mainActivity/build/intermediates/exploded-aar/com.vinaygaba/creditcardview/1.0.3/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mainActivity/build/intermediates/exploded-aar/com.vinaygaba/creditcardview/1.0.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/mainActivity/build/intermediates/exploded-aar/com.vinaygaba/creditcardview/1.0.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vinaygaba/creditcardview/1.0.3/d0ae1be5b367d09a77d414c3ea7db9899ca343f6/creditcardview-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

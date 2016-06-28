@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     	>
+        <!--  located in res/drawable-mdpi -->
+
+     <!--      <ListView
+            android:id="@+id/tutorial_list"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#424242"
+            android:choiceMode="singleChoice"
+            android:divider="#2E2E2E"
+            android:dividerHeight="2dp"
+            android:textColor="#424242" > 
+
+        </ListView>-->
+        
+            <TextView
+                android:id="@+id/tutorial_item_1"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:background="#424242"
+                android:gravity="center"
+                android:paddingRight="40dp"
+                android:paddingTop="15dp"
+                android:text="Find me a parking spot!"
+                android:textColor="#FAFAFA" />
+            
+             <TextView
+                 android:id="@+id/tutorial_item_2"
+                 android:textSize="20sp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="150dp"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginTop="156dp"
+                 android:background="#424242"
+                 android:gravity="center"
+                 android:paddingBottom="15dp"
+                 android:paddingRight="40dp"
+                 android:paddingTop="15dp"
+                 android:text="I want the Menu!"
+                 android:textColor="#FAFAFA" />
+             
+     <FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1" />
+
+    </RelativeLayout>
+
+</LinearLayout>

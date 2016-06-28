@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="#ffffffff">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:text="DINE-AMIC"
+            android:id="@+id/textView"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:textSize="@android:dimen/app_icon_size"
+            android:typeface="normal"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#ffffffff"
+            android:textColor="#fb1d91db" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/border2"
+        android:layout_weight="4"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:typeface="normal"
+            android:textColor="#fb1d91db"
+            android:text="Tutorials"
+            android:gravity="center"
+            android:id="@+id/textView5" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/tutorial_item_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tutorial_item_2"
+            android:layout_weight="1"
+            android:background="#ffffffff"
+            />
+
+        <ImageView
+            android:id="@+id/tutorial_item_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tutorial_item_4"
+            android:background="#ffffffff"
+
+            android:backgroundTint="#ffffff" />
+
+        <ImageView
+            android:id="@+id/tutorial_item_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tutorial_item_3"
+            android:background="#ffffffff"
+            android:backgroundTint="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/border2"
+        android:layout_weight="3"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="9"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:typeface="normal"
+            android:textColor="#fb1d91db"
+            android:text="Get Started Eating"
+            android:gravity="center"
+            android:id="@+id/textView7" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffffff"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:layout_marginBottom="10dp">
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+
+                <ImageView
+                    android:id="@+id/tutorial_item_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffffff"
+                    android:src="@drawable/qr_scanner_text"
+                    android:layout_gravity="center_horizontal|top"
+                    />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/userProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffffff"
+                    android:src="@drawable/restaurant_locater"
+                    android:layout_gravity="center_horizontal|top" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

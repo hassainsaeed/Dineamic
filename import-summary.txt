@@ -1,0 +1,357 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From MainActivity:
+* META-INF\
+* META-INF\DEPENDENCIES
+* META-INF\LICENSE
+* META-INF\MANIFEST.MF
+* META-INF\NOTICE
+* META-INF\maven\
+* META-INF\maven\org.apache.httpcomponents\
+* META-INF\maven\org.apache.httpcomponents\httpclient\
+* META-INF\maven\org.apache.httpcomponents\httpclient\pom.properties
+* META-INF\maven\org.apache.httpcomponents\httpclient\pom.xml
+* README.md
+* apache-httpcomponents-httpcore.jar
+* httpclient-4.0.jar
+* org\
+* org\apache\
+* org\apache\http\
+* org\apache\http\auth\
+* org\apache\http\auth\AUTH.class
+* org\apache\http\auth\AuthScheme.class
+* org\apache\http\auth\AuthSchemeFactory.class
+* org\apache\http\auth\AuthSchemeRegistry.class
+* org\apache\http\auth\AuthScope.class
+* org\apache\http\auth\AuthState.class
+* org\apache\http\auth\AuthenticationException.class
+* org\apache\http\auth\BasicUserPrincipal.class
+* org\apache\http\auth\Credentials.class
+* org\apache\http\auth\InvalidCredentialsException.class
+* org\apache\http\auth\MalformedChallengeException.class
+* org\apache\http\auth\NTCredentials.class
+* org\apache\http\auth\NTUserPrincipal.class
+* org\apache\http\auth\UsernamePasswordCredentials.class
+* org\apache\http\auth\params\
+* org\apache\http\auth\params\AuthPNames.class
+* org\apache\http\auth\params\AuthParamBean.class
+* org\apache\http\auth\params\AuthParams.class
+* org\apache\http\client\
+* org\apache\http\client\AuthenticationHandler.class
+* org\apache\http\client\CircularRedirectException.class
+* org\apache\http\client\ClientProtocolException.class
+* org\apache\http\client\CookieStore.class
+* org\apache\http\client\CredentialsProvider.class
+* org\apache\http\client\HttpClient.class
+* org\apache\http\client\HttpRequestRetryHandler.class
+* org\apache\http\client\HttpResponseException.class
+* org\apache\http\client\NonRepeatableRequestException.class
+* org\apache\http\client\RedirectException.class
+* org\apache\http\client\RedirectHandler.class
+* org\apache\http\client\RequestDirector.class
+* org\apache\http\client\ResponseHandler.class
+* org\apache\http\client\UserTokenHandler.class
+* org\apache\http\client\entity\
+* org\apache\http\client\entity\UrlEncodedFormEntity.class
+* org\apache\http\client\methods\
+* org\apache\http\client\methods\AbortableHttpRequest.class
+* org\apache\http\client\methods\HttpDelete.class
+* org\apache\http\client\methods\HttpEntityEnclosingRequestBase.class
+* org\apache\http\client\methods\HttpGet.class
+* org\apache\http\client\methods\HttpHead.class
+* org\apache\http\client\methods\HttpOptions.class
+* org\apache\http\client\methods\HttpPost.class
+* org\apache\http\client\methods\HttpPut.class
+* org\apache\http\client\methods\HttpRequestBase.class
+* org\apache\http\client\methods\HttpTrace.class
+* org\apache\http\client\methods\HttpUriRequest.class
+* org\apache\http\client\params\
+* org\apache\http\client\params\AllClientPNames.class
+* org\apache\http\client\params\AuthPolicy.class
+* org\apache\http\client\params\ClientPNames.class
+* org\apache\http\client\params\ClientParamBean.class
+* org\apache\http\client\params\CookiePolicy.class
+* org\apache\http\client\params\HttpClientParams.class
+* org\apache\http\client\protocol\
+* org\apache\http\client\protocol\ClientContext.class
+* org\apache\http\client\protocol\ClientContextConfigurer.class
+* org\apache\http\client\protocol\RequestAddCookies.class
+* org\apache\http\client\protocol\RequestClientConnControl.class
+* org\apache\http\client\protocol\RequestDefaultHeaders.class
+* org\apache\http\client\protocol\RequestProxyAuthentication.class
+* org\apache\http\client\protocol\RequestTargetAuthentication.class
+* org\apache\http\client\protocol\ResponseProcessCookies.class
+* org\apache\http\client\utils\
+* org\apache\http\client\utils\CloneUtils.class
+* org\apache\http\client\utils\Idn.class
+* org\apache\http\client\utils\JdkIdn.class
+* org\apache\http\client\utils\Punycode.class
+* org\apache\http\client\utils\Rfc3492Idn.class
+* org\apache\http\client\utils\URIUtils.class
+* org\apache\http\client\utils\URLEncodedUtils.class
+* org\apache\http\client\version.properties
+* org\apache\http\conn\
+* org\apache\http\conn\BasicEofSensorWatcher.class
+* org\apache\http\conn\BasicManagedEntity.class
+* org\apache\http\conn\ClientConnectionManager.class
+* org\apache\http\conn\ClientConnectionManagerFactory.class
+* org\apache\http\conn\ClientConnectionOperator.class
+* org\apache\http\conn\ClientConnectionRequest.class
+* org\apache\http\conn\ConnectTimeoutException.class
+* org\apache\http\conn\ConnectionKeepAliveStrategy.class
+* org\apache\http\conn\ConnectionPoolTimeoutException.class
+* org\apache\http\conn\ConnectionReleaseTrigger.class
+* org\apache\http\conn\EofSensorInputStream.class
+* org\apache\http\conn\EofSensorWatcher.class
+* org\apache\http\conn\HttpHostConnectException.class
+* org\apache\http\conn\ManagedClientConnection.class
+* org\apache\http\conn\MultihomePlainSocketFactory.class
+* org\apache\http\conn\OperatedClientConnection.class
+* org\apache\http\conn\params\
+* org\apache\http\conn\params\ConnConnectionPNames.class
+* org\apache\http\conn\params\ConnConnectionParamBean.class
+* org\apache\http\conn\params\ConnManagerPNames.class
+* org\apache\http\conn\params\ConnManagerParamBean.class
+* org\apache\http\conn\params\ConnManagerParams$1.class
+* org\apache\http\conn\params\ConnManagerParams.class
+* org\apache\http\conn\params\ConnPerRoute.class
+* org\apache\http\conn\params\ConnPerRouteBean.class
+* org\apache\http\conn\params\ConnRoutePNames.class
+* org\apache\http\conn\params\ConnRouteParamBean.class
+* org\apache\http\conn\params\ConnRouteParams.class
+* org\apache\http\conn\routing\
+* org\apache\http\conn\routing\BasicRouteDirector.class
+* org\apache\http\conn\routing\HttpRoute.class
+* org\apache\http\conn\routing\HttpRouteDirector.class
+* org\apache\http\conn\routing\HttpRoutePlanner.class
+* org\apache\http\conn\routing\RouteInfo$LayerType.class
+* org\apache\http\conn\routing\RouteInfo$TunnelType.class
+* org\apache\http\conn\routing\RouteInfo.class
+* org\apache\http\conn\routing\RouteTracker.class
+* org\apache\http\conn\scheme\
+* org\apache\http\conn\scheme\HostNameResolver.class
+* org\apache\http\conn\scheme\LayeredSocketFactory.class
+* org\apache\http\conn\scheme\PlainSocketFactory.class
+* org\apache\http\conn\scheme\Scheme.class
+* org\apache\http\conn\scheme\SchemeRegistry.class
+* org\apache\http\conn\scheme\SocketFactory.class
+* org\apache\http\conn\ssl\
+* org\apache\http\conn\ssl\AbstractVerifier.class
+* org\apache\http\conn\ssl\AllowAllHostnameVerifier.class
+* org\apache\http\conn\ssl\BrowserCompatHostnameVerifier.class
+* org\apache\http\conn\ssl\SSLSocketFactory.class
+* org\apache\http\conn\ssl\StrictHostnameVerifier.class
+* org\apache\http\conn\ssl\X509HostnameVerifier.class
+* org\apache\http\conn\util\
+* org\apache\http\conn\util\InetAddressUtils.class
+* org\apache\http\cookie\
+* org\apache\http\cookie\ClientCookie.class
+* org\apache\http\cookie\Cookie.class
+* org\apache\http\cookie\CookieAttributeHandler.class
+* org\apache\http\cookie\CookieIdentityComparator.class
+* org\apache\http\cookie\CookieOrigin.class
+* org\apache\http\cookie\CookiePathComparator.class
+* org\apache\http\cookie\CookieSpec.class
+* org\apache\http\cookie\CookieSpecFactory.class
+* org\apache\http\cookie\CookieSpecRegistry.class
+* org\apache\http\cookie\MalformedCookieException.class
+* org\apache\http\cookie\SM.class
+* org\apache\http\cookie\SetCookie.class
+* org\apache\http\cookie\SetCookie2.class
+* org\apache\http\cookie\params\
+* org\apache\http\cookie\params\CookieSpecPNames.class
+* org\apache\http\cookie\params\CookieSpecParamBean.class
+* org\apache\http\impl\
+* org\apache\http\impl\auth\
+* org\apache\http\impl\auth\AuthSchemeBase.class
+* org\apache\http\impl\auth\BasicScheme.class
+* org\apache\http\impl\auth\BasicSchemeFactory.class
+* org\apache\http\impl\auth\DigestScheme.class
+* org\apache\http\impl\auth\DigestSchemeFactory.class
+* org\apache\http\impl\auth\NTLMEngine.class
+* org\apache\http\impl\auth\NTLMEngineException.class
+* org\apache\http\impl\auth\NTLMScheme$State.class
+* org\apache\http\impl\auth\NTLMScheme.class
+* org\apache\http\impl\auth\RFC2617Scheme.class
+* org\apache\http\impl\auth\UnsupportedDigestAlgorithmException.class
+* org\apache\http\impl\client\
+* org\apache\http\impl\client\AbstractAuthenticationHandler.class
+* org\apache\http\impl\client\AbstractHttpClient.class
+* org\apache\http\impl\client\BasicCookieStore.class
+* org\apache\http\impl\client\BasicCredentialsProvider.class
+* org\apache\http\impl\client\BasicResponseHandler.class
+* org\apache\http\impl\client\ClientParamsStack.class
+* org\apache\http\impl\client\DefaultConnectionKeepAliveStrategy.class
+* org\apache\http\impl\client\DefaultHttpClient.class
+* org\apache\http\impl\client\DefaultHttpRequestRetryHandler.class
+* org\apache\http\impl\client\DefaultProxyAuthenticationHandler.class
+* org\apache\http\impl\client\DefaultRedirectHandler.class
+* org\apache\http\impl\client\DefaultRequestDirector.class
+* org\apache\http\impl\client\DefaultTargetAuthenticationHandler.class
+* org\apache\http\impl\client\DefaultUserTokenHandler.class
+* org\apache\http\impl\client\EntityEnclosingRequestWrapper.class
+* org\apache\http\impl\client\HttpRedirect.class
+* org\apache\http\impl\client\RedirectLocations.class
+* org\apache\http\impl\client\RequestWrapper.class
+* org\apache\http\impl\client\RoutedRequest.class
+* org\apache\http\impl\client\TunnelRefusedException.class
+* org\apache\http\impl\conn\
+* org\apache\http\impl\conn\AbstractClientConnAdapter.class
+* org\apache\http\impl\conn\AbstractPoolEntry.class
+* org\apache\http\impl\conn\AbstractPooledConnAdapter.class
+* org\apache\http\impl\conn\DefaultClientConnection.class
+* org\apache\http\impl\conn\DefaultClientConnectionOperator.class
+* org\apache\http\impl\conn\DefaultHttpRoutePlanner.class
+* org\apache\http\impl\conn\DefaultResponseParser.class
+* org\apache\http\impl\conn\IdleConnectionHandler$TimeValues.class
+* org\apache\http\impl\conn\IdleConnectionHandler.class
+* org\apache\http\impl\conn\LoggingSessionInputBuffer.class
+* org\apache\http\impl\conn\LoggingSessionOutputBuffer.class
+* org\apache\http\impl\conn\ProxySelectorRoutePlanner$1.class
+* org\apache\http\impl\conn\ProxySelectorRoutePlanner.class
+* org\apache\http\impl\conn\SingleClientConnManager$1.class
+* org\apache\http\impl\conn\SingleClientConnManager$ConnAdapter.class
+* org\apache\http\impl\conn\SingleClientConnManager$PoolEntry.class
+* org\apache\http\impl\conn\SingleClientConnManager.class
+* org\apache\http\impl\conn\Wire.class
+* org\apache\http\impl\conn\tsccm\
+* org\apache\http\impl\conn\tsccm\AbstractConnPool.class
+* org\apache\http\impl\conn\tsccm\BasicPoolEntry.class
+* org\apache\http\impl\conn\tsccm\BasicPoolEntryRef.class
+* org\apache\http\impl\conn\tsccm\BasicPooledConnAdapter.class
+* org\apache\http\impl\conn\tsccm\ConnPoolByRoute$1.class
+* org\apache\http\impl\conn\tsccm\ConnPoolByRoute.class
+* org\apache\http\impl\conn\tsccm\PoolEntryRequest.class
+* org\apache\http\impl\conn\tsccm\RefQueueHandler.class
+* org\apache\http\impl\conn\tsccm\RefQueueWorker.class
+* org\apache\http\impl\conn\tsccm\RouteSpecificPool.class
+* org\apache\http\impl\conn\tsccm\ThreadSafeClientConnManager$1.class
+* org\apache\http\impl\conn\tsccm\ThreadSafeClientConnManager.class
+* org\apache\http\impl\conn\tsccm\WaitingThread.class
+* org\apache\http\impl\conn\tsccm\WaitingThreadAborter.class
+* org\apache\http\impl\cookie\
+* org\apache\http\impl\cookie\AbstractCookieAttributeHandler.class
+* org\apache\http\impl\cookie\AbstractCookieSpec.class
+* org\apache\http\impl\cookie\BasicClientCookie.class
+* org\apache\http\impl\cookie\BasicClientCookie2.class
+* org\apache\http\impl\cookie\BasicCommentHandler.class
+* org\apache\http\impl\cookie\BasicDomainHandler.class
+* org\apache\http\impl\cookie\BasicExpiresHandler.class
+* org\apache\http\impl\cookie\BasicMaxAgeHandler.class
+* org\apache\http\impl\cookie\BasicPathHandler.class
+* org\apache\http\impl\cookie\BasicSecureHandler.class
+* org\apache\http\impl\cookie\BestMatchSpec.class
+* org\apache\http\impl\cookie\BestMatchSpecFactory.class
+* org\apache\http\impl\cookie\BrowserCompatSpec.class
+* org\apache\http\impl\cookie\BrowserCompatSpecFactory.class
+* org\apache\http\impl\cookie\CookieSpecBase.class
+* org\apache\http\impl\cookie\DateParseException.class
+* org\apache\http\impl\cookie\DateUtils$DateFormatHolder$1.class
+* org\apache\http\impl\cookie\DateUtils$DateFormatHolder.class
+* org\apache\http\impl\cookie\DateUtils.class
+* org\apache\http\impl\cookie\NetscapeDomainHandler.class
+* org\apache\http\impl\cookie\NetscapeDraftHeaderParser.class
+* org\apache\http\impl\cookie\NetscapeDraftSpec.class
+* org\apache\http\impl\cookie\NetscapeDraftSpecFactory.class
+* org\apache\http\impl\cookie\PublicSuffixFilter.class
+* org\apache\http\impl\cookie\PublicSuffixListParser.class
+* org\apache\http\impl\cookie\RFC2109DomainHandler.class
+* org\apache\http\impl\cookie\RFC2109Spec.class
+* org\apache\http\impl\cookie\RFC2109SpecFactory.class
+* org\apache\http\impl\cookie\RFC2109VersionHandler.class
+* org\apache\http\impl\cookie\RFC2965CommentUrlAttributeHandler.class
+* org\apache\http\impl\cookie\RFC2965DiscardAttributeHandler.class
+* org\apache\http\impl\cookie\RFC2965DomainAttributeHandler.class
+* org\apache\http\impl\cookie\RFC2965PortAttributeHandler.class
+* org\apache\http\impl\cookie\RFC2965Spec.class
+* org\apache\http\impl\cookie\RFC2965SpecFactory.class
+* org\apache\http\impl\cookie\RFC2965VersionAttributeHandler.class
+* parking.txt
+From facebook:
+* bolts-android-1.1.4.jar
+* build.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.1.1
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:23.1.1
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:23.1.1]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In facebook:
+* AndroidManifest.xml => facebook\src\main\AndroidManifest.xml
+* assets\ => facebook\src\main\assets
+* libs\bolts-android-1.1.4.jar => facebook\libs\bolts-android-1.1.4.jar
+* lint.xml => facebook\lint.xml
+* res\ => facebook\src\main\res\
+* src\ => facebook\src\main\java\
+In MainActivity:
+* AndroidManifest.xml => mainActivity\src\main\AndroidManifest.xml
+* assets\ => mainActivity\src\main\assets
+* res\ => mainActivity\src\main\res\
+* src\ => mainActivity\src\main\java\
+* emaillogin_button.PNG => emaillogin_button.png
+* emaillogin_button2.PNG => emaillogin_button2.png
+* emailsignup_button.PNG => emailsignup_button.png
+* emailsignup_button2.PNG => emailsignup_button2.png
+* fblogin_button.PNG => fblogin_button.png
+* fbsignup_button.PNG => fbsignup_button.png
+* login_button.PNG => login_button.png
+* logo_background.PNG => logo_background.png
+* menututorial1.PNG => menututorial1.png
+* menututorial2.PNG => menututorial2.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
