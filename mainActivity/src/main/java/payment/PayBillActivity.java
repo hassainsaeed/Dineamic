@@ -232,6 +232,7 @@ protected void displayResultText(String result) {
 //						 * https://github.com/paypal/rest-api-sdk-python/tree/master/samples/mobile_backend
 //						 */
 					displayResultText("PaymentConfirmation info received from PayPal");
+						GlobalVariable.setIsOrderSent(false);
 						Intent intent = new Intent(PayBillActivity.this, ReviewPageActivity.class);
 						startActivity(intent);
 

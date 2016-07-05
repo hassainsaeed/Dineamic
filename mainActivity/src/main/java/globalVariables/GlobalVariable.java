@@ -13,10 +13,11 @@ public class GlobalVariable extends Application{
 	public static double totalDue=0;
     public static ArrayList<JSONArray> menuList;
 	public static int [] numberOfMenuItems;
+	public static boolean isOrderSent;
+
 	public static void setNumSeats(int nNumSeats) {
 		numSeats = nNumSeats;
 	}
-
 	public static int getNumSeats() {
 		return numSeats;
 	}
@@ -50,4 +51,6 @@ public class GlobalVariable extends Application{
 	public static int []  getMenuNumberOfItems() {
 		return numberOfMenuItems;
 	}
+	public static void setIsOrderSent(boolean result) { isOrderSent = result;}
+	public static boolean getIsOrderSent() { return isOrderSent; }
 }

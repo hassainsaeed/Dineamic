@@ -158,24 +158,28 @@ public class NFCDetails extends Activity {
 
 
                     if(breakfast!=null || lunchanddinner!=null ||drinks!=null || desserts!=null) {// tV_ReadNFC.setText("Your Order is sent !\nPlease enjoy your time until the waiter brings your order");
+                        GlobalVariable.setIsOrderSent(true);
+                        Log.e("Global Variable isSent:", "" + GlobalVariable.getIsOrderSent());
                         AlertDialog.Builder alertbox = new AlertDialog.Builder(NFCDetails.this);
                         alertbox.setMessage("Your Order is sent !\nPlease enjoy your time until the waiter brings your order");
                         alertbox.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
-                                Intent i = new Intent(NFCDetails.this, DynamicMenuFragmentActivity.class);
-                                startActivity(i);
+                               // Intent i = new Intent(NFCDetails.this, DynamicMenuFragmentActivity.class);
+                               // i.putExtra("Is Order Sent", "true");
+                               // startActivity(i);
+                                onBackPressed();
                             }
                         })
 
                                 .setIcon(android.R.drawable.ic_dialog_alert)
                                 .show();
-
                         new dynamicMenu.sendMenuOrder(tableNumber, customerName, breakfast, breakfast_price, lunchanddinner, lunchanddinner_price, desserts,
                                 desserts_price, drinks, drinks_price, count_1, count_2, count_3, count_4, breakfast_comments, lunchanddinner_comments, desserts_comments, drinks_comments, NFCDetails.this).execute();}
                     else {//tV_ReadNFC.setText("Please press the send button and then tap again");
 
                         AlertDialog.Builder alertbox = new AlertDialog.Builder(NFCDetails.this);
+                        alertbox.setTitle("Error!");
                         alertbox.setMessage("Please select at least one food items from the Menu before sending");
                         alertbox.show();
                         alertbox.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
@@ -441,7 +445,7 @@ public class NFCDetails extends Activity {
 
 
    // tV_ReadNFC.setText("Your Order is sent !\nPlease enjoy your time until the waiter brings your order");
-
+        GlobalVariable.setIsOrderSent(true);
         AlertDialog.Builder alertbox = new AlertDialog.Builder(NFCDetails.this);
         alertbox.setMessage("Your Order is sent !\nPlease enjoy your time until the waiter brings your order");
            alertbox.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {

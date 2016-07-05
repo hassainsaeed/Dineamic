@@ -83,17 +83,17 @@ public class DynamicMenuFragmentActivity extends FragmentActivity implements Act
     static  String[] desserts_comments = new String[numItems_dessert];
     static  String[] drinks_comments= new String[numItems_drinks];
     static String[] breakfast_images = new String[numItems_breakfast];
-          //  {R.drawable.steak_and_eggs, R.drawable.breakfast_burrito, R.drawable.pancakes, R.drawable.oatmeal, R.drawable.cheeseomlette};
+    //  {R.drawable.steak_and_eggs, R.drawable.breakfast_burrito, R.drawable.pancakes, R.drawable.oatmeal, R.drawable.cheeseomlette};
 
     static String[] lunchanddinner_images = new String[numItems_lunchanddinner];
 
-        //    {R.drawable.grilled_cheese, R.drawable.crispy_chicken, R.drawable.chicken_caesar, R.drawable.blt, R.drawable.pulled_pork, R.drawable.chilli_burger, R.drawable.nachos};
+    //    {R.drawable.grilled_cheese, R.drawable.crispy_chicken, R.drawable.chicken_caesar, R.drawable.blt, R.drawable.pulled_pork, R.drawable.chilli_burger, R.drawable.nachos};
 
     static String[] desserts_images = new String[numItems_dessert];
-           //{R.drawable.cheesecake, R.drawable.friedmars, R.drawable.bananasplits,};
+    //{R.drawable.cheesecake, R.drawable.friedmars, R.drawable.bananasplits,};
 
     static String[] drinks_images = new String[numItems_drinks];
-          //  {R.drawable.orange_juice, R.drawable.tea, R.drawable.coffee, R.drawable.hot_chocolate, R.drawable.mint_chocolate};
+    //  {R.drawable.orange_juice, R.drawable.tea, R.drawable.coffee, R.drawable.hot_chocolate, R.drawable.mint_chocolate};
 
 
     @SuppressWarnings("deprecation")
@@ -299,65 +299,65 @@ public class DynamicMenuFragmentActivity extends FragmentActivity implements Act
 
             ArrayList<JSONArray> menuList=GlobalVariable.getMenuListz();
 
-int index=0;
-    for (int i = 0; i < menuList.size(); i++) {
-        try {
-            if (menuList.get(i).getString(2).equals("breakfast")) {
-                breakfast[index] = menuList.get(i).getString(0);
-                breakfast_price[index] = menuList.get(i).getDouble(1);
-                breakfast_nutrition[index] = menuList.get(i).getString(3);
-                breakfast_ingredients[index] = menuList.get(i).getString(4);
-                breakfast_images[index] = menuList.get(i).getString(5);
-                index++;
+            int index=0;
+            for (int i = 0; i < menuList.size(); i++) {
+                try {
+                    if (menuList.get(i).getString(2).equals("breakfast")) {
+                        breakfast[index] = menuList.get(i).getString(0);
+                        breakfast_price[index] = menuList.get(i).getDouble(1);
+                        breakfast_nutrition[index] = menuList.get(i).getString(3);
+                        breakfast_ingredients[index] = menuList.get(i).getString(4);
+                        breakfast_images[index] = menuList.get(i).getString(5);
+                        index++;
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
             }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-    }
             index=0;
-    for (int i = 0; i < menuList.size(); i++) {
-        try {
-            if (menuList.get(i).getString(2).equals("lunchanddinner")) {
-                lunchanddinner[index] = menuList.get(i).getString(0);
-                lunchanddinner_price[index] = menuList.get(i).getDouble(1);
-                lunchanddinner_nutrition[index] = menuList.get(i).getString(3);
-                lunchanddinner_ingredients[index] = menuList.get(i).getString(4);
-                lunchanddinner_images[index] = menuList.get(i).getString(5);
-            index++;
+            for (int i = 0; i < menuList.size(); i++) {
+                try {
+                    if (menuList.get(i).getString(2).equals("lunchanddinner")) {
+                        lunchanddinner[index] = menuList.get(i).getString(0);
+                        lunchanddinner_price[index] = menuList.get(i).getDouble(1);
+                        lunchanddinner_nutrition[index] = menuList.get(i).getString(3);
+                        lunchanddinner_ingredients[index] = menuList.get(i).getString(4);
+                        lunchanddinner_images[index] = menuList.get(i).getString(5);
+                        index++;
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
             }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-    }
             index=0;
-    for (int i = 0; i < menuList.size(); i++) {
-        try {
-            if (menuList.get(i).getString(2).equals("desserts")) {
-                desserts[index] = menuList.get(i).getString(0);
-                desserts_price[index] = menuList.get(i).getDouble(1);
-                desserts_nutrition[index] = menuList.get(i).getString(3);
-                desserts_ingredients[index] = menuList.get(i).getString(4);
-                desserts_images[index] = menuList.get(i).getString(5);
-                index++;
+            for (int i = 0; i < menuList.size(); i++) {
+                try {
+                    if (menuList.get(i).getString(2).equals("desserts")) {
+                        desserts[index] = menuList.get(i).getString(0);
+                        desserts_price[index] = menuList.get(i).getDouble(1);
+                        desserts_nutrition[index] = menuList.get(i).getString(3);
+                        desserts_ingredients[index] = menuList.get(i).getString(4);
+                        desserts_images[index] = menuList.get(i).getString(5);
+                        index++;
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
             }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-    }
             index=0;
-    for (int i = 0; i < menuList.size(); i++) {
-        try {
-            if (menuList.get(i).getString(2).equals("drinks")) {
-                drinks[index] = menuList.get(i).getString(0);
-                drinks_price[index] = menuList.get(i).getDouble(1);
-                drinks_nutrition[index] = menuList.get(i).getString(3);
-                drinks_images[index] = menuList.get(i).getString(5);
-index ++;
+            for (int i = 0; i < menuList.size(); i++) {
+                try {
+                    if (menuList.get(i).getString(2).equals("drinks")) {
+                        drinks[index] = menuList.get(i).getString(0);
+                        drinks_price[index] = menuList.get(i).getDouble(1);
+                        drinks_nutrition[index] = menuList.get(i).getString(3);
+                        drinks_images[index] = menuList.get(i).getString(5);
+                        index ++;
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
             }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-    }
 
 
 
@@ -451,12 +451,12 @@ index ++;
                             trSugar.addView(sugarTV);
                             trDescription.addView(descriptionTV);
 
-                           ImageView nutritionImageView = (ImageView) popupView.findViewById(R.id.popupimage);
-                         //   new DownloadImageTask((ImageView)nutritionImageView)
-                           //         .execute("http://java.sogeti.nl/JavaBlog/wp-content/uploads/2009/04/android_icon_256.png");
+                            ImageView nutritionImageView = (ImageView) popupView.findViewById(R.id.popupimage);
+                            //   new DownloadImageTask((ImageView)nutritionImageView)
+                            //         .execute("http://java.sogeti.nl/JavaBlog/wp-content/uploads/2009/04/android_icon_256.png");
 
                             Picasso.with(DynamicMenuFragmentActivity.this).load(breakfast_images[current_temp]).into(nutritionImageView);
-                          // nutritionImageView.setImageResource();
+                            // nutritionImageView.setImageResource();
                             Button btnDismiss = (Button) popupView.findViewById(R.id.dismiss);
                             btnDismiss.setOnClickListener(new Button.OnClickListener() {
                                 @Override
@@ -1077,7 +1077,7 @@ index ++;
             //if drinks fragment
             if (temp == 4) {
                 // Get the TableLayout
-                 TableLayout tl = (TableLayout) rootView.findViewById(R.id.maintable);
+                TableLayout tl = (TableLayout) rootView.findViewById(R.id.maintable);
                 ScrollView ll = (ScrollView) rootView.findViewById(R.id.scrollview1);
                 tl.setBackgroundColor(Color.WHITE);
                 ll.setBackgroundColor(Color.WHITE);
@@ -1293,7 +1293,7 @@ index ++;
                     public void onClick(View arg0) {
                         mViewPager.setCurrentItem(4);
 
-                    //    Log.e("NumberDrinks", numItems_drinks + "");
+                        //    Log.e("NumberDrinks", numItems_drinks + "");
 
                     }
                 });
