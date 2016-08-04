@@ -47,8 +47,8 @@ public class HomePageMainActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.home_main_activity);
-        importMenu menuTask= new importMenu();
-        menuTask.execute();
+        //importMenu menuTask= new importMenu();
+        //menuTask.execute();
 		//get the drawerlayout and the drawerlist form activitymain.xml
 		//and make them functional
 		NavDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);

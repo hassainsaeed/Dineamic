@@ -18,6 +18,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import globalVariables.GlobalVariable;
 import qrScanner.scanQRCode;
 
 public class NoAvailableTables extends Activity {
@@ -29,7 +30,7 @@ public class NoAvailableTables extends Activity {
 		setContentView(R.layout.booking_table_no_available_tables);
 		ActionBar bar = getActionBar();
 		Intent intent = getIntent();
-		restaurantName = intent.getStringExtra("Restaurant Name");
+		restaurantName = GlobalVariable.getRestaurantName();
 //for color
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 
@@ -57,7 +58,6 @@ public class NoAvailableTables extends Activity {
 
 			case android.R.id.home:
 				intent = new Intent(getApplicationContext(), BookingTableMainActivity.class);
-				intent.putExtra("Restaurant Name", restaurantName);
 				startActivity(intent);
 				return true;
 
@@ -88,7 +88,6 @@ public class NoAvailableTables extends Activity {
 
 	public void goBack (View view) {
 		Intent intent = new Intent(getApplicationContext(), BookingTableMainActivity.class);
-		intent.putExtra("Restaurant Name", restaurantName);
 		startActivity(intent);
 	}
 }

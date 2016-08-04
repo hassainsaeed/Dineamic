@@ -18,6 +18,9 @@ public class MenuSplashActivity extends Activity {
  
    @Override
    protected void onCreate(Bundle savedInstanceState) {
+      importMenu menuTask= new importMenu();
+      menuTask.execute();
+
       super.onCreate(savedInstanceState);
  
       this.requestWindowFeature(Window.FEATURE_NO_TITLE);    // Removes title bar
@@ -46,6 +49,7 @@ public class MenuSplashActivity extends Activity {
          // Start main activity
          Intent intent = new Intent(MenuSplashActivity.this, DynamicMenuFragmentActivity.class);
          intent.putExtra("tableNumber", GlobalVariable.getTableNumber());
+         intent.putExtra("Restaurant Name", GlobalVariable.getRestaurantName());
          MenuSplashActivity.this.startActivity(intent);
          MenuSplashActivity.this.finish();
       }

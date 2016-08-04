@@ -407,6 +407,7 @@ this.breakfast_price = breakfast_price;
 					i = new Intent(getActivity(), NFCDetails.class);
 //                Log.e("OK ", GlobalVariable.getCustomerUserName());
 					i.putExtra("name", GlobalVariable.getCustomerUserName());
+					i.putExtra("restaurant_name", GlobalVariable.getRestaurantName());
 					i.putExtra("breakfast", breakfast);
 					i.putExtra("breakfast_price", breakfast_price);
 					i.putExtra("lunchanddinner", lunchanddinner);
@@ -461,6 +462,7 @@ this.breakfast_price = breakfast_price;
 				if(GlobalVariable.getIsOrderSent() == true){
 					i = new Intent(getActivity(), PaymentActivity.class);
 					i.putExtra("name", GlobalVariable.getCustomerUserName());
+					i.putExtra("restaurant_name", GlobalVariable.getRestaurantName());
 					i.putExtra("tableNumber", getArguments().getInt("tableNumber"));
 					i.putExtra("breakfast", breakfast);
 					i.putExtra("breakfast_price", breakfast_price);

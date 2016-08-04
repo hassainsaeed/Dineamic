@@ -18,6 +18,7 @@ import com.hmkcode.android.sign.R;
 import com.journeyapps.barcodescanner.CaptureActivity;
 import com.squareup.picasso.Picasso;
 
+import globalVariables.GlobalVariable;
 import qrScanner.scanQRCode;
 
 public class Menu_pdf extends Activity implements OnTouchListener {
@@ -50,7 +51,7 @@ public class Menu_pdf extends Activity implements OnTouchListener {
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 
 		Intent intent = getIntent();
-		this.restaurantName = intent.getStringExtra("Restaurant Name");
+		this.restaurantName = GlobalVariable.getRestaurantName();
 		String menuURL = "http://52.11.144.56/" + restaurantName + "_menu.jpg";
 
 		ImageView view = (ImageView) findViewById(R.id.image1);

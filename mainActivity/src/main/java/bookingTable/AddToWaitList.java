@@ -53,7 +53,7 @@ public class AddToWaitList extends Activity {
 		//for color
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 		Intent intent = getIntent();
-		restaurantName = intent.getStringExtra("Restaurant Name");
+		restaurantName = GlobalVariable.getRestaurantName();
 
 		checkIfPermissionGranted();
 	}
@@ -92,7 +92,6 @@ public class AddToWaitList extends Activity {
 							.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 								public void onClick(DialogInterface dialog, int which) {
 									Intent intent = new Intent(getApplicationContext(), BookingTableMainActivity.class);
-									intent.putExtra("Restaurant Name", restaurantName);
 									startActivity(intent);
 								}
 							}).show();
@@ -179,7 +178,7 @@ public class AddToWaitList extends Activity {
 		@Override
 		protected Void doInBackground(Void... params) {
 			try {
-				url = new URL("http://52.11.144.56/addUserAndPhoneNumberToWaitList.php?customerEmail=" + customerEmail + "&customerName=" + URLEncoder.encode(customerName) + "&customerNumber=" + URLEncoder.encode(customerNumber) + "&numSeats=" + numSeats);
+				url = new URL("http://52.11.144.56/php/addUserAndPhoneNumberToWaitList.php?customerEmail=" + customerEmail + "&customerName=" + URLEncoder.encode(customerName) + "&customerNumber=" + URLEncoder.encode(customerNumber) + "&numSeats=" + numSeats + "&restaurant_name=" + restaurantName);
 			} catch (MalformedURLException e) {
 				// Catch if the URL is incorrect for whatever reason (this should technically never happen)
 				e.printStackTrace();
@@ -203,7 +202,7 @@ public class AddToWaitList extends Activity {
 			} else {
 				new AlertDialog.Builder(AddToWaitList.this)
 						.setTitle("Something Went Wrong")
-						.setMessage("Sorry, but for some reason we could not add you to the Waitlist. Please try adding yourself to the waitlist again. If the error persists, please contact Eatomatic's admins at:... \n\n Error: " + output)
+						.setMessage("Sorry, but for some reason we could not add you to the Waitlist. Please try adding yourself to the waitlist again. If the error persists, please contact Dineamic's admins at:... \n\n Error: " + output)
 						.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int which) {
 								finish();

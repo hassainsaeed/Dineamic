@@ -19,8 +19,6 @@ import loginSignupPage.JSONParser;
 public  class importMenu extends AsyncTask<String, String, String> {
 	JSONParser jsonParser = new JSONParser();
 	public importMenu() {
-
-
 	}
 
 	/**
@@ -37,8 +35,8 @@ public  class importMenu extends AsyncTask<String, String, String> {
 		//JSONObject json = jsonParser.makeHttpRequest(url_signInUsers,
 			//	"GET", params);
 		//Change the value of restuarantMenu to be a variable once selecting the restaturant fetaure is implemented
-		params.add(new BasicNameValuePair("restaurantMenu", "ZAKS_MENU"));
-		String Url = "http://52.11.144.56/importMenu.php";
+		params.add(new BasicNameValuePair("restaurant_name", GlobalVariable.getRestaurantName()));
+		String Url = "http://52.11.144.56/php/importMenu.php";
 
 			JSONObject json = jsonParser.makeHttpRequest(Url,
 					"GET", params);
@@ -87,7 +85,7 @@ public  class importMenu extends AsyncTask<String, String, String> {
 
 
 		}
-GlobalVariable.setMenuNumberOfItems(numOfMenuItems);
+		GlobalVariable.setMenuNumberOfItems(numOfMenuItems);
 		return null;
 	}
 

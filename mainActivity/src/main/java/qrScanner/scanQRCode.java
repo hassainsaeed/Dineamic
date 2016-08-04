@@ -13,6 +13,7 @@ import bookingTable.BookingTableMainActivity;
 import dynamicMenu.DishStatusActivity;
 import dynamicMenu.DynamicMenuFragmentActivity;
 import dynamicMenu.MenuSplashActivity;
+import dynamicMenu.importMenu;
 import globalVariables.GlobalVariable;
 import menu.Menu_pdf;
 import nfc.CallWaiter;
@@ -48,22 +49,18 @@ public class scanQRCode extends AsyncTask<String, String, String> {
                 //handle succesful scan
                 contents = intent.getStringExtra("SCAN_RESULT").split("_");
                 format = intent.getStringExtra("SCAN_RESULT_FORMAT");
-
+                GlobalVariable.setRestaurantName(contents[1]);
+                GlobalVariable.setTableNumber(Integer.parseInt(contents[2]));
 
                 if (contents[0].equals("BookATable")) {
                     Intent bookingTableIntent = new Intent(context, BookingTableMainActivity.class);
-                    bookingTableIntent.putExtra("Restaurant Name",contents[1]);
                     context.startActivity(bookingTableIntent);
                 } else if (contents[0].equals("Menu")) {
                     Intent staticMenuIntent = new Intent(context, Menu_pdf.class);
-                    staticMenuIntent.putExtra("Restaurant Name",contents[1]);
                     context.startActivity(staticMenuIntent);
                 } else if (contents[0].equals("DynamicMenu")) {
                     //Intent dynamicMenuIntent = new Intent(context, DynamicMenuFragmentActivity.class);
-                    Intent dynamicMenuIntent = new Intent(context, DynamicMenuFragmentActivity.class);
-                    dynamicMenuIntent.putExtra("Restaurant Name", contents[1]);
-                    GlobalVariable.setTableNumber(Integer.parseInt(contents[2]));
-                    dynamicMenuIntent.putExtra("tableNumber",Integer.parseInt(contents[2]));
+                    Intent dynamicMenuIntent = new Intent(context, MenuSplashActivity.class);
                     context.startActivity(dynamicMenuIntent);
                 } else if (contents[0].equals("CallWaiterToTable")) {
                     isWaiterCalled = true;
@@ -124,6 +121,7 @@ public class scanQRCode extends AsyncTask<String, String, String> {
         if (isResultCancelled == true) {
             new AlertDialog.Builder(context)
                     .setTitle("Error!")
+                    .setMessage("No QR Code was scanned")
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                             // TODO Nothing

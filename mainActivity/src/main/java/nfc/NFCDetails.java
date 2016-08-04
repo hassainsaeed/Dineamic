@@ -58,6 +58,7 @@ public class NFCDetails extends Activity {
     private ImageView scanBttn;
  private NfcAdapter nfcAdapt;
     String customerName;
+    String restaurantName;
 
  @Override
  protected void onCreate(Bundle savedInstanceState) {
@@ -133,10 +134,13 @@ public class NFCDetails extends Activity {
                 //handle succesful scan
                 String[] contents = intent.getStringExtra("SCAN_RESULT").split("_");
                 String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
+                GlobalVariable.setRestaurantName(contents[1]);
+                GlobalVariable.setTableNumber(Integer.parseInt(contents[2]));
                 if (contents[0].equals("SendOrderToKitchen")) {
                     Bundle b = SummaryPageFragment.i.getExtras();
                     int tableNumber= Integer.parseInt(contents[2]);
                     customerName=b.getString("name");
+                    restaurantName=b.getString("restaurant_name");
                     breakfast = b.getStringArray("breakfast");
                     breakfast_price = b.getDoubleArray("breakfast_price");
                     lunchanddinner = b.getStringArray("lunchanddinner");
@@ -174,7 +178,7 @@ public class NFCDetails extends Activity {
 
                                 .setIcon(android.R.drawable.ic_dialog_alert)
                                 .show();
-                        new dynamicMenu.sendMenuOrder(tableNumber, customerName, breakfast, breakfast_price, lunchanddinner, lunchanddinner_price, desserts,
+                        new dynamicMenu.sendMenuOrder(tableNumber, customerName, restaurantName, breakfast, breakfast_price, lunchanddinner, lunchanddinner_price, desserts,
                                 desserts_price, drinks, drinks_price, count_1, count_2, count_3, count_4, breakfast_comments, lunchanddinner_comments, desserts_comments, drinks_comments, NFCDetails.this).execute();}
                     else {//tV_ReadNFC.setText("Please press the send button and then tap again");
 
@@ -217,7 +221,6 @@ public class NFCDetails extends Activity {
                     Intent i = new Intent(NFCDetails.this, DishStatusActivity.class);
                     startActivity(i);
                 } else if (contents[0].equals("DynamicMenu")) {
-                    int tableNumber= Integer.parseInt(contents[2]);
                     if (GlobalVariable.getCustomerUserName().equals("")){
                         new AlertDialog.Builder(NFCDetails.this)
                                 .setTitle("Login Required")
@@ -232,8 +235,6 @@ public class NFCDetails extends Activity {
                                 .show();
                     } else {
                         Intent i = new Intent(NFCDetails.this, MenuSplashActivity.class);
-                        GlobalVariable.setTableNumber(tableNumber);
-                        i.putExtra("tableNumber",tableNumber);
                         startActivity(i);}
                 } else {
                     Toast toast = Toast.makeText(getApplicationContext(), "Could not read barcode. Please scan a Dineamic QR Code", Toast.LENGTH_SHORT);
@@ -417,12 +418,15 @@ public class NFCDetails extends Activity {
   protected void onPostExecute(String result) {
       String[] separated=result.split("_");
       String restaurantName= separated[1];
+      GlobalVariable.setRestaurantName(separated[1]);
+      GlobalVariable.setTableNumber(Integer.parseInt(separated[2]));
       int tableNumber=Integer.parseInt(separated[2]);
    if (separated[0].equals("SendOrderToKitchen")) {
        if(breakfast!=null || lunchanddinner!=null ||drinks!=null || desserts!=null){
        Bundle b = SummaryPageFragment.i.getExtras();
 
        customerName=b.getString("name");
+       restaurantName = b.getString("restaurant_name");
        breakfast = b.getStringArray("breakfast");
        breakfast_price = b.getDoubleArray("breakfast_price");
        lunchanddinner = b.getStringArray("lunchanddinner");
@@ -460,7 +464,7 @@ public class NFCDetails extends Activity {
                   .setIcon(android.R.drawable.ic_dialog_alert)
                    .show();
 
-		new dynamicMenu.sendMenuOrder(tableNumber,customerName,breakfast, breakfast_price, lunchanddinner, lunchanddinner_price, desserts,
+		new dynamicMenu.sendMenuOrder(tableNumber,customerName,restaurantName,breakfast, breakfast_price, lunchanddinner, lunchanddinner_price, desserts,
 				desserts_price, drinks, drinks_price, count_1, count_2, count_3, count_4,breakfast_comments,lunchanddinner_comments,desserts_comments,drinks_comments, NFCDetails.this).execute();}
 	   else {//tV_ReadNFC.setText("Please press the send button and then tap again");
 
@@ -504,10 +508,8 @@ public class NFCDetails extends Activity {
    }
 
    else if(separated[0].equals("DishStatus")){
-    Intent i = new Intent(NFCDetails.this, DishStatusActivity.class);
-       i.putExtra("Restaurant Name",restaurantName);
-       i.putExtra("tableNumber",tableNumber);
-    startActivity(i);
+        Intent i = new Intent(NFCDetails.this, DishStatusActivity.class);
+       startActivity(i);
    }
    else  if (separated[0].equals("DynamicMenu")) {
 
@@ -527,32 +529,21 @@ public class NFCDetails extends Activity {
        }
     else{
     Intent i = new Intent(NFCDetails.this, MenuSplashActivity.class);
-           i.putExtra("Restaurant Name", restaurantName);
-    GlobalVariable.setTableNumber(tableNumber);
-       i.putExtra("tableNumber",tableNumber);
        startActivity(i);}
    }
    else  if (separated[0].equals("Menu")) {
 
        Intent i = new Intent(NFCDetails.this, Menu_pdf.class);
-       GlobalVariable.setTableNumber(tableNumber);
-       i.putExtra("tableNumber",tableNumber);
-       i.putExtra("Restaurant Name",restaurantName);
-      // i.putExtra
        startActivity(i);}
    else  if (separated[0].equals("BookATable")) {
 
        Intent i = new Intent(NFCDetails.this, BookingTableMainActivity.class);
-       GlobalVariable.setTableNumber(tableNumber);
-       i.putExtra("tableNumber",tableNumber);
-       i.putExtra("Restaurant Name",restaurantName);
        // i.putExtra
        startActivity(i);}
    else  if (separated[0].equals("Parking")) {
 
        Intent i = new Intent(NFCDetails.this, Parking_lot.class);
-       GlobalVariable.setTableNumber(tableNumber);
-       i.putExtra("tableNumber",tableNumber);
+      i.putExtra("tableNumber",tableNumber);
        i.putExtra("Restaurant Name",restaurantName);
        // i.putExtra
        startActivity(i);}

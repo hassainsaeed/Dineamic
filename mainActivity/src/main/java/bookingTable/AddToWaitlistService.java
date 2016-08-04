@@ -27,6 +27,8 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.telephony.TelephonyManager;
 
+import globalVariables.GlobalVariable;
+
 public class AddToWaitlistService extends Service {
 	public final static String EXTRA_MESSAGE = "com.example.bookatable.MESSAGE";
 	//NotifyServiceReceiver notifyServiceReceiver;
@@ -34,7 +36,8 @@ public class AddToWaitlistService extends Service {
     //final static int RQS_STOP_SERVICE = 1;
     public static final long NOTIFY_INTERVAL = 20* 1000; //20 seconds
 	private Handler mHandler = new Handler();
-	private Timer mTimer = null;	
+	private Timer mTimer = null;
+	private String restaurantName;
 	
     /*@Override
     public void onCreate() {
@@ -46,7 +49,9 @@ public class AddToWaitlistService extends Service {
     
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {	
-    	
+
+
+		restaurantName = GlobalVariable.getRestaurantName();
     	if (mTimer != null) {
     		//cancel if already existing timer
     		mTimer.cancel();
@@ -86,7 +91,7 @@ public class AddToWaitlistService extends Service {
 		@Override
 		protected Void doInBackground(Void... params) {
 			try {
-				url = new URL("http://52.11.144.56/findPositionOnWaitList.php?customerNumber=" + mPhoneNumber);
+				url = new URL("http://52.11.144.56/php/findPositionOnWaitList.php?customerNumber=" + mPhoneNumber + "&restaurant_name=" + restaurantName);
 			} catch (MalformedURLException e) {
 				// Catch if the URL is incorrect for whatever reason (this should technically never happen)
 				e.printStackTrace();

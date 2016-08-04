@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import globalVariables.GlobalVariable;
 import qrScanner.scanQRCode;
 
 public class HaveBeenAddedToWaitList extends Activity {
@@ -35,7 +36,7 @@ public class HaveBeenAddedToWaitList extends Activity {
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 
 		Intent intent = getIntent();
-		restaurantName = intent.getStringExtra("Restaurant Name");
+		restaurantName = GlobalVariable.getRestaurantName();
 
 	}
 
@@ -81,7 +82,6 @@ public class HaveBeenAddedToWaitList extends Activity {
 
 	public void goBack(View view) {
 		Intent intent = new Intent(getApplicationContext(), BookingTableMainActivity.class);
-		intent.putExtra("Restaurant Name", restaurantName);
 		startActivity(intent);
 	}
 

@@ -40,65 +40,75 @@ import org.json.JSONArray;
 import org.json.JSONException;
 
 import java.util.ArrayList;
+import java.util.concurrent.ExecutionException;
 
 import globalVariables.GlobalVariable;
 import homePage.HomePageMainActivity;
 import qrScanner.scanQRCode;
-
+import dynamicMenu.importMenu;
 
 public class DynamicMenuFragmentActivity extends FragmentActivity implements ActionBar.TabListener {
+
 
     AppSectionsPagerAdapter mAppSectionsPagerAdapter;
 
     static ViewPager mViewPager;
     static int tableNumber;
     static boolean found=false;
-    static  int numItems_breakfast = GlobalVariable.getMenuNumberOfItems()[0];
-    static  int numItems_lunchanddinner = GlobalVariable.getMenuNumberOfItems()[1];
-    static  int numItems_dessert =  GlobalVariable.getMenuNumberOfItems()[2];
-    static  int numItems_drinks =  GlobalVariable.getMenuNumberOfItems()[3];
+      int numItems_breakfast;
+      int numItems_lunchanddinner;
+      int numItems_dessert;
+      int numItems_drinks;
 
     //need a count for each fragment
-    static  int[] count_1 = new int[numItems_breakfast];
-    static  int[] count_2 = new int[numItems_lunchanddinner];
-    static  int[] count_3 = new int[numItems_dessert];
-    static  int[] count_4 = new int[numItems_drinks];
-    static  String[] breakfast = new String[numItems_breakfast];
-    static  double[] breakfast_price = new double[numItems_breakfast];
-    static  String[] breakfast_nutrition = new String[numItems_breakfast];
-    static  String[] breakfast_ingredients = new String[numItems_breakfast];
-    static  String[] lunchanddinner = new String[numItems_lunchanddinner];
-    static  double[] lunchanddinner_price = new double[numItems_lunchanddinner];
-    static  String[] lunchanddinner_nutrition = new String[numItems_lunchanddinner];
-    static  String[] lunchanddinner_ingredients = new String[numItems_lunchanddinner];
-    static  String[] desserts = new String[numItems_dessert];
-    static  double[] desserts_price = new double[numItems_dessert];
-    static  String[] desserts_nutrition = new String[numItems_dessert];
-    static  String[] desserts_ingredients = new String[numItems_dessert];
-    static String[] drinks = new String[numItems_drinks];
-    static  double[] drinks_price = new double[numItems_drinks];
-    static  String[] drinks_nutrition = new String[numItems_drinks];
-    static  String[] breakfast_comments = new String[numItems_breakfast];
-    static String[] lunchanddinner_comments = new String[numItems_lunchanddinner];
-    static  String[] desserts_comments = new String[numItems_dessert];
-    static  String[] drinks_comments= new String[numItems_drinks];
-    static String[] breakfast_images = new String[numItems_breakfast];
+      int[] count_1;
+      int[] count_2;
+      int[] count_3;
+      int[] count_4;
+      String[] breakfast;
+      double[] breakfast_price;
+      String[] breakfast_nutrition;
+      String[] breakfast_ingredients;
+      String[] lunchanddinner;
+      double[] lunchanddinner_price;
+      String[] lunchanddinner_nutrition;
+      String[] lunchanddinner_ingredients;
+      String[] desserts;
+      double[] desserts_price;
+      String[] desserts_nutrition;
+      String[] desserts_ingredients;
+     String[] drinks;
+      double[] drinks_price;
+      String[] drinks_nutrition;
+      String[] breakfast_comments;
+     String[] lunchanddinner_comments;
+      String[] desserts_comments;
+      String[] drinks_comments;
+     String[] breakfast_images;
     //  {R.drawable.steak_and_eggs, R.drawable.breakfast_burrito, R.drawable.pancakes, R.drawable.oatmeal, R.drawable.cheeseomlette};
 
-    static String[] lunchanddinner_images = new String[numItems_lunchanddinner];
+     String[] lunchanddinner_images;
 
     //    {R.drawable.grilled_cheese, R.drawable.crispy_chicken, R.drawable.chicken_caesar, R.drawable.blt, R.drawable.pulled_pork, R.drawable.chilli_burger, R.drawable.nachos};
 
-    static String[] desserts_images = new String[numItems_dessert];
+     String[] desserts_images;
     //{R.drawable.cheesecake, R.drawable.friedmars, R.drawable.bananasplits,};
 
-    static String[] drinks_images = new String[numItems_drinks];
+     String[] drinks_images;
     //  {R.drawable.orange_juice, R.drawable.tea, R.drawable.coffee, R.drawable.hot_chocolate, R.drawable.mint_chocolate};
 
 
     @SuppressWarnings("deprecation")
     public void onCreate(Bundle savedInstanceState) {
-
+//        importMenu menuTask= new importMenu();
+//        try {
+//            menuTask.get();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        } catch (ExecutionException e) {
+//            e.printStackTrace();
+//        }
+//        menuTask.execute();
 
         super.onCreate(savedInstanceState);
 
@@ -107,6 +117,8 @@ public class DynamicMenuFragmentActivity extends FragmentActivity implements Act
 //for color
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
         Bundle b = getIntent().getExtras();
+
+        setVariables();
         tableNumber = GlobalVariable.getTableNumber();
         GlobalVariable.setTableNumber(tableNumber);
        /* AlarmManager alarmMgr = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
@@ -145,6 +157,52 @@ public class DynamicMenuFragmentActivity extends FragmentActivity implements Act
 
         }
     }
+
+    public void setVariables () {
+        numItems_breakfast = GlobalVariable.getMenuNumberOfItems()[0];
+        numItems_lunchanddinner = GlobalVariable.getMenuNumberOfItems()[1];
+        numItems_dessert =  GlobalVariable.getMenuNumberOfItems()[2];
+        numItems_drinks =  GlobalVariable.getMenuNumberOfItems()[3];
+
+        //need a count for each fragment
+        count_1 = new int[numItems_breakfast];
+        count_2 = new int[numItems_lunchanddinner];
+        count_3 = new int[numItems_dessert];
+        count_4 = new int[numItems_drinks];
+        breakfast = new String[numItems_breakfast];
+        breakfast_price = new double[numItems_breakfast];
+        breakfast_nutrition = new String[numItems_breakfast];
+        breakfast_ingredients = new String[numItems_breakfast];
+        lunchanddinner = new String[numItems_lunchanddinner];
+        lunchanddinner_price = new double[numItems_lunchanddinner];
+        lunchanddinner_nutrition = new String[numItems_lunchanddinner];
+        lunchanddinner_ingredients = new String[numItems_lunchanddinner];
+        desserts = new String[numItems_dessert];
+        desserts_price = new double[numItems_dessert];
+        desserts_nutrition = new String[numItems_dessert];
+        desserts_ingredients = new String[numItems_dessert];
+        drinks = new String[numItems_drinks];
+        drinks_price = new double[numItems_drinks];
+        drinks_nutrition = new String[numItems_drinks];
+        breakfast_comments = new String[numItems_breakfast];
+        lunchanddinner_comments = new String[numItems_lunchanddinner];
+        desserts_comments = new String[numItems_dessert];
+        drinks_comments= new String[numItems_drinks];
+        breakfast_images = new String[numItems_breakfast];
+        //  {R.drawable.steak_and_eggs, R.drawable.breakfast_burrito, R.drawable.pancakes, R.drawable.oatmeal, R.drawable.cheeseomlette};
+
+        lunchanddinner_images = new String[numItems_lunchanddinner];
+
+        //    {R.drawable.grilled_cheese, R.drawable.crispy_chicken, R.drawable.chicken_caesar, R.drawable.blt, R.drawable.pulled_pork, R.drawable.chilli_burger, R.drawable.nachos};
+
+        desserts_images = new String[numItems_dessert];
+        //{R.drawable.cheesecake, R.drawable.friedmars, R.drawable.bananasplits,};
+
+        drinks_images = new String[numItems_drinks];
+        //  {R.drawable.orange_juice, R.drawable.tea, R.drawable.coffee, R.drawable.hot_chocolate, R.drawable.mint_chocolate};
+
+    }
+
     @Override
     public void onBackPressed()
     {

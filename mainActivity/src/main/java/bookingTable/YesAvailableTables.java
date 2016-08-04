@@ -18,6 +18,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import globalVariables.GlobalVariable;
 import qrScanner.scanQRCode;
 
 public class YesAvailableTables extends Activity {
@@ -31,7 +32,7 @@ public class YesAvailableTables extends Activity {
 //for color
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 		Intent intent = getIntent();
-		restaurantName = intent.getStringExtra("Restaurant Name");
+		restaurantName = GlobalVariable.getRestaurantName();
 		message = intent.getStringExtra("Message");
 		TextView tv = (TextView) findViewById(R.id.editText1);
 		tv.setText(message, EditText.BufferType.EDITABLE);
@@ -60,7 +61,6 @@ public class YesAvailableTables extends Activity {
 
 			case android.R.id.home:
 				intent = new Intent(getApplicationContext(), BookingTableMainActivity.class);
-				intent.putExtra("Restaurant Name", restaurantName);
 				startActivity(intent);
 				return true;
 		}
@@ -87,7 +87,6 @@ public class YesAvailableTables extends Activity {
 
 	public void goBack(View view) {
 		Intent intent = new Intent(getApplicationContext(), BookingTableMainActivity.class);
-		intent.putExtra("Restaurant Name", restaurantName);
 		startActivity(intent);
 	}
 }

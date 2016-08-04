@@ -12,11 +12,13 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import loginSignupPage.JSONParser;
+		import globalVariables.GlobalVariable;
+		import loginSignupPage.JSONParser;
 
 public  class sendMenuOrder extends AsyncTask<String, String, String> {
 	JSONParser jsonParser = new JSONParser();
 	String name;
+	String restaurantName;
 	int tableNumber;
 	public static final String TAG = "NfcTut";
 
@@ -24,11 +26,13 @@ public  class sendMenuOrder extends AsyncTask<String, String, String> {
 	int []count_1,count_2,count_3,count_4 ;
 	double []breakfast_price,lunchanddinner_price ,desserts_price,drinks_price;
 	private Context context;
-	public sendMenuOrder(int tableNumber, String customerName, String[] Breakfast, double[] Breakfast_price, String[] Lunchanddinner,
+
+	public sendMenuOrder(int tableNumber, String customerName, String restaurant_Name, String[] Breakfast, double[] Breakfast_price, String[] Lunchanddinner,
 						 double[] Lunchanddinner_price, String[] Desserts, double[] Desserts_price, String[] Drinks,
 						 double[] Drinks_price, int[] Count_1, int[] Count_2, int[] Count_3, int[] Count_4, String[] Breakfast_comments, String[] Lunchanddinner_comments, String[] Desserts_comments, String[] Drinks_comments, Context context) {
 		this.tableNumber=tableNumber;
 		name=customerName;
+		this.restaurantName = GlobalVariable.getRestaurantName();
 		breakfast = Breakfast;
 		breakfast_price = Breakfast_price;
 		lunchanddinner = Lunchanddinner;
@@ -63,7 +67,8 @@ public  class sendMenuOrder extends AsyncTask<String, String, String> {
 		//JSONObject json = jsonParser.makeHttpRequest(url_signInUsers,
 		//	"GET", params);
 
-		String Url = "http://52.11.144.56/sentOrders.php";
+		String Url = "http://52.11.144.56/php/sentOrders.php";
+
 		Boolean sectionUsed = false;
 		int counter = 0;
 		//final GlobalVariable globalUserName = (GlobalVariable)context.getApplicationContext();
@@ -71,6 +76,7 @@ public  class sendMenuOrder extends AsyncTask<String, String, String> {
 		Log.e(TAG, "My name is" + name);
 		Log.e(TAG,"Table Number is" +tableNumber);
 
+		params.add(new BasicNameValuePair("restaurant_name", GlobalVariable.getRestaurantName()));
 		for (int i = 0; i < count_1.length; i++) {
 			int counter1=count_1[i];
 

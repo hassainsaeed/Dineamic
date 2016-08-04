@@ -37,20 +37,22 @@ import qrScanner.scanQRCode;
 
 public class DishStatusActivity extends FragmentActivity {
 	JSONParser jsonParser = new JSONParser();
-	static String url_splitItem = "http://52.11.144.56/splitItem.php";
+	static String url_splitItem = "http://52.11.144.56/php/splitItem.php";
 	Typeface face;
 	static ArrayList<String> list;
     static   ArrayList<JSONArray> list2;
 	ArrayList<String> invitedCustomers;
     ArrayList splitedItemsCounter;
     String command ="";
-	private static String url_inviteSomeone = "http://52.11.144.56/inviteSomeone.php";
-    private static String url_updatePaymentSummary= "http://52.11.144.56/updatePaymentSummary.php";
+    private String restaurantName;
+	private static String url_inviteSomeone = "http://52.11.144.56/php/inviteSomeone.php";
+    private static String url_updatePaymentSummary= "http://52.11.144.56/php/updatePaymentSummary.php";
 	TableLayout tl;
 
 	public void onCreate(Bundle savedInstanceState) {
 
-
+        Intent intent = getIntent();
+        restaurantName = GlobalVariable.getRestaurantName();
 		super.onCreate(savedInstanceState);
         splitItems x= new splitItems();
         command="updateSummary";
@@ -122,6 +124,7 @@ public class DishStatusActivity extends FragmentActivity {
                 JSONParser jsonParser = new JSONParser();
                 paramss.add(new BasicNameValuePair("currentCustomer", GlobalVariable.getCustomerUserName()));
                 paramss.add(new BasicNameValuePair("tableNumber", GlobalVariable.getTableNumber() + ""));
+                paramss.add(new BasicNameValuePair("restaurant_name", restaurantName));
 
 
                 JSONObject json = jsonParser.makeHttpRequest(url_updatePaymentSummary,

@@ -50,7 +50,7 @@ public class BookingTableMainActivity extends FragmentActivity  {
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fb1d91db")));
 
 		Intent intent = getIntent();
-		this.restaurantName = intent.getStringExtra("Restaurant Name");
+		this.restaurantName = GlobalVariable.getRestaurantName();
 
 	}
 
@@ -170,6 +170,7 @@ public class BookingTableMainActivity extends FragmentActivity  {
 				return;
 			}
 			// other 'case' lines to check for other
+			// other 'case' lines to check for other
 			// permissions this app might request
 		}
 	}
@@ -189,7 +190,7 @@ public class BookingTableMainActivity extends FragmentActivity  {
 
 		protected Void doInBackground (Void... params) {
 			try {
-				url = new URL("http://52.11.144.56/getStatusOfWaitlist.php?phoneNumber=" + URLEncoder.encode(mPhoneNumber));
+				url = new URL("http://52.11.144.56/php/getStatusOfWaitlist.php?restaurant_name=" + restaurantName + "&phoneNumber=" + URLEncoder.encode(mPhoneNumber));
 			} catch (MalformedURLException e) {
 				// Catch if the URL is incorrect for whatever reason (this should technically never happen)
 				e.printStackTrace();
@@ -250,7 +251,7 @@ public class BookingTableMainActivity extends FragmentActivity  {
 		@Override
 		protected Void doInBackground(Void... params) {
 			try {
-				url = new URL("http://52.11.144.56/getAvailableTablesOfRestaurant.php?seatsrequested=" + numSeats + "&Restaurant_Name=" + restaurantName);
+				url = new URL("http://52.11.144.56/php/getAvailableTablesOfRestaurant.php?seatsrequested=" + numSeats + "&restaurant_name=" + restaurantName);
 			} catch (MalformedURLException e) {
 				// Catch if the URL is incorrect for whatever reason (this should technically never happen)
 				e.printStackTrace();
@@ -274,14 +275,12 @@ public class BookingTableMainActivity extends FragmentActivity  {
 				int table_num = Character.getNumericValue(output.charAt(15));
 				String message = "Please enter the resturant and seat your self at Table #" + table_num + ". A waiter will be with you shortly.";
 				Intent intent = new Intent(BookingTableMainActivity.this,YesAvailableTables.class);
-				intent.putExtra("Restaurant Name", restaurantName);
 				intent.putExtra("Message", message);
 				startActivity(intent);
 			} else {
 				final GlobalVariable globalNumSeats = (GlobalVariable) getApplicationContext();
 				globalNumSeats.setNumSeats(numSeats);
 				Intent intent = new Intent(BookingTableMainActivity.this,NoAvailableTables.class);
-				intent.putExtra("Restaurant Name", restaurantName);
 				startActivity(intent);
 			}
 

@@ -14,6 +14,7 @@ public class GlobalVariable extends Application{
     public static ArrayList<JSONArray> menuList;
 	public static int [] numberOfMenuItems;
 	public static boolean isOrderSent;
+	public static String restaurantName;
 
 	public static void setNumSeats(int nNumSeats) {
 		numSeats = nNumSeats;
@@ -53,4 +54,6 @@ public class GlobalVariable extends Application{
 	}
 	public static void setIsOrderSent(boolean result) { isOrderSent = result;}
 	public static boolean getIsOrderSent() { return isOrderSent; }
+	public static void setRestaurantName (String restName) { restaurantName = restName; }
+	public static String getRestaurantName() { return restaurantName; }
 }
