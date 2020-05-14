@@ -1,2 +1,2 @@
 # Dineamic
-Private GitHub repository for the Android Dine-amic mobile application
+GitHub repository for our 4th Year Project (SYSC 4937): Dine-amic Android mobile application
